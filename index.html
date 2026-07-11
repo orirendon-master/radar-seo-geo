@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEO/GEO Weekly Radar — Semana del 7 jul 2026</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+
+  :root{
+    /* texto: solo grises/negros */
+    --ink:#26262E;
+    --ink-soft:#3A3A44;
+    --muted:#74747F;
+    /* superficies */
+    --page:#FBF7FD;
+    --card:#FFFFFF;
+    --hair:#EEE6F3;
+    /* pastel girly (acentos, nunca texto) */
+    --blue:#B9D2F6;      /* azul pastel */
+    --blue-deep:#8FB2EC;
+    --pink:#F6C8DE;      /* rosa pastel */
+    --pink-deep:#EC9CC2;
+    --lilac:#D2C1F3;     /* moradito pastel */
+    --lilac-deep:#AC8DE6;
+    --mint:#BFE6DE;      /* aqua pastel */
+    --mint-deep:#7FC4B8;
+    --peri:#C6C9F2;      /* periwinkle pastel */
+    --peri-deep:#9096E0;
+    --sweep:#C9A9EE;
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--page);
+    color:var(--ink);
+    font-family:'Montserrat',system-ui,sans-serif;
+    font-size:16.5px;
+    line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:820px;margin:0 auto;padding:0 20px 60px;}
+
+  /* ---------- MASTHEAD ---------- */
+  .masthead{
+    margin:0 -20px 0;
+    padding:30px 30px 26px;
+    background:linear-gradient(115deg,#CFE0FB 0%,#E3D4F7 48%,#F9D6E9 100%);
+    border-bottom:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    border-radius:0 0 4px 4px;
+  }
+  .mast-title{
+    font-weight:800;
+    font-size:30px;
+    line-height:1.03;
+    letter-spacing:-0.02em;
+    margin:0;
+    color:var(--ink);
+  }
+  .mast-title .slash{color:var(--lilac-deep);}
+  .mast-sub{
+    font-weight:600;
+    font-size:11px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin-top:10px;
+  }
+  .mast-sub b{font-weight:800;}
+
+  .radar{width:88px;height:88px;flex:0 0 88px;}
+  @media (prefers-reduced-motion:no-preference){
+    .sweep-g{animation:spin 4.5s linear infinite;transform-origin:50px 50px;}
+    .blip{animation:ping 4.5s ease-in-out infinite;}
+  }
+  @keyframes spin{to{transform:rotate(360deg);}}
+  @keyframes ping{0%{opacity:.2;}45%{opacity:1;}100%{opacity:.2;}}
+  .blip.b2{animation-delay:1.5s;}
+  .blip.b3{animation-delay:3s;}
+
+  /* ---------- TELEMETRY ---------- */
+  .telemetry{
+    margin:0 -20px 30px;
+    padding:11px 30px;
+    background:#F1E9F8;
+    color:var(--ink-soft);
+    font-weight:600;
+    font-size:11px;
+    letter-spacing:0.05em;
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px 22px;
+  }
+  .telemetry b{color:var(--ink);font-weight:800;}
+  .telemetry .dot{color:var(--lilac-deep);}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    background:var(--card);
+    border:1px solid var(--hair);
+    border-left:5px solid var(--lilac-deep);
+    border-radius:8px;
+    padding:22px 24px;
+    margin-bottom:34px;
+  }
+  .eyebrow{
+    font-weight:700;
+    font-size:10.5px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin:0 0 9px;
+  }
+  .hero h2{
+    font-weight:700;
+    font-size:21px;
+    line-height:1.25;
+    letter-spacing:-0.01em;
+    margin:0 0 8px;
+    color:var(--ink);
+  }
+  .hero p{margin:0;color:var(--ink-soft);font-size:15px;}
+  .statband{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-top:14px;
+    padding:12px 16px;
+    border-radius:10px;
+    background:linear-gradient(120deg,#EFE4FB,#FBE1EE);
+  }
+  .statband .num{
+    font-weight:800;
+    font-size:30px;
+    line-height:1;
+    color:var(--ink);
+    letter-spacing:-0.02em;
+    flex:0 0 auto;
+  }
+  .statband .cap{
+    font-weight:600;
+    font-size:12.5px;
+    color:var(--ink-soft);
+    line-height:1.45;
+  }
+
+  /* ---------- SECTIONS ---------- */
+  .section{margin-bottom:34px;}
+  .sec-head{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding-bottom:9px;
+    margin-bottom:14px;
+    border-bottom:2px solid var(--hair);
+  }
+  .sec-head .tag{
+    font-weight:800;
+    font-size:13px;
+    letter-spacing:0.03em;
+    color:var(--ink);
+    padding:4px 12px;
+    border-radius:20px;
+  }
+  .sec-head .lead{
+    font-weight:600;
+    font-size:11px;
+    letter-spacing:0.06em;
+    color:var(--muted);
+    text-transform:uppercase;
+  }
+  .sec-head .count{margin-left:auto;font-weight:700;font-size:11px;color:var(--muted);}
+  .s-organic .tag{background:var(--blue);}
+  .s-paid .tag{background:var(--pink);}
+  .s-geo .tag{background:var(--lilac);}
+  .s-social .tag{background:var(--mint);}
+  .s-science .tag{background:var(--peri);}
+  .s-events .tag{background:linear-gradient(120deg,var(--blue),var(--pink));}
+  .s-organic .sec-head{border-color:var(--blue-deep);}
+  .s-paid .sec-head{border-color:var(--pink-deep);}
+  .s-geo .sec-head{border-color:var(--lilac-deep);}
+  .s-social .sec-head{border-color:var(--mint-deep);}
+  .s-science .sec-head{border-color:var(--peri-deep);}
+  .s-events .sec-head{border-color:var(--lilac-deep);}
+
+  .item{padding:15px 0 16px;border-bottom:1px solid var(--hair);}
+  .item:last-child{border-bottom:none;}
+  .item h3{
+    font-weight:700;
+    font-size:17.5px;
+    line-height:1.28;
+    margin:0 0 5px;
+    letter-spacing:-0.005em;
+    color:var(--ink);
+  }
+  .item p{margin:0 0 8px;font-size:15px;color:var(--ink-soft);}
+  .why{
+    font-size:13.5px;
+    color:var(--muted);
+    font-style:italic;
+    margin:0 0 9px;
+  }
+  .why::before{content:"\2192  ";font-style:normal;color:var(--ink);font-weight:800;}
+  .meta{
+    display:flex;flex-wrap:wrap;align-items:center;gap:8px;
+    font-weight:600;font-size:11px;color:var(--muted);
+  }
+  .chip{padding:1px 8px;border-radius:20px;letter-spacing:0.04em;color:var(--ink);}
+  .chip.en{background:var(--blue);}
+  .chip.es{background:var(--pink);}
+  .meta a{color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--muted);}
+  .meta a:hover{color:var(--ink);border-color:var(--ink);}
+  .src{font-weight:600;font-size:11px;color:var(--muted);margin:8px 0 0;letter-spacing:0.02em;line-height:1.5;}
+  .src a{color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--muted);}
+  .src a:hover{color:var(--ink);border-color:var(--ink);}
+  .src b{color:var(--ink);font-weight:700;}
+  .rb-src{display:block;font-weight:600;font-size:10.5px;color:var(--ink-soft);margin-top:5px;letter-spacing:0.02em;}
+  .rb-src a{color:var(--ink-soft);text-decoration:none;border-bottom:1px dotted var(--ink-soft);}
+  .rb-src a:hover{color:var(--ink);border-color:var(--ink);}
+
+  /* ---------- EVENTS ---------- */
+  .ev{
+    display:grid;
+    grid-template-columns:96px 1fr auto;
+    gap:14px;
+    align-items:baseline;
+    padding:13px 0;
+    border-bottom:1px solid var(--hair);
+  }
+  .ev:last-child{border-bottom:none;}
+  .ev .when{font-weight:800;font-size:12.5px;color:var(--ink);letter-spacing:0.01em;line-height:1.3;}
+  .ev .when span{display:block;font-weight:600;font-size:10.5px;color:var(--muted);}
+  .ev .what h4{margin:0 0 2px;font-weight:700;font-size:15.5px;color:var(--ink);line-height:1.25;}
+  .ev .what p{margin:0;font-size:13px;color:var(--ink-soft);}
+  .ev .where{font-weight:600;font-size:11px;color:var(--ink);text-align:right;white-space:nowrap;}
+  .ev .where span{display:block;font-size:10px;color:var(--muted);font-weight:600;margin-top:2px;padding:1px 8px;border-radius:20px;background:var(--lilac);}
+  .ev .where span.latam{background:var(--pink);}
+  .ev .where span.eu{background:var(--blue);}
+
+  /* ---------- WATCHLIST ---------- */
+  .radarbox{
+    margin:0 -20px;
+    padding:24px 28px 26px;
+    border-radius:12px;
+    background:linear-gradient(160deg,#E9DFFa,#F7DEEC);
+    color:var(--ink);
+  }
+  .radarbox h2{font-weight:800;font-size:16px;letter-spacing:0.01em;margin:0 0 3px;color:var(--ink);}
+  .radarbox .rb-sub{font-weight:600;font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 15px;}
+  .rb-item{display:flex;gap:14px;padding:10px 0;border-top:1px solid rgba(38,38,46,0.12);}
+  .rb-item .date{font-weight:800;font-size:11px;color:var(--lilac-deep);flex:0 0 80px;padding-top:2px;letter-spacing:0.02em;}
+  .rb-item .txt{font-size:14px;line-height:1.45;color:var(--ink-soft);}
+  .rb-item .txt b{color:var(--ink);font-weight:700;}
+
+  /* ---------- FOOTER ---------- */
+  .foot{
+    margin-top:26px;padding-top:16px;border-top:1px solid var(--hair);
+    font-weight:600;font-size:11px;color:var(--muted);letter-spacing:0.02em;line-height:1.75;
+  }
+  .foot b{color:var(--ink);font-weight:800;}
+
+  @media (max-width:620px){
+    .masthead{flex-direction:column;align-items:flex-start;}
+    .mast-title{font-size:25px;}
+    .hero{grid-template-columns:1fr;}
+    .ev{grid-template-columns:1fr;gap:4px;}
+    .ev .where{text-align:left;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <div>
+      <h1 class="mast-title">SEO/GEO <span class="slash">/</span> Weekly Radar</h1>
+      <div class="mast-sub">Edición <b>#01</b> &nbsp;·&nbsp; Semana del <b>7–11 jul 2026</b> &nbsp;·&nbsp; Organic + Paid + GEO</div>
+    </div>
+    <svg class="radar" viewBox="0 0 100 100" aria-hidden="true">
+      <circle cx="50" cy="50" r="46" fill="none" stroke="#B9A8D8" stroke-width="1"/>
+      <circle cx="50" cy="50" r="31" fill="none" stroke="#B9A8D8" stroke-width="1"/>
+      <circle cx="50" cy="50" r="16" fill="none" stroke="#B9A8D8" stroke-width="1"/>
+      <line x1="50" y1="4" x2="50" y2="96" stroke="#B9A8D8" stroke-width="1"/>
+      <line x1="4" y1="50" x2="96" y2="50" stroke="#B9A8D8" stroke-width="1"/>
+      <g class="sweep-g">
+        <defs>
+          <linearGradient id="sw" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#C9A9EE" stop-opacity="0"/>
+            <stop offset="1" stop-color="#C9A9EE" stop-opacity="0.7"/>
+          </linearGradient>
+        </defs>
+        <path d="M50 50 L50 4 A46 46 0 0 1 92 42 Z" fill="url(#sw)"/>
+        <line x1="50" y1="50" x2="50" y2="4" stroke="#AC8DE6" stroke-width="1.4"/>
+      </g>
+      <circle class="blip" cx="66" cy="34" r="2.6" fill="#EC9CC2"/>
+      <circle class="blip b2" cx="38" cy="64" r="2.6" fill="#8FB2EC"/>
+      <circle class="blip b3" cx="70" cy="62" r="2.6" fill="#AC8DE6"/>
+    </svg>
+  </header>
+
+  <!-- TELEMETRY -->
+  <div class="telemetry">
+    <span><span class="dot">●</span> <b>21</b> señales detectadas</span>
+    <span><span class="dot">●</span> <b>5</b> canales + eventos</span>
+    <span><span class="dot">●</span> Fuentes <b>EN + ES</b>, sin duplicados</span>
+    <span><span class="dot">●</span> Barrido: <b>04–10 jul</b></span>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="eyebrow">Señal de la semana</p>
+    <h2>Julio parte movido: rankings inestables y caídas de tráfico que Google aún no confirma</h2>
+    <p>Desde el 2 de julio, varios sitios reportan cambios bruscos de posiciones en Google y pérdidas de visibilidad de un día para otro —algunos hasta la mitad— sin que exista una actualización confirmada. Mientras no estabilice, evita sacar conclusiones de las comparaciones día a día.</p>
+    <div class="statband">
+      <div class="num">93%</div>
+      <div class="cap">de las búsquedas en AI Mode de Google terminan <b>sin ningún clic hacia sitios web</b>, según un estudio de Semrush sobre 69 millones de sesiones.</div>
+    </div>
+    <p class="src" style="margin-top:12px;"><b>Fuentes</b> · Volatilidad (reportes de foro/blog, no confirmado): <a href="https://www.webmasterworld.com/google/5132734.htm">WebmasterWorld</a>, <a href="https://seovendor.co/google-unconfirmed-july-2026-update-what-seo-agencies-should-watch-for/">SEOVendor</a> · Dato 93%: estudio de <a href="https://wardem.com/blog/google-io-2026-que-cambia-en-seo-y-que-hacer-ahora/">Semrush (69M sesiones), vía Wardem</a></p>
+  </section>
+
+  <!-- ORGANIC -->
+  <section class="section s-organic">
+    <div class="sec-head">
+      <span class="tag">ORGANIC</span>
+      <span class="lead">Algoritmo · SERP · Search Console</span>
+      <span class="count">04 señales</span>
+    </div>
+    <article class="item">
+      <h3>June 2026 spam update: rápido pero sustancial</h3>
+      <p>El titular reciente del mes. Rodó en solo dos días, pero se sintió como que empezó antes y pegó fuerte. Hubo además varias actualizaciones de ranking no confirmadas en paralelo.</p>
+      <p class="why">Si viste caídas a fin de junio, sepáralas del spam update antes de tocar contenido.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Search Engine Roundtable</span><span>·</span><a href="https://www.seroundtable.com/july-2026-google-webmaster-report-41591.html">seroundtable.com</a></div>
+    </article>
+    <article class="item">
+      <h3>LLMs.txt no mueve la aguja; Search Console amplía los AI performance reports</h3>
+      <p>Google confirmó que los archivos LLMs.txt no ayudan ni perjudican en Search. En paralelo, Search Console amplió el acceso a los reportes de rendimiento en IA y publicó un deep-dive sobre AI controls.</p>
+      <p class="why">Deja de perder tiempo en LLMs.txt; el dato accionable está en los nuevos AI reports de GSC.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Search Engine Roundtable</span><span>·</span><a href="https://www.seroundtable.com/july-2026-google-webmaster-report-41591.html">seroundtable.com</a></div>
+    </article>
+    <article class="item">
+      <h3>Se retira el rich result de FAQ y el spam ya aplica a las respuestas de IA</h3>
+      <p>La documentación oficial (ES) confirma que el resultado enriquecido de Preguntas frecuentes dejó de mostrarse desde el 7 de mayo de 2026, y que las políticas de spam ahora cubren explícitamente las respuestas de IA generativa en Search.</p>
+      <p class="why">El schema FAQPage ya no gana SERP visual, pero sigue siendo señal de extracción para GEO.</p>
+      <div class="meta"><span class="chip es">ES</span><span>Google Search Central</span><span>·</span><a href="https://developers.google.com/search/updates?hl=es-419">developers.google.com</a></div>
+    </article>
+    <article class="item">
+      <h3>Zero-click en España/Europa: 58% de búsquedas sin clic</h3>
+      <p>Datos de SparkToro citados por medios en español sitúan más del 58% de las búsquedas sin ningún clic, con los AI Overviews empujando esa cifra al alza en vez de a la baja.</p>
+      <p class="why">Métrica de reporte para clientes: impresiones vs. clics en GSC ya no cuenta la historia completa.</p>
+      <div class="meta"><span class="chip es">ES</span><span>Digital Factoría</span><span>·</span><a href="https://digitalfactoria.com/seo-con-ia-en-2026-como-sobrevivir-si-google-no-da-clics/">digitalfactoria.com</a></div>
+    </article>
+  </section>
+
+  <!-- PAID -->
+  <section class="section s-paid">
+    <div class="sec-head">
+      <span class="tag">PAID</span>
+      <span class="lead">Google Ads · Automation · Policy</span>
+      <span class="count">04 señales</span>
+    </div>
+    <article class="item">
+      <h3>Nuevos Términos de Servicio de Google Ads (efectivos 1 jul)</h3>
+      <p>Amplían la autoridad de Google para usar sistemas automatizados y AI que generen, seleccionen y optimicen elementos de campaña en tu nombre. El anunciante sigue siendo responsable del resultado, lo que enciende alertas de governance y transparencia en agencias.</p>
+      <p class="why">Revisa el lenguaje de automatización con clientes enterprise antes de tu próxima subida de budget.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Search Engine Land</span><span>·</span><a href="https://searchengineland.com/google-ads-updates-terms-of-service-ahead-of-july-2026-rollout-479255">searchengineland.com</a></div>
+    </article>
+    <article class="item">
+      <h3>Adiós a cuatro modelos de atribución</h3>
+      <p>First-click, linear, time-decay y position-based dejan de ser seleccionables para todas las conversiones a partir de mediados de julio.</p>
+      <p class="why">Audita ahora qué conversiones dependen de estos modelos para no perder lectura de performance.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Google Ads Help</span><span>·</span><a href="https://support.google.com/google-ads/announcements/9048695?hl=en">support.google.com</a></div>
+    </article>
+    <article class="item">
+      <h3>Passkey obligatorio para acciones sensibles desde el 15 jul</h3>
+      <p>Google notificó a anunciantes que ciertas acciones sensibles en Google Ads requerirán passkey a partir del 15 de julio de 2026.</p>
+      <p class="why">Coordina con los dueños de las cuentas de clientes para no quedar bloqueado a mitad de gestión.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Search Engine Roundtable</span><span>·</span><a href="https://searchherald.com/topic/google-adwords">vía Search Herald</a></div>
+    </article>
+    <article class="item">
+      <h3>AI Max absorbe funciones legacy + ads dentro de AI Mode</h3>
+      <p>Desde septiembre, funciones como Dynamic Search Ads se auto-actualizarán a AI Max. En paralelo Google ya testea ads dentro de AI Mode (incluyendo un piloto de ads de salud).</p>
+      <p class="why">La era de "keywords sueltas" se cierra; el foco pasa a feeds, señales y assets limpios.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Google Accelerate</span><span>·</span><a href="https://business.google.com/us/accelerate/announcements/">business.google.com</a></div>
+    </article>
+  </section>
+
+  <!-- GEO -->
+  <section class="section s-geo">
+    <div class="sec-head">
+      <span class="tag">GEO</span>
+      <span class="lead">AI Search · Citations · LLMO</span>
+      <span class="count">04 señales</span>
+    </div>
+    <article class="item">
+      <h3>Adobe compra Semrush (~US$1.9B): el GEO ya tiene precio de mercado</h3>
+      <p>El acuerdo (anunciado en noviembre 2025) enmarca la adquisición alrededor de la visibilidad de marca "en la era de la IA agéntica", consolidando el GEO como canal de crecimiento junto al SEO tradicional.</p>
+      <p class="why">Señal fuerte para vender GEO a clientes: el mercado lo está valorando en miles de millones.</p>
+      <div class="meta"><span class="chip en">EN</span><span>TechTimes</span><span>·</span><a href="https://www.techtimes.com/articles/318359/20260614/generative-engine-optimization-geo-2026-how-get-your-content-cited-chatgpt-ai-overviews.htm">techtimes.com</a></div>
+    </article>
+    <article class="item">
+      <h3>La búsqueda por IA ya es 12–18% de las queries informacionales</h3>
+      <p>Los AI search engines (ChatGPT, Perplexity, Gemini, Copilot, Claude) manejan un estimado 12–18% de las consultas informacionales en inglés a Q1 2026, cuando hace un año era menos del 2%. La curva es empinada.</p>
+      <p class="why">Ya no es un canal "emergente": es share medible que hay que reportar.</p>
+      <div class="meta"><span class="chip en">EN</span><span>AI Magicx</span><span>·</span><a href="https://www.aimagicx.com/blog/generative-engine-optimization-chatgpt-perplexity-2026">aimagicx.com</a></div>
+    </article>
+    <article class="item">
+      <h3>Solo 11% de dominios son citados por ChatGPT y Perplexity a la vez</h3>
+      <p>Rankear en un motor generativo no se traduce al otro: cada engine tiene lógica de selección distinta, así que la estrategia de citación debe ser platform-aware.</p>
+      <p class="why">Audita tus prompts objetivo por engine, no asumas transferencia de visibilidad.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Heeya</span><span>·</span><a href="https://heeya.fr/en/blog/generative-engine-optimization-geo-2026">heeya.fr</a></div>
+    </article>
+    <article class="item">
+      <h3>Ventana LatAm: menos competencia de contenido de calidad en español</h3>
+      <p>Análisis en español apuntan a que la IA de búsqueda puede favorecer marcas con español neutro de calidad y relevancia regional. El ecosistema hispano tiene menos contenido profundo, así que la pregunta cambia de "¿cómo rankeo?" a "¿por qué me citaría la IA?".</p>
+      <p class="why">Oportunidad directa para tus clientes en Chile/LATAM: ser fuente citada antes de que se sature.</p>
+      <div class="meta"><span class="chip es">ES</span><span>Ecosistema Startup</span><span>·</span><a href="https://ecosistemastartup.com/google-i-o-2026-3-cambios-que-afectan-tu-seo/">ecosistemastartup.com</a></div>
+    </article>
+  </section>
+
+  <!-- SOCIAL -->
+  <section class="section s-social">
+    <div class="sec-head">
+      <span class="tag">SOCIAL</span>
+      <span class="lead">Social SEO · Social Search</span>
+      <span class="count">04 señales</span>
+    </div>
+    <article class="item">
+      <h3>Search Console suma "platform properties" para social y video</h3>
+      <p>Google lanzó un nuevo tipo de propiedad en Search Console para medir cómo rinde tu contenido de Instagram, TikTok, X y YouTube en Google Search y Discover: clics, impresiones y queries por post. Creadores y SEOs ya lo llaman el mayor update de social SEO del año.</p>
+      <p class="why">Por fin hay data nativa de social en GSC — nuevo reporte para llevar a tus clientes.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Google Search Central</span><span>·</span><a href="https://developers.google.com/search/blog/2026/07/search-console-social-video-platforms">developers.google.com</a></div>
+    </article>
+    <article class="item">
+      <h3>La Gen Z busca en TikTok e Instagram, no en Google</h3>
+      <p>Según Adobe, el 64% de la Gen Z usa TikTok como buscador; Google reconoce que más del 40% de la Gen Z prefiere Instagram o TikTok para buscar, y el uso de Google en esa generación cayó cerca de 25% frente a la Gen X.</p>
+      <p class="why">Para clientes con público joven (beauty, food, local), el social search ya no es opcional.</p>
+      <div class="meta"><span class="chip en">EN</span><span>SEO Sherpa</span><span>·</span><a href="https://seosherpa.com/tiktok-search-engine/">seosherpa.com</a></div>
+    </article>
+    <article class="item">
+      <h3>El search se fragmenta: una pieza puede ganar en tres capas</h3>
+      <p>El descubrimiento se reparte —búsqueda tradicional ~80%, social ~5.5%, IA ~3.2%— y un mismo video o post puede rankear dentro de la plataforma, aparecer en Google y alimentar respuestas de IA. En "search-like discovery", LinkedIn encabeza (27%), seguido de YouTube, Instagram y TikTok.</p>
+      <p class="why">Piensa en contenido "reusable": optimízalo una vez, gana en plataforma + Google + LLM.</p>
+      <div class="meta"><span class="chip en">EN</span><span>DesignRush</span><span>·</span><a href="https://www.designrush.com/agency/social-media-marketing/trends/social-seo">designrush.com</a></div>
+    </article>
+    <article class="item">
+      <h3>Mecánica de ranking: audio, captions y visual search</h3>
+      <p>TikTok premia decir el keyword en los primeros segundos (speech-to-text) más captions tipo meta y texto en pantalla; Instagram convierte Explore en un buscador visual; y Pinterest procesa más de 5.000 millones de búsquedas al mes.</p>
+      <p class="why">On-screen text + keyword hablado en el primer frame = tu nuevo title tag social.</p>
+      <div class="meta"><span class="chip en">EN</span><span>ALM Corp</span><span>·</span><a href="https://almcorp.com/blog/youtube-tiktok-instagram-social-seo-2026/">almcorp.com</a></div>
+    </article>
+  </section>
+
+  <!-- SCIENCE -->
+  <section class="section s-science">
+    <div class="sec-head">
+      <span class="tag">CIENCIA</span>
+      <span class="lead">Papers &amp; investigación revisada</span>
+      <span class="count">05 señales</span>
+    </div>
+    <article class="item">
+      <h3>GEO: Generative Engine Optimization — el paper fundacional</h3>
+      <p>Aggarwal et al. (Princeton, Georgia Tech, IIT Delhi), presentado en KDD 2024, definió el GEO y su GEO-bench. Métodos como "Statistics Addition" y "Quotation Addition" mejoran la visibilidad en respuestas generativas hasta ~40%, mientras que el keyword stuffing clásico rinde mal.</p>
+      <p class="why">Es la base académica del GEO — cítala cuando un cliente pregunte de dónde sale la disciplina.</p>
+      <div class="meta"><span class="chip en">EN</span><span>KDD 2024 · Aggarwal et al.</span><span>·</span><a href="https://arxiv.org/abs/2311.09735">arXiv:2311.09735</a></div>
+    </article>
+    <article class="item">
+      <h3>E-GEO: un testbed de GEO para e-commerce</h3>
+      <p>Bagga et al. (2025) llevan el GEO al comercio electrónico con un banco de pruebas y un marco de optimización que apunta a valor comercial real, no solo al impression score heurístico del paper original.</p>
+      <p class="why">Directamente aplicable a tu trabajo de e-retail: GEO medido en conversión, no en vanidad.</p>
+      <div class="meta"><span class="chip en">EN</span><span>arXiv preprint · 2025</span><span>·</span><a href="https://arxiv.org/abs/2511.20867">arXiv:2511.20867</a></div>
+    </article>
+    <article class="item">
+      <h3>Usar TikTok como buscador: credibilidad y acciones de evaluación</h3>
+      <p>Estudio de 2025 (Elsevier): como buscador, TikTok se percibe menos valioso que Google en conveniencia, privacidad y funcionalidad; los usuarios validan la información mirando comentarios y elementos del propio video más que fuentes externas.</p>
+      <p class="why">Matiz clave para vender social search: no reemplaza a Google, y la credibilidad se juega en los comentarios.</p>
+      <div class="meta"><span class="chip en">EN</span><span>ScienceDirect · 2025</span><span>·</span><a href="https://www.sciencedirect.com/science/article/abs/pii/S0736585325000863">sciencedirect.com</a></div>
+    </article>
+    <article class="item">
+      <h3>¿Cómo afectan las subastas de ads al precio de los productos?</h3>
+      <p>Bergemann et al. modelan cómo las subastas publicitarias (sponsored junto a orgánico, tipo Google/Amazon) influyen en los precios finales de los productos, no solo en quién aparece arriba.</p>
+      <p class="why">Fundamento económico para conversaciones de pricing y ROI de paid con clientes.</p>
+      <div class="meta"><span class="chip en">EN</span><span>arXiv preprint · Bergemann et al.</span><span>·</span><a href="https://arxiv.org/abs/2304.08432">arXiv:2304.08432</a></div>
+    </article>
+    <article class="item">
+      <h3>Paid vs orgánico: ¿sustitución o complementariedad?</h3>
+      <p>Trabajo de 2025 que revisita la pregunta clásica —si el paid search canibaliza el tráfico orgánico o lo complementa— con evidencia de experimentos de corte de inversión, en la línea de los estudios de shutoff (Blake et al.).</p>
+      <p class="why">Munición para el eterno debate "¿por qué pagar por marca si ya rankeo?".</p>
+      <div class="meta"><span class="chip en">EN</span><span>arXiv preprint · 2025</span><span>·</span><a href="https://arxiv.org/abs/2504.16151">arXiv:2504.16151</a></div>
+    </article>
+  </section>
+
+  <!-- EVENTS -->
+  <section class="section s-events">
+    <div class="sec-head">
+      <span class="tag">EVENTOS</span>
+      <span class="lead">SEO · GEO · Search · Digital Marketing</span>
+      <span class="count">próximos</span>
+    </div>
+
+    <div class="ev">
+      <div class="when">14 jul<span>2026</span></div>
+      <div class="what"><h4>MozCon</h4><p>Un track, sesiones accionables de SEO &amp; AI, CRO, analítica y contenido.</p></div>
+      <div class="where">Nueva York, USA<span>Presencial</span></div>
+    </div>
+    <div class="ev">
+      <div class="when">9–10 sept<span>2026</span></div>
+      <div class="what"><h4>América Digital</h4><p>El congreso tech más grande de LATAM: IA, e-commerce, automatización y marketing digital.</p></div>
+      <div class="where">Santiago, Chile<span class="latam">LATAM · local</span></div>
+    </div>
+    <div class="ev">
+      <div class="when">15–16 sept<span>2026</span></div>
+      <div class="what"><h4>brightonSEO US</h4><p>Tracks de AI visibility, GEO, "Claude Code for SEOs" y video SEO para AIO.</p></div>
+      <div class="where">San Diego, USA<span>Presencial + virtual</span></div>
+    </div>
+    <div class="ev">
+      <div class="when">29–30 sept<span>2026</span></div>
+      <div class="what"><h4>SMX Advanced Europe</h4><p>Edición experts-only: SEO, PPC, GEO y AI search (+ Deep Dive Day el 1 oct).</p></div>
+      <div class="where">Berlín, Alemania<span class="eu">Europa</span></div>
+    </div>
+    <div class="ev">
+      <div class="when">12–13 oct<span>2026</span></div>
+      <div class="what"><h4>Ahrefs Evolve</h4><p>Un día enfocado en AI search, discoverability y hacia dónde va el SEO.</p></div>
+      <div class="where">San Diego, USA<span>Presencial</span></div>
+    </div>
+    <div class="ev">
+      <div class="when">2026<span>fecha por confirmar</span></div>
+      <div class="what"><h4>Congreso Web / SEonthebeach (España)</h4><p>Referentes en español para SEO técnico, estrategia y networking regional.</p></div>
+      <div class="where">España<span class="eu">ES · verificar</span></div>
+    </div>
+  </section>
+
+  <!-- WATCHLIST -->
+  <section class="radarbox">
+    <h2>En el radar</h2>
+    <p class="rb-sub">Se está formando — vigilar próximas semanas</p>
+    <div class="rb-item">
+      <span class="date">Próx. meses</span>
+      <span class="txt"><b>Agentes de información en Search.</b> Agentes 24/7 en segundo plano que monitorean temas y avisan; primero para suscriptores de Google AI Pro y Ultra.<span class="rb-src">Fuente: <a href="https://blog.google/intl/es-419/actualizaciones-de-producto/search-io-2026/">Google — blog oficial (ES), Search I/O 2026</a></span></span>
+    </div>
+    <div class="rb-item">
+      <span class="date">En piloto</span>
+      <span class="txt"><b>Placement pagado en AI search.</b> Múltiples plataformas testean slots pagados dentro de respuestas de IA — la citación orgánica se volverá más competitiva.<span class="rb-src">Fuente: <a href="https://www.aimagicx.com/blog/generative-engine-optimization-chatgpt-perplexity-2026">AI Magicx — GEO 2026</a></span></span>
+    </div>
+    <div class="rb-item">
+      <span class="date">GML 2026</span>
+      <span class="txt"><b>Checkout agéntico + Universal Commerce Protocol.</b> La IA leerá stock y precios desde las PDPs para ejecutar compras: arquitectura de datos de e-retail pasa a ser crítica.<span class="rb-src">Fuentes: <a href="https://business.google.com/us/accelerate/googlemarketinglive/">Google Marketing Live 2026 (UCP)</a> · <a href="https://wardem.com/blog/google-io-2026-que-cambia-en-seo-y-que-hacer-ahora/">Wardem (lectura de PDPs)</a></span></span>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <div class="foot">
+    <b>SEO/GEO Weekly Radar</b> — generado el vie 10 jul 2026.<br>
+    Barrido semanal de fuentes EN + ES · cada historia aparece una sola vez · verifica fechas de rollout y de eventos en la fuente antes de accionar con clientes.
+  </div>
+
+</div>
+</body>
+</html>
