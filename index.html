@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SEO/GEO Weekly Radar — Semana del 12 jul 2026</title>
+<title>Search Engine Marketing / Weekly Radar — Semana del 7 jul 2026</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
 
@@ -57,7 +57,7 @@
   }
   .mast-title{
     font-weight:800;
-    font-size:30px;
+    font-size:26px;
     line-height:1.03;
     letter-spacing:-0.02em;
     margin:0;
@@ -75,14 +75,23 @@
   .mast-sub b{font-weight:800;}
 
   .radar{width:88px;height:88px;flex:0 0 88px;}
-  @media (prefers-reduced-motion:no-preference){
-    .sweep-g{animation:spin 4.5s linear infinite;transform-origin:50px 50px;}
-    .blip{animation:ping 4.5s ease-in-out infinite;}
-  }
+  .sweep-g{animation:spin 4.5s linear infinite;transform-origin:50px 50px;}
+  .blip{animation:ping 4.5s ease-in-out infinite;}
   @keyframes spin{to{transform:rotate(360deg);}}
   @keyframes ping{0%{opacity:.2;}45%{opacity:1;}100%{opacity:.2;}}
   .blip.b2{animation-delay:1.5s;}
   .blip.b3{animation-delay:3s;}
+
+  /* ---------- SHARE ---------- */
+  .share-chip{
+    display:inline-flex;align-items:center;gap:6px;
+    padding:4px 12px;border-radius:20px;
+    color:var(--ink);text-decoration:none;font-weight:700;font-size:11px;
+    background:var(--lilac);border:none;cursor:pointer;font-family:inherit;
+  }
+  .share-chip svg{width:12px;height:12px;flex:0 0 12px;}
+  .share-chip:hover{filter:brightness(0.96);}
+  .mast-share{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;}
 
   /* ---------- TELEMETRY ---------- */
   .telemetry{
@@ -264,6 +273,16 @@
     font-weight:600;font-size:11px;color:var(--muted);letter-spacing:0.02em;line-height:1.75;
   }
   .foot b{color:var(--ink);font-weight:800;}
+  .foot-links{margin-top:10px;display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;}
+  .foot-links a{
+    display:inline-flex;align-items:center;gap:6px;
+    padding:4px 12px;border-radius:20px;
+    color:var(--ink);text-decoration:none;font-weight:700;font-size:11px;
+  }
+  .foot-links a.li{background:var(--blue);}
+  .foot-links a.arch{background:var(--lilac);}
+  .foot-links a:hover{filter:brightness(0.96);}
+  .foot-links svg{width:12px;height:12px;flex:0 0 12px;}
 
   @media (max-width:620px){
     .masthead{flex-direction:column;align-items:flex-start;}
@@ -280,8 +299,14 @@
   <!-- MASTHEAD -->
   <header class="masthead">
     <div>
-      <h1 class="mast-title">SEO/GEO <span class="slash">/</span> Weekly Radar</h1>
-      <div class="mast-sub">Edición <b>#02</b> &nbsp;·&nbsp; Semana del <b>6–12 jul 2026</b> &nbsp;·&nbsp; Organic + Paid + GEO</div>
+      <h1 class="mast-title">Search Engine Marketing <span class="slash">/</span> Weekly Radar</h1>
+      <div class="mast-sub">Edición <b>#01</b> &nbsp;·&nbsp; Semana del <b>7–11 jul 2026</b> &nbsp;·&nbsp; Organic + Paid + GEO</div>
+      <div class="mast-share">
+        <button class="share-chip" type="button" onclick="compartir(this)" aria-label="Compartir este radar">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg>
+          <span>Compartir</span>
+        </button>
+      </div>
     </div>
     <svg class="radar" viewBox="0 0 100 100" aria-hidden="true">
       <circle cx="50" cy="50" r="46" fill="none" stroke="#B9A8D8" stroke-width="1"/>
@@ -307,22 +332,22 @@
 
   <!-- TELEMETRY -->
   <div class="telemetry">
-    <span><span class="dot">●</span> <b>19</b> señales detectadas</span>
+    <span><span class="dot">●</span> <b>21</b> señales detectadas</span>
     <span><span class="dot">●</span> <b>5</b> canales + eventos</span>
     <span><span class="dot">●</span> Fuentes <b>EN + ES</b>, sin duplicados</span>
-    <span><span class="dot">●</span> Barrido: <b>05–12 jul</b></span>
+    <span><span class="dot">●</span> Barrido: <b>04–10 jul</b></span>
   </div>
 
   <!-- HERO -->
   <section class="hero">
     <p class="eyebrow">Señal de la semana</p>
-    <h2>Un estudio sobre un millón de keywords mide por fin cuánto tráfico de búsqueda está drenando la IA</h2>
-    <p>Fractl analizó más de un millón de keywords de alto volumen (10.000+ búsquedas al mes) en 379 marcas y 8 industrias, y encontró que cerca del 30% de esa demanda ya cae de forma medible. El volumen total se mantiene porque la gente sigue buscando, pero lo hace en otros lugares —asistentes de IA, redes sociales— en vez de escribir en Google. La caída no es pareja: fintech es la más golpeada (–37,7%) y lifestyle la que menos (–15,2%).</p>
+    <h2>Julio parte movido: rankings inestables y caídas de tráfico que Google aún no confirma</h2>
+    <p>Desde el 2 de julio, varios sitios reportan cambios bruscos de posiciones en Google y pérdidas de visibilidad de un día para otro —algunos hasta la mitad— sin que exista una actualización confirmada. Mientras no estabilice, evita sacar conclusiones de las comparaciones día a día.</p>
     <div class="statband">
-      <div class="num">29%</div>
-      <div class="cap">de la demanda de búsqueda de <b>alto volumen ya está en declive medible</b>, según el análisis de Fractl sobre 1.010.848 keywords en 8 industrias.</div>
+      <div class="num">93%</div>
+      <div class="cap">de las búsquedas en AI Mode de Google terminan <b>sin ningún clic hacia sitios web</b>, según un estudio de Semrush sobre 69 millones de sesiones.</div>
     </div>
-    <p class="src" style="margin-top:12px;"><b>Fuentes</b> · Estudio y cifras: <a href="https://searchengineland.com/what-1-million-keywords-reveal-about-ais-impact-on-search-481474">Search Engine Land — “What 1 million keywords reveal about AI’s impact on search” (Fractl)</a></p>
+    <p class="src" style="margin-top:12px;"><b>Fuentes</b> · Volatilidad (reportes de foro/blog, no confirmado): <a href="https://www.webmasterworld.com/google/5132734.htm">WebmasterWorld</a>, <a href="https://seovendor.co/google-unconfirmed-july-2026-update-what-seo-agencies-should-watch-for/">SEOVendor</a> · Dato 93%: estudio de <a href="https://wardem.com/blog/google-io-2026-que-cambia-en-seo-y-que-hacer-ahora/">Semrush (69M sesiones), vía Wardem</a></p>
   </section>
 
   <!-- ORGANIC -->
@@ -330,25 +355,31 @@
     <div class="sec-head">
       <span class="tag">ORGANIC</span>
       <span class="lead">Algoritmo · SERP · Search Console</span>
-      <span class="count">03 señales</span>
+      <span class="count">04 señales</span>
     </div>
     <article class="item">
-      <h3>El spam update de junio ya terminó de desplegarse, pero sigue moviendo posiciones</h3>
-      <p>Google confirmó que su segunda actualización antispam de 2026 empezó el 24 de junio y terminó de desplegarse el 26. Aclaró que no apunta a enlaces ni a "site reputation abuse", y varios SEOs la describen como más fuerte que la de marzo.</p>
-      <p class="why">Si un cliente perdió visibilidad a fin de junio, separa el efecto del spam update antes de tocar contenido: puede que aún esté estabilizando.</p>
-      <div class="meta"><span class="chip en">EN</span><span>Search Engine Land</span><span>·</span><a href="https://searchengineland.com/google-june-2026-spam-update-done-rolling-out-481063">searchengineland.com</a></div>
+      <h3>June 2026 spam update: rápido pero sustancial</h3>
+      <p>El titular reciente del mes. Rodó en solo dos días, pero se sintió como que empezó antes y pegó fuerte. Hubo además varias actualizaciones de ranking no confirmadas en paralelo.</p>
+      <p class="why">Si viste caídas a fin de junio, sepáralas del spam update antes de tocar contenido.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Search Engine Roundtable</span><span>·</span><a href="https://www.seroundtable.com/july-2026-google-webmaster-report-41591.html">seroundtable.com</a></div>
     </article>
     <article class="item">
-      <h3>Search Console reparó el reporte de indexación tras casi tres semanas congelado</h3>
-      <p>El reporte de "Page Indexing" se quedó con datos del 11 de junio durante casi tres semanas; recién la mañana del 3 de julio volvió a actualizarse, mostrando datos hasta el 29 de junio. Google no explicó públicamente la causa.</p>
-      <p class="why">Cualquier auditoría técnica hecha entre mediados y fines de junio pudo basarse en datos viejos: conviene volver a revisarla ahora que el reporte está al día.</p>
-      <div class="meta"><span class="chip en">EN</span><span>Search Engine Land</span><span>·</span><a href="https://searchengineland.com/google-indexing-report-in-google-search-console-fixed-481610">searchengineland.com</a></div>
+      <h3>LLMs.txt no mueve la aguja; Search Console amplía los AI performance reports</h3>
+      <p>Google confirmó que los archivos LLMs.txt no ayudan ni perjudican en Search. En paralelo, Search Console amplió el acceso a los reportes de rendimiento en IA y publicó un deep-dive sobre AI controls.</p>
+      <p class="why">Deja de perder tiempo en LLMs.txt; el dato accionable está en los nuevos AI reports de GSC.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Search Engine Roundtable</span><span>·</span><a href="https://www.seroundtable.com/july-2026-google-webmaster-report-41591.html">seroundtable.com</a></div>
     </article>
     <article class="item">
-      <h3>Seis prioridades de SEO que conviene repensar para la búsqueda con IA</h3>
-      <p>Un análisis de Search Engine Land (6 de julio) plantea que el reconocimiento de entidades, las menciones de marca sin enlace (digital PR) y la profundidad temática pesan hoy más que rankear keywords sueltas para aparecer en respuestas de IA.</p>
-      <p class="why">Sirve como checklist concreto para reorientar entregables de SEO clásico hacia GEO en cuentas de agencia.</p>
-      <div class="meta"><span class="chip en">EN</span><span>Search Engine Land</span><span>·</span><a href="https://searchengineland.com/seo-priorities-rethink-ai-search-481566">searchengineland.com</a></div>
+      <h3>Se retira el rich result de FAQ y el spam ya aplica a las respuestas de IA</h3>
+      <p>La documentación oficial (ES) confirma que el resultado enriquecido de Preguntas frecuentes dejó de mostrarse desde el 7 de mayo de 2026, y que las políticas de spam ahora cubren explícitamente las respuestas de IA generativa en Search.</p>
+      <p class="why">El schema FAQPage ya no gana SERP visual, pero sigue siendo señal de extracción para GEO.</p>
+      <div class="meta"><span class="chip es">ES</span><span>Google Search Central</span><span>·</span><a href="https://developers.google.com/search/updates?hl=es-419">developers.google.com</a></div>
+    </article>
+    <article class="item">
+      <h3>Zero-click en España/Europa: 58% de búsquedas sin clic</h3>
+      <p>Datos de SparkToro citados por medios en español sitúan más del 58% de las búsquedas sin ningún clic, con los AI Overviews empujando esa cifra al alza en vez de a la baja.</p>
+      <p class="why">Métrica de reporte para clientes: impresiones vs. clics en GSC ya no cuenta la historia completa.</p>
+      <div class="meta"><span class="chip es">ES</span><span>Digital Factoría</span><span>·</span><a href="https://digitalfactoria.com/seo-con-ia-en-2026-como-sobrevivir-si-google-no-da-clics/">digitalfactoria.com</a></div>
     </article>
   </section>
 
@@ -360,28 +391,28 @@
       <span class="count">04 señales</span>
     </div>
     <article class="item">
-      <h3>Google empezará a mostrar qué anuncios se hicieron con IA</h3>
-      <p>Desde el 9 de julio, Google despliega a nivel global la sección "How this ad was made" dentro de My Ad Center, en Search, YouTube y Discover. Se activa automáticamente cuando el anuncio se creó con sus herramientas de IA generativa; en la UE, India y Nueva York el aviso será visible sobre el propio anuncio.</p>
-      <p class="why">Si usas creatividades generadas con IA, anticipa cómo estas etiquetas pueden afectar el CTR y la percepción de marca del usuario final.</p>
-      <div class="meta"><span class="chip en">EN</span><span>TechCrunch</span><span>·</span><a href="https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/">techcrunch.com</a></div>
+      <h3>Nuevos Términos de Servicio de Google Ads (efectivos 1 jul)</h3>
+      <p>Amplían la autoridad de Google para usar sistemas automatizados y AI que generen, seleccionen y optimicen elementos de campaña en tu nombre. El anunciante sigue siendo responsable del resultado, lo que enciende alertas de governance y transparencia en agencias.</p>
+      <p class="why">Revisa el lenguaje de automatización con clientes enterprise antes de tu próxima subida de budget.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Search Engine Land</span><span>·</span><a href="https://searchengineland.com/google-ads-updates-terms-of-service-ahead-of-july-2026-rollout-479255">searchengineland.com</a></div>
     </article>
     <article class="item">
-      <h3>Aviso de seis semanas antes de que los CPA objetivo "se dupliquen" el 17 de agosto</h3>
-      <p>El 6 de julio Google activó el "Bid Target Adjustment Tool": da seis semanas de margen a las cuentas limitadas por presupuesto antes de que, desde el 17 de agosto, el sistema de pujas empiece a entregar más cerca del CPA/ROAS literal que fijaste, y no del rendimiento más holgado que venían logrando.</p>
-      <p class="why">Si gestionas cuentas en modo "limited by budget", revisa y ajusta los targets antes de agosto o arriesgas una caída brusca de volumen.</p>
-      <div class="meta"><span class="chip en">EN</span><span>PPC Land</span><span>·</span><a href="https://ppc.land/google-ads-gives-advertisers-6-weeks-before-cpa-targets-double/">ppc.land</a></div>
+      <h3>Adiós a cuatro modelos de atribución</h3>
+      <p>First-click, linear, time-decay y position-based dejan de ser seleccionables para todas las conversiones a partir de mediados de julio.</p>
+      <p class="why">Audita ahora qué conversiones dependen de estos modelos para no perder lectura de performance.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Google Ads Help</span><span>·</span><a href="https://support.google.com/google-ads/announcements/9048695?hl=en">support.google.com</a></div>
     </article>
     <article class="item">
-      <h3>Performance Max suma diagnóstico por canal para detectar assets faltantes</h3>
-      <p>Hacia el 1 de julio Google agregó "Channel Diagnostics" en Insights &amp; Reports → Channel Performance de Performance Max. Permite ver, canal por canal (Search, Display, YouTube, Discover, Gmail, Maps), qué títulos, descripciones o imágenes faltan o fueron rechazados y limitan la elegibilidad de la campaña.</p>
-      <p class="why">Da algo de visibilidad sobre la "caja negra" de PMax: úsalo para justificar ante el cliente qué assets pedir antes de escalar inversión.</p>
-      <div class="meta"><span class="chip en">EN</span><span>Search Engine Land</span><span>·</span><a href="https://searchengineland.com/google-adds-channel-diagnostics-to-performance-max-481445">searchengineland.com</a></div>
+      <h3>Passkey obligatorio para acciones sensibles desde el 15 jul</h3>
+      <p>Google notificó a anunciantes que ciertas acciones sensibles en Google Ads requerirán passkey a partir del 15 de julio de 2026.</p>
+      <p class="why">Coordina con los dueños de las cuentas de clientes para no quedar bloqueado a mitad de gestión.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Search Engine Roundtable</span><span>·</span><a href="https://searchherald.com/topic/google-adwords">vía Search Herald</a></div>
     </article>
     <article class="item">
-      <h3>Microsoft Ads añade experimentos de incrementalidad a Performance Max</h3>
-      <p>A fines de junio, Microsoft introdujo dos tipos nuevos de experimento en Performance Max (disponibilidad limitada, en Campaigns → Experiments): uno mide el rendimiento incremental contra un grupo de control y otro compara una versión "mejorada" de la campaña contra la original antes de lanzarla.</p>
-      <p class="why">Para quienes gestionan Microsoft Ads, es una forma más rigurosa de probar cambios antes de aplicarlos a cuentas de clientes.</p>
-      <div class="meta"><span class="chip en">EN</span><span>Search Engine Land</span><span>·</span><a href="https://searchengineland.com/microsoft-expands-performance-max-testing-with-new-experiment-types-481333">searchengineland.com</a></div>
+      <h3>AI Max absorbe funciones legacy + ads dentro de AI Mode</h3>
+      <p>Desde septiembre, funciones como Dynamic Search Ads se auto-actualizarán a AI Max. En paralelo Google ya testea ads dentro de AI Mode (incluyendo un piloto de ads de salud).</p>
+      <p class="why">La era de "keywords sueltas" se cierra; el foco pasa a feeds, señales y assets limpios.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Google Accelerate</span><span>·</span><a href="https://business.google.com/us/accelerate/announcements/">business.google.com</a></div>
     </article>
   </section>
 
@@ -393,28 +424,28 @@
       <span class="count">04 señales</span>
     </div>
     <article class="item">
-      <h3>ChatGPT cambia sus fuentes según qué "buscador oculto" use por dentro, y eso vuelve inestable el tracking de GEO</h3>
-      <p>Dos investigaciones independientes (Chris Green y Suganthan Mohanadasan, 8 de julio) analizaron el tráfico de red de ChatGPT y hallaron que usa varios sistemas de recuperación internos con nombres en código. Green probó 1.000 prompts hasta diez veces cada uno (9.946 corridas): en el 11,6% de los prompts cambiaba la fuente de búsqueda primaria entre corridas, y cuando eso pasaba el solapamiento de URLs citadas caía cerca del 45%.</p>
-      <p class="why">Explica por qué el mismo prompt puede dar marcas distintas de un día a otro: mide la visibilidad en IA con muestreo repetido, no con una sola consulta, antes de reportar al cliente.</p>
-      <div class="meta"><span class="chip en">EN</span><span>Search Engine Land</span><span>·</span><a href="https://searchengineland.com/chatgpt-citations-change-hidden-search-pipelines-481843">searchengineland.com</a></div>
+      <h3>Adobe compra Semrush (~US$1.9B): el GEO ya tiene precio de mercado</h3>
+      <p>El acuerdo (anunciado en noviembre 2025) enmarca la adquisición alrededor de la visibilidad de marca "en la era de la IA agéntica", consolidando el GEO como canal de crecimiento junto al SEO tradicional.</p>
+      <p class="why">Señal fuerte para vender GEO a clientes: el mercado lo está valorando en miles de millones.</p>
+      <div class="meta"><span class="chip en">EN</span><span>TechTimes</span><span>·</span><a href="https://www.techtimes.com/articles/318359/20260614/generative-engine-optimization-geo-2026-how-get-your-content-cited-chatgpt-ai-overviews.htm">techtimes.com</a></div>
     </article>
     <article class="item">
-      <h3>A los medios les dicen que sería un error no usar el botón para excluirse de los AI Overviews</h3>
-      <p>En la cumbre de IA de Press Gazette en Londres (nota del 9 de julio), líderes de medios advirtieron que sería una "tragedia" que los editores no aprovechen la opción de excluirse de AI Overviews y AI Mode que el regulador británico (CMA) obligó a Google a ofrecer a comienzos de junio.</p>
-      <p class="why">Aunque es regulación del Reino Unido, marca un precedente: Google puede verse forzado a dar control granular sobre el uso de contenido en IA, algo a vigilar como posible tendencia global.</p>
-      <div class="meta"><span class="chip en">EN</span><span>Press Gazette</span><span>·</span><a href="https://pressgazette.co.uk/press-gazette-events/travesty-if-publishers-dont-take-up-chance-to-opt-out-of-google-ai-overviews/">pressgazette.co.uk</a></div>
+      <h3>La búsqueda por IA ya es 12–18% de las queries informacionales</h3>
+      <p>Los AI search engines (ChatGPT, Perplexity, Gemini, Copilot, Claude) manejan un estimado 12–18% de las consultas informacionales en inglés a Q1 2026, cuando hace un año era menos del 2%. La curva es empinada.</p>
+      <p class="why">Ya no es un canal "emergente": es share medible que hay que reportar.</p>
+      <div class="meta"><span class="chip en">EN</span><span>AI Magicx</span><span>·</span><a href="https://www.aimagicx.com/blog/generative-engine-optimization-chatgpt-perplexity-2026">aimagicx.com</a></div>
     </article>
     <article class="item">
-      <h3>El paid media empieza a funcionar como inversión de SEO en la era de la búsqueda con IA</h3>
-      <p>Un artículo de Search Engine Land sostiene que patrocinios en YouTube, contenido de usuarios nativo e incentivos a reseñas operan hoy como el "link building" moderno: moldean cómo los sistemas de IA entienden y recomiendan una marca.</p>
-      <p class="why">Refuerza el pitch de integrar paid, PR y SEO en una sola estrategia de presencia de marca en IA, muy vendible en cuentas de Chile/LATAM.</p>
-      <div class="meta"><span class="chip en">EN</span><span>Search Engine Land</span><span>·</span><a href="https://searchengineland.com/paid-media-seo-investment-ai-search-481572">searchengineland.com</a></div>
+      <h3>Solo 11% de dominios son citados por ChatGPT y Perplexity a la vez</h3>
+      <p>Rankear en un motor generativo no se traduce al otro: cada engine tiene lógica de selección distinta, así que la estrategia de citación debe ser platform-aware.</p>
+      <p class="why">Audita tus prompts objetivo por engine, no asumas transferencia de visibilidad.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Heeya</span><span>·</span><a href="https://heeya.fr/en/blog/generative-engine-optimization-geo-2026">heeya.fr</a></div>
     </article>
     <article class="item">
-      <h3>OpenAI lleva su piloto de anuncios en ChatGPT a México y Brasil</h3>
-      <p>Tras el arranque en EE.UU. a comienzos de 2026, OpenAI anunció la expansión de sus anuncios en ChatGPT a Reino Unido, México, Brasil, Japón y Corea del Sur. Es la primera vez que la publicidad dentro de un chatbot de IA toca mercados de la región.</p>
-      <p class="why">Con dos mercados grandes de LATAM en el piloto, conviene empezar a pensar desde ya cómo se verá —y cómo se medirá— aparecer citado junto a anuncios en respuestas de IA.</p>
-      <div class="meta"><span class="chip en">EN</span><span>eMarketer</span><span>·</span><a href="https://www.emarketer.com/content/openai-expands-chatgpt-ad-pilot-new-markets">emarketer.com</a></div>
+      <h3>Ventana LatAm: menos competencia de contenido de calidad en español</h3>
+      <p>Análisis en español apuntan a que la IA de búsqueda puede favorecer marcas con español neutro de calidad y relevancia regional. El ecosistema hispano tiene menos contenido profundo, así que la pregunta cambia de "¿cómo rankeo?" a "¿por qué me citaría la IA?".</p>
+      <p class="why">Oportunidad directa para tus clientes en Chile/LATAM: ser fuente citada antes de que se sature.</p>
+      <div class="meta"><span class="chip es">ES</span><span>Ecosistema Startup</span><span>·</span><a href="https://ecosistemastartup.com/google-i-o-2026-3-cambios-que-afectan-tu-seo/">ecosistemastartup.com</a></div>
     </article>
   </section>
 
@@ -423,25 +454,31 @@
     <div class="sec-head">
       <span class="tag">SOCIAL</span>
       <span class="lead">Social SEO · Social Search</span>
-      <span class="count">03 señales</span>
+      <span class="count">04 señales</span>
     </div>
     <article class="item">
-      <h3>Search Console ya mide el tráfico de Google hacia tus perfiles de Instagram, TikTok, X y YouTube</h3>
-      <p>Google lanzó las "platform properties": un tipo de propiedad que se verifica sin necesidad de un sitio propio y muestra clics, impresiones y consultas de búsqueda que llevan tráfico desde Google Search y Discover a contenido social y de video. El despliegue arrancó el 7–8 de julio y es gradual.</p>
-      <p class="why">Por primera vez hay data oficial de Google —no solo de cada red— para medir el retorno del "SEO social" y llevarlo como reporte formal a los clientes.</p>
-      <div class="meta"><span class="chip es">ES</span><span>Comunicación Marketing</span><span>·</span><a href="https://comunicacionmarketing.es/seoysem/08/07/2026/google-permite-analizar-en-search-console-el-rendimiento-de-instagram-tiktok-x-y-youtube/37676.html">comunicacionmarketing.es</a></div>
+      <h3>Search Console suma "platform properties" para social y video</h3>
+      <p>Google lanzó un nuevo tipo de propiedad en Search Console para medir cómo rinde tu contenido de Instagram, TikTok, X y YouTube en Google Search y Discover: clics, impresiones y queries por post. Creadores y SEOs ya lo llaman el mayor update de social SEO del año.</p>
+      <p class="why">Por fin hay data nativa de social en GSC — nuevo reporte para llevar a tus clientes.</p>
+      <div class="meta"><span class="chip en">EN</span><span>Google Search Central</span><span>·</span><a href="https://developers.google.com/search/blog/2026/07/search-console-social-video-platforms">developers.google.com</a></div>
     </article>
     <article class="item">
-      <h3>Reddit usa IA para frenar el spam de marketing pensado para que lo citen los chatbots</h3>
-      <p>Reddit anunció el 6 de julio que reforzó su moderación automática con modelos de lenguaje para detectar marketing encubierto diseñado para ser citado por ChatGPT y Gemini. Dice bloquear 23 millones de vistas de spam al día, detectar unas 25.000 publicaciones spam nuevas cada día y haber reducido la exposición a spam un 20% entre enero y marzo.</p>
-      <p class="why">Reddit es una de las fuentes más citadas por los motores de IA: las tácticas de GEO que dependían de publicar ahí para "colarse" en las respuestas quedan bajo más presión.</p>
-      <div class="meta"><span class="chip en">EN</span><span>TechCrunch</span><span>·</span><a href="https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/">techcrunch.com</a></div>
+      <h3>La Gen Z busca en TikTok e Instagram, no en Google</h3>
+      <p>Según Adobe, el 64% de la Gen Z usa TikTok como buscador; Google reconoce que más del 40% de la Gen Z prefiere Instagram o TikTok para buscar, y el uso de Google en esa generación cayó cerca de 25% frente a la Gen X.</p>
+      <p class="why">Para clientes con público joven (beauty, food, local), el social search ya no es opcional.</p>
+      <div class="meta"><span class="chip en">EN</span><span>SEO Sherpa</span><span>·</span><a href="https://seosherpa.com/tiktok-search-engine/">seosherpa.com</a></div>
     </article>
     <article class="item">
-      <h3>YouTube abre su buscador conversacional "Ask YouTube" más allá de Premium</h3>
-      <p>El 9 de julio, YouTube expandió "Ask YouTube" —que responde combinando video largo, Shorts y texto— a usuarios registrados de EE.UU. mayores de 13 años en escritorio, saliendo de la prueba exclusiva para suscriptores Premium que había empezado en abril.</p>
-      <p class="why">Anticipa cómo YouTube empujará respuestas tipo "answer engine" dentro del video, cambiando qué contenido capta clics y tiempo de reproducción antes de que la función llegue a más mercados.</p>
-      <div class="meta"><span class="chip en">EN</span><span>Search Engine Land</span><span>·</span><a href="https://searchengineland.com/ask-youtube-expands-481906">searchengineland.com</a></div>
+      <h3>El search se fragmenta: una pieza puede ganar en tres capas</h3>
+      <p>El descubrimiento se reparte —búsqueda tradicional ~80%, social ~5.5%, IA ~3.2%— y un mismo video o post puede rankear dentro de la plataforma, aparecer en Google y alimentar respuestas de IA. En "search-like discovery", LinkedIn encabeza (27%), seguido de YouTube, Instagram y TikTok.</p>
+      <p class="why">Piensa en contenido "reusable": optimízalo una vez, gana en plataforma + Google + LLM.</p>
+      <div class="meta"><span class="chip en">EN</span><span>DesignRush</span><span>·</span><a href="https://www.designrush.com/agency/social-media-marketing/trends/social-seo">designrush.com</a></div>
+    </article>
+    <article class="item">
+      <h3>Mecánica de ranking: audio, captions y visual search</h3>
+      <p>TikTok premia decir el keyword en los primeros segundos (speech-to-text) más captions tipo meta y texto en pantalla; Instagram convierte Explore en un buscador visual; y Pinterest procesa más de 5.000 millones de búsquedas al mes.</p>
+      <p class="why">On-screen text + keyword hablado en el primer frame = tu nuevo title tag social.</p>
+      <div class="meta"><span class="chip en">EN</span><span>ALM Corp</span><span>·</span><a href="https://almcorp.com/blog/youtube-tiktok-instagram-social-seo-2026/">almcorp.com</a></div>
     </article>
   </section>
 
@@ -450,31 +487,37 @@
     <div class="sec-head">
       <span class="tag">CIENCIA</span>
       <span class="lead">Papers &amp; investigación revisada</span>
-      <span class="count">04 señales</span>
+      <span class="count">05 señales</span>
     </div>
     <article class="item">
-      <h3>Pew Research confirma con datos reales que los AI Overviews reducen los clics a la mitad</h3>
-      <p>Con el comportamiento de navegación de más de 900 usuarios, el Pew Research Center encontró que, cuando aparece un resumen de IA, solo el 8% de las búsquedas termina en un clic a un enlace, frente al 15% cuando no lo hay. Además, apenas el 1% de las visitas hace clic dentro del propio resumen.</p>
-      <p class="why">Es el dato para explicarle a un cliente por qué cae el CTR orgánico aunque el ranking se mantenga, y por qué aparecer citado (GEO) pesa tanto como posicionar.</p>
-      <div class="meta"><span class="chip en">EN</span><span>Pew Research Center · 2025</span><span>·</span><a href="https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/">pewresearch.org</a></div>
+      <h3>GEO: Generative Engine Optimization — el paper fundacional</h3>
+      <p>Aggarwal et al. (Princeton, Georgia Tech, IIT Delhi), presentado en KDD 2024, definió el GEO y su GEO-bench. Métodos como "Statistics Addition" y "Quotation Addition" mejoran la visibilidad en respuestas generativas hasta ~40%, mientras que el keyword stuffing clásico rinde mal.</p>
+      <p class="why">Es la base académica del GEO — cítala cuando un cliente pregunte de dónde sale la disciplina.</p>
+      <div class="meta"><span class="chip en">EN</span><span>KDD 2024 · Aggarwal et al.</span><span>·</span><a href="https://arxiv.org/abs/2311.09735">arXiv:2311.09735</a></div>
     </article>
     <article class="item">
-      <h3>En la búsqueda con IA, los medios ganados pesan más que tu propio sitio</h3>
-      <p>Chen, Wang, Chen y Koudas prueban, con experimentos controlados en varios rubros e idiomas, que los motores generativos (ChatGPT, Perplexity, Gemini) favorecen fuertemente las menciones de terceros ("earned media") por sobre el contenido de marca y las redes sociales, al revés de lo que suele premiar Google.</p>
-      <p class="why">Sugiere que para aparecer en respuestas de IA hay que invertir en PR y menciones externas, no solo en el sitio propio, algo clave para marcas de la región.</p>
-      <div class="meta"><span class="chip en">EN</span><span>arXiv preprint · Chen et al. 2025</span><span>·</span><a href="https://arxiv.org/abs/2509.08919">arXiv:2509.08919</a></div>
+      <h3>E-GEO: un testbed de GEO para e-commerce</h3>
+      <p>Bagga et al. (2025) llevan el GEO al comercio electrónico con un banco de pruebas y un marco de optimización que apunta a valor comercial real, no solo al impression score heurístico del paper original.</p>
+      <p class="why">Directamente aplicable a tu trabajo de e-retail: GEO medido en conversión, no en vanidad.</p>
+      <div class="meta"><span class="chip en">EN</span><span>arXiv preprint · 2025</span><span>·</span><a href="https://arxiv.org/abs/2511.20867">arXiv:2511.20867</a></div>
     </article>
     <article class="item">
-      <h3>Un experimento del MIT muestra que el paid no canibaliza al orgánico: lo potencia</h3>
-      <p>Ju, Zhao y Aral (MIT) analizan un experimento real de corte de inversión en apps móviles y encuentran complementariedad: cada US$100 en anuncios generó unas 37 instalaciones pagas y 3 orgánicas adicionales, en vez de robarle instalaciones al canal orgánico.</p>
-      <p class="why">Evidencia cuantitativa para defender presupuestos combinados SEO+paid ante clientes convencidos de que "compiten por el mismo tráfico".</p>
-      <div class="meta"><span class="chip en">EN</span><span>arXiv preprint · Ju, Zhao &amp; Aral (MIT) 2025</span><span>·</span><a href="https://arxiv.org/abs/2504.16151">arXiv:2504.16151</a></div>
+      <h3>Usar TikTok como buscador: credibilidad y acciones de evaluación</h3>
+      <p>Estudio de 2025 (Elsevier): como buscador, TikTok se percibe menos valioso que Google en conveniencia, privacidad y funcionalidad; los usuarios validan la información mirando comentarios y elementos del propio video más que fuentes externas.</p>
+      <p class="why">Matiz clave para vender social search: no reemplaza a Google, y la credibilidad se juega en los comentarios.</p>
+      <div class="meta"><span class="chip en">EN</span><span>ScienceDirect · 2025</span><span>·</span><a href="https://www.sciencedirect.com/science/article/abs/pii/S0736585325000863">sciencedirect.com</a></div>
     </article>
     <article class="item">
-      <h3>IF-GEO: qué hacer cuando distintas consultas piden ediciones contradictorias del mismo texto</h3>
-      <p>Zhou y colegas (USTC / Institute of Dataspace) proponen una técnica "diverge-then-converge" para optimizar un mismo documento de cara a varias consultas a la vez, cuando cada una exigiría cambios que se contradicen entre sí.</p>
-      <p class="why">Es técnico, pero útil para equipos que ya automatizan contenido con LLMs y necesitan optimizar una misma página para múltiples intenciones.</p>
-      <div class="meta"><span class="chip en">EN</span><span>arXiv preprint · Zhou et al. 2026</span><span>·</span><a href="https://arxiv.org/abs/2601.13938">arXiv:2601.13938</a></div>
+      <h3>¿Cómo afectan las subastas de ads al precio de los productos?</h3>
+      <p>Bergemann et al. modelan cómo las subastas publicitarias (sponsored junto a orgánico, tipo Google/Amazon) influyen en los precios finales de los productos, no solo en quién aparece arriba.</p>
+      <p class="why">Fundamento económico para conversaciones de pricing y ROI de paid con clientes.</p>
+      <div class="meta"><span class="chip en">EN</span><span>arXiv preprint · Bergemann et al.</span><span>·</span><a href="https://arxiv.org/abs/2304.08432">arXiv:2304.08432</a></div>
+    </article>
+    <article class="item">
+      <h3>Paid vs orgánico: ¿sustitución o complementariedad?</h3>
+      <p>Trabajo de 2025 que revisita la pregunta clásica —si el paid search canibaliza el tráfico orgánico o lo complementa— con evidencia de experimentos de corte de inversión, en la línea de los estudios de shutoff (Blake et al.).</p>
+      <p class="why">Munición para el eterno debate "¿por qué pagar por marca si ya rankeo?".</p>
+      <div class="meta"><span class="chip en">EN</span><span>arXiv preprint · 2025</span><span>·</span><a href="https://arxiv.org/abs/2504.16151">arXiv:2504.16151</a></div>
     </article>
   </section>
 
@@ -488,33 +531,33 @@
 
     <div class="ev">
       <div class="when">14 jul<span>2026</span></div>
-      <div class="what"><h4>MozCon New York</h4><p>Roadshow de un día de Moz sobre AI search, PPC y digital PR.</p></div>
+      <div class="what"><h4>MozCon</h4><p>Un track, sesiones accionables de SEO &amp; AI, CRO, analítica y contenido.</p></div>
       <div class="where">Nueva York, USA<span>Presencial</span></div>
     </div>
     <div class="ev">
       <div class="when">9–10 sept<span>2026</span></div>
-      <div class="what"><h4>Congreso América Digital</h4><p>El mayor evento de transformación digital de la región: marketing digital, e-commerce, IA y tecnología.</p></div>
+      <div class="what"><h4>América Digital</h4><p>El congreso tech más grande de LATAM: IA, e-commerce, automatización y marketing digital.</p></div>
       <div class="where">Santiago, Chile<span class="latam">LATAM · local</span></div>
     </div>
     <div class="ev">
       <div class="when">15–16 sept<span>2026</span></div>
-      <div class="what"><h4>brightonSEO San Diego</h4><p>Conferencia de búsqueda y SEO con foco en AI visibility y GEO.</p></div>
-      <div class="where">San Diego, USA<span>verificar fecha</span></div>
+      <div class="what"><h4>brightonSEO US</h4><p>Tracks de AI visibility, GEO, "Claude Code for SEOs" y video SEO para AIO.</p></div>
+      <div class="where">San Diego, USA<span>Presencial + virtual</span></div>
     </div>
     <div class="ev">
-      <div class="when">8–9 oct<span>2026</span></div>
-      <div class="what"><h4>brightonSEO (Brighton)</h4><p>La edición original en Reino Unido, una de las mayores conferencias de búsqueda del mundo.</p></div>
-      <div class="where">Brighton, UK<span class="eu">Europa</span></div>
+      <div class="when">29–30 sept<span>2026</span></div>
+      <div class="what"><h4>SMX Advanced Europe</h4><p>Edición experts-only: SEO, PPC, GEO y AI search (+ Deep Dive Day el 1 oct).</p></div>
+      <div class="where">Berlín, Alemania<span class="eu">Europa</span></div>
     </div>
     <div class="ev">
       <div class="when">12–13 oct<span>2026</span></div>
-      <div class="what"><h4>Ahrefs Evolve San Diego</h4><p>SEO, AEO y el rol de la IA en marketing, en formato presencial.</p></div>
+      <div class="what"><h4>Ahrefs Evolve</h4><p>Un día enfocado en AI search, discoverability y hacia dónde va el SEO.</p></div>
       <div class="where">San Diego, USA<span>Presencial</span></div>
     </div>
     <div class="ev">
-      <div class="when">18 nov<span>2026</span></div>
-      <div class="what"><h4>SMX Next</h4><p>Training gratuito y online de SEO, PPC e IA en búsqueda, de Search Engine Land.</p></div>
-      <div class="where">Online<span>virtual · verificar fecha</span></div>
+      <div class="when">2026<span>fecha por confirmar</span></div>
+      <div class="what"><h4>Congreso Web / SEonthebeach (España)</h4><p>Referentes en español para SEO técnico, estrategia y networking regional.</p></div>
+      <div class="where">España<span class="eu">ES · verificar</span></div>
     </div>
   </section>
 
@@ -523,25 +566,58 @@
     <h2>En el radar</h2>
     <p class="rb-sub">Se está formando — vigilar próximas semanas</p>
     <div class="rb-item">
-      <span class="date">En expansión</span>
-      <span class="txt"><b>Anuncios de ChatGPT llegando a LATAM.</b> El piloto publicitario de OpenAI suma México y Brasil (además de Reino Unido, Japón y Corea del Sur): la publicidad dentro de respuestas de IA deja de ser solo un tema de EE.UU.<span class="rb-src">Fuente: <a href="https://www.emarketer.com/content/openai-expands-chatgpt-ad-pilot-new-markets">eMarketer — OpenAI expande su piloto de anuncios</a></span></span>
+      <span class="date">Próx. meses</span>
+      <span class="txt"><b>Agentes de información en Search.</b> Agentes 24/7 en segundo plano que monitorean temas y avisan; primero para suscriptores de Google AI Pro y Ultra.<span class="rb-src">Fuente: <a href="https://blog.google/intl/es-419/actualizaciones-de-producto/search-io-2026/">Google — blog oficial (ES), Search I/O 2026</a></span></span>
     </div>
     <div class="rb-item">
-      <span class="date">Anunciado</span>
-      <span class="txt"><b>TikTok "Search Hubs".</b> Una nueva función ubica páginas de marca en la parte superior de los resultados de búsqueda de TikTok, junto con más herramientas de IA para anuncios y un protocolo para que agentes de IA gestionen campañas.<span class="rb-src">Fuente: <a href="https://www.emarketer.com/content/tiktok-s-new-ad-updates-promise-stronger-ties-between-creators--search--commerce">eMarketer — nuevas funciones de TikTok Ads y búsqueda</a></span></span>
+      <span class="date">En piloto</span>
+      <span class="txt"><b>Placement pagado en AI search.</b> Múltiples plataformas testean slots pagados dentro de respuestas de IA — la citación orgánica se volverá más competitiva.<span class="rb-src">Fuente: <a href="https://www.aimagicx.com/blog/generative-engine-optimization-chatgpt-perplexity-2026">AI Magicx — GEO 2026</a></span></span>
     </div>
     <div class="rb-item">
-      <span class="date">En reversa</span>
-      <span class="txt"><b>Perplexity frena su programa de anuncios.</b> A contramano del resto, Perplexity está desmontando el piloto publicitario que había iniciado en 2024 por preocupaciones de confianza: señal de que el modelo de "anuncios en respuestas de IA" todavía no está resuelto.<span class="rb-src">Fuente: <a href="https://searchengineland.com/perplexity-stops-testing-advertising-469452">Search Engine Land — Perplexity deja de testear publicidad</a></span></span>
+      <span class="date">GML 2026</span>
+      <span class="txt"><b>Checkout agéntico + Universal Commerce Protocol.</b> La IA leerá stock y precios desde las PDPs para ejecutar compras: arquitectura de datos de e-retail pasa a ser crítica.<span class="rb-src">Fuentes: <a href="https://business.google.com/us/accelerate/googlemarketinglive/">Google Marketing Live 2026 (UCP)</a> · <a href="https://wardem.com/blog/google-io-2026-que-cambia-en-seo-y-que-hacer-ahora/">Wardem (lectura de PDPs)</a></span></span>
     </div>
   </section>
 
   <!-- FOOTER -->
   <div class="foot">
-    <b>SEO/GEO Weekly Radar</b> — generado el dom 12 jul 2026.<br>
+    <b>Search Engine Marketing / Weekly Radar</b> — generado el vie 10 jul 2026.<br>
     Barrido semanal de fuentes EN + ES · cada historia aparece una sola vez · verifica fechas de rollout y de eventos en la fuente antes de accionar con clientes.
+    <div class="foot-links">
+      <a class="li" href="https://www.linkedin.com/in/orian-rendon/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        Orián Rendón
+      </a>
+      <a class="arch" href="archivo.html">Ediciones anteriores →</a>
+      <button class="share-chip" type="button" onclick="compartir(this)" aria-label="Compartir este radar">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg>
+        <span>Compartir</span>
+      </button>
+    </div>
   </div>
 
 </div>
+
+<script>
+async function compartir(btn){
+  const data = {
+    title: 'Search Engine Marketing / Weekly Radar',
+    text: 'Lo más relevante de la semana en SEO, GEO y search',
+    url: 'https://semradarnews.netlify.app/'
+  };
+  if (navigator.share) {
+    try { await navigator.share(data); } catch(e) { /* usuario canceló */ }
+  } else {
+    const lbl = btn.querySelector('span');
+    try {
+      await navigator.clipboard.writeText(data.url);
+      lbl.textContent = '¡Enlace copiado!';
+    } catch(e) {
+      window.prompt('Copia el enlace:', data.url);
+    }
+    setTimeout(() => { lbl.textContent = 'Compartir'; }, 2000);
+  }
+}
+</script>
 </body>
 </html>
