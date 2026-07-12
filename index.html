@@ -170,22 +170,23 @@
     display:flex;
     flex-wrap:wrap;
     gap:8px;
-    margin:0 0 30px;
+    margin:0 0 18px;
   }
   .cat-tab{
-    padding:6px 16px;
+    padding:8px 16px;
     border-radius:20px;
     border:2px solid transparent;
     font-family:inherit;
     font-weight:700;
-    font-size:12px;
-    letter-spacing:0.05em;
+    font-size:12.5px;
+    letter-spacing:0.02em;
     color:var(--ink);
     cursor:pointer;
-    opacity:.55;
+    opacity:.8;
     transition:opacity .15s ease, transform .15s ease, box-shadow .15s ease;
   }
-  .cat-tab:hover{opacity:.85;}
+  .cat-tab:hover{opacity:1;}
+  .cat-tab:focus-visible{outline:2px solid var(--ink);outline-offset:2px;opacity:1;}
   .cat-tab.tab-organic{background:var(--blue);}
   .cat-tab.tab-paid{background:var(--pink);}
   .cat-tab.tab-geo{background:var(--lilac);}
@@ -395,12 +396,12 @@
   </section>
 
   <!-- CATEGORY TABS -->
-  <nav class="cat-tabs" aria-label="Categorías del radar">
-    <button class="cat-tab tab-organic" type="button" data-target="s-organic">ORGANIC</button>
-    <button class="cat-tab tab-paid" type="button" data-target="s-paid">PAID</button>
-    <button class="cat-tab tab-geo" type="button" data-target="s-geo">GEO</button>
-    <button class="cat-tab tab-social" type="button" data-target="s-social">SOCIAL</button>
-    <button class="cat-tab tab-science" type="button" data-target="s-science">CIENCIA</button>
+  <nav class="cat-tabs" role="tablist" aria-label="Categorías del radar">
+    <button class="cat-tab tab-organic" type="button" role="tab" aria-selected="true" data-target="s-organic">Organic</button>
+    <button class="cat-tab tab-paid" type="button" role="tab" aria-selected="false" data-target="s-paid">Paid</button>
+    <button class="cat-tab tab-geo" type="button" role="tab" aria-selected="false" data-target="s-geo">GEO</button>
+    <button class="cat-tab tab-social" type="button" role="tab" aria-selected="false" data-target="s-social">Social</button>
+    <button class="cat-tab tab-science" type="button" role="tab" aria-selected="false" data-target="s-science">Ciencia</button>
   </nav>
 
   <!-- ORGANIC -->
@@ -639,7 +640,7 @@
     <div class="foot-links">
       <a class="li" href="https://www.linkedin.com/in/orian-rendon/" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
-        Orián Rendón
+        Oriana Rendón
       </a>
       <a class="arch" href="archivo.html">Ediciones anteriores →</a>
       <button class="share-chip" type="button" onclick="compartir(this)" aria-label="Compartir este radar">
@@ -679,16 +680,30 @@ document.querySelectorAll('a[href^="http"]').forEach(a => { a.target='_blank'; a
 /* Pestañas de categorías. El ocultamiento inicial lo hace SOLO este script:
    sin JavaScript, las cinco secciones quedan visibles (fallback sin pérdidas). */
 (function(){
-  const tabs = document.querySelectorAll('.cat-tabs .cat-tab');
+  const tabs = Array.from(document.querySelectorAll('.cat-tabs .cat-tab'));
   const cats = ['s-organic','s-paid','s-geo','s-social','s-science'];
   function activar(target){
     cats.forEach(c => {
       const sec = document.querySelector('.section.' + c);
       if (sec) sec.style.display = (c === target) ? '' : 'none';
     });
-    tabs.forEach(t => t.classList.toggle('active', t.dataset.target === target));
+    tabs.forEach(t => {
+      const on = t.dataset.target === target;
+      t.classList.toggle('active', on);
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
   }
-  tabs.forEach(t => t.addEventListener('click', () => activar(t.dataset.target)));
+  tabs.forEach((t, i) => {
+    t.addEventListener('click', () => activar(t.dataset.target));
+    t.addEventListener('keydown', e => {
+      if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+      e.preventDefault();
+      const dir = e.key === 'ArrowRight' ? 1 : -1;
+      const next = tabs[(i + dir + tabs.length) % tabs.length];
+      next.focus();
+      activar(next.dataset.target);
+    });
+  });
   activar('s-organic');
 })();
 </script>
