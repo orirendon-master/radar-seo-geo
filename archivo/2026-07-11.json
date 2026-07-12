@@ -1,0 +1,189 @@
+{
+  "edicion": 1,
+  "fecha": "2026-07-11",
+  "semana": "7–11 jul 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "Julio parte movido: rankings inestables y caídas de tráfico que Google aún no confirma",
+      "resumen": "Desde el 2 de julio, varios sitios reportan cambios bruscos de posiciones en Google y pérdidas de visibilidad de un día para otro —algunos hasta la mitad— sin que exista una actualización confirmada. Dato clave: 93% de las búsquedas en AI Mode de Google terminan sin ningún clic hacia sitios web (Semrush, 69M sesiones).",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "WebmasterWorld", "url": "https://www.webmasterworld.com/google/5132734.htm"},
+        {"nombre": "SEOVendor", "url": "https://seovendor.co/google-unconfirmed-july-2026-update-what-seo-agencies-should-watch-for/"},
+        {"nombre": "Semrush vía Wardem", "url": "https://wardem.com/blog/google-io-2026-que-cambia-en-seo-y-que-hacer-ahora/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "June 2026 spam update: rápido pero sustancial",
+      "resumen": "Rodó en solo dos días, pero se sintió como que empezó antes y pegó fuerte. Hubo además varias actualizaciones de ranking no confirmadas en paralelo.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/july-2026-google-webmaster-report-41591.html"}]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "LLMs.txt no mueve la aguja; Search Console amplía los AI performance reports",
+      "resumen": "Google confirmó que los archivos LLMs.txt no ayudan ni perjudican en Search. Search Console amplió el acceso a los reportes de rendimiento en IA y publicó un deep-dive sobre AI controls.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/july-2026-google-webmaster-report-41591.html"}]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Se retira el rich result de FAQ y el spam ya aplica a las respuestas de IA",
+      "resumen": "La documentación oficial confirma que el resultado enriquecido de FAQ dejó de mostrarse desde el 7 de mayo de 2026, y que las políticas de spam ahora cubren las respuestas de IA generativa en Search.",
+      "idioma": "ES",
+      "fuentes": [{"nombre": "Google Search Central", "url": "https://developers.google.com/search/updates?hl=es-419"}]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Zero-click en España/Europa: 58% de búsquedas sin clic",
+      "resumen": "Datos de SparkToro citados por medios en español sitúan más del 58% de las búsquedas sin ningún clic, con los AI Overviews empujando esa cifra al alza.",
+      "idioma": "ES",
+      "fuentes": [{"nombre": "Digital Factoría", "url": "https://digitalfactoria.com/seo-con-ia-en-2026-como-sobrevivir-si-google-no-da-clics/"}]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Nuevos Términos de Servicio de Google Ads (efectivos 1 jul)",
+      "resumen": "Amplían la autoridad de Google para usar sistemas automatizados y AI que generen, seleccionen y optimicen elementos de campaña en tu nombre; el anunciante sigue siendo responsable del resultado.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-ads-updates-terms-of-service-ahead-of-july-2026-rollout-479255"}]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Adiós a cuatro modelos de atribución",
+      "resumen": "First-click, linear, time-decay y position-based dejan de ser seleccionables para todas las conversiones a partir de mediados de julio.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "Google Ads Help", "url": "https://support.google.com/google-ads/announcements/9048695?hl=en"}]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Passkey obligatorio para acciones sensibles desde el 15 jul",
+      "resumen": "Google notificó a anunciantes que ciertas acciones sensibles en Google Ads requerirán passkey a partir del 15 de julio de 2026.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "Search Herald", "url": "https://searchherald.com/topic/google-adwords"}]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "AI Max absorbe funciones legacy + ads dentro de AI Mode",
+      "resumen": "Desde septiembre, funciones como Dynamic Search Ads se auto-actualizarán a AI Max. En paralelo Google ya testea ads dentro de AI Mode, incluyendo un piloto de ads de salud.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "Google Accelerate", "url": "https://business.google.com/us/accelerate/announcements/"}]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Adobe compra Semrush (~US$1.9B): el GEO ya tiene precio de mercado",
+      "resumen": "El acuerdo enmarca la adquisición alrededor de la visibilidad de marca en la era de la IA agéntica, consolidando el GEO como canal de crecimiento junto al SEO tradicional.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "TechTimes", "url": "https://www.techtimes.com/articles/318359/20260614/generative-engine-optimization-geo-2026-how-get-your-content-cited-chatgpt-ai-overviews.htm"}]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "La búsqueda por IA ya es 12–18% de las queries informacionales",
+      "resumen": "Los AI search engines (ChatGPT, Perplexity, Gemini, Copilot, Claude) manejan un estimado 12–18% de las consultas informacionales en inglés a Q1 2026; hace un año era menos del 2%.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "AI Magicx", "url": "https://www.aimagicx.com/blog/generative-engine-optimization-chatgpt-perplexity-2026"}]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Solo 11% de dominios son citados por ChatGPT y Perplexity a la vez",
+      "resumen": "Rankear en un motor generativo no se traduce al otro: cada engine tiene lógica de selección distinta, así que la estrategia de citación debe ser platform-aware.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "Heeya", "url": "https://heeya.fr/en/blog/generative-engine-optimization-geo-2026"}]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Ventana LatAm: menos competencia de contenido de calidad en español",
+      "resumen": "La IA de búsqueda puede favorecer marcas con español neutro de calidad y relevancia regional; el ecosistema hispano tiene menos contenido profundo, así que la pregunta cambia a «¿por qué me citaría la IA?».",
+      "idioma": "ES",
+      "fuentes": [{"nombre": "Ecosistema Startup", "url": "https://ecosistemastartup.com/google-i-o-2026-3-cambios-que-afectan-tu-seo/"}]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Search Console suma «platform properties» para social y video",
+      "resumen": "Nuevo tipo de propiedad en Search Console para medir cómo rinde tu contenido de Instagram, TikTok, X y YouTube en Google Search y Discover: clics, impresiones y queries por post.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "Google Search Central", "url": "https://developers.google.com/search/blog/2026/07/search-console-social-video-platforms"}]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "La Gen Z busca en TikTok e Instagram, no en Google",
+      "resumen": "Según Adobe, el 64% de la Gen Z usa TikTok como buscador; más del 40% prefiere Instagram o TikTok para buscar, y el uso de Google en esa generación cayó cerca de 25% frente a la Gen X.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "SEO Sherpa", "url": "https://seosherpa.com/tiktok-search-engine/"}]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "El search se fragmenta: una pieza puede ganar en tres capas",
+      "resumen": "El descubrimiento se reparte —búsqueda tradicional ~80%, social ~5.5%, IA ~3.2%— y un mismo contenido puede rankear en plataforma, aparecer en Google y alimentar respuestas de IA. En search-like discovery lidera LinkedIn (27%).",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "DesignRush", "url": "https://www.designrush.com/agency/social-media-marketing/trends/social-seo"}]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Mecánica de ranking: audio, captions y visual search",
+      "resumen": "TikTok premia decir el keyword en los primeros segundos más captions tipo meta y texto en pantalla; Instagram convierte Explore en buscador visual; Pinterest procesa más de 5.000 millones de búsquedas al mes.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "ALM Corp", "url": "https://almcorp.com/blog/youtube-tiktok-instagram-social-seo-2026/"}]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "GEO: Generative Engine Optimization — el paper fundacional",
+      "resumen": "Aggarwal et al. (KDD 2024) definió el GEO y su GEO-bench. Métodos como Statistics Addition y Quotation Addition mejoran la visibilidad en respuestas generativas hasta ~40%.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "arXiv:2311.09735", "url": "https://arxiv.org/abs/2311.09735"}]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "E-GEO: un testbed de GEO para e-commerce",
+      "resumen": "Bagga et al. (2025) llevan el GEO al comercio electrónico con un banco de pruebas y un marco de optimización que apunta a valor comercial real.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "arXiv:2511.20867", "url": "https://arxiv.org/abs/2511.20867"}]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Usar TikTok como buscador: credibilidad y acciones de evaluación",
+      "resumen": "Estudio de 2025 (Elsevier): TikTok se percibe menos valioso que Google en conveniencia, privacidad y funcionalidad; los usuarios validan la información en los comentarios del propio video.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "ScienceDirect", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0736585325000863"}]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "¿Cómo afectan las subastas de ads al precio de los productos?",
+      "resumen": "Bergemann et al. modelan cómo las subastas publicitarias (sponsored junto a orgánico) influyen en los precios finales de los productos.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "arXiv:2304.08432", "url": "https://arxiv.org/abs/2304.08432"}]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Paid vs orgánico: ¿sustitución o complementariedad?",
+      "resumen": "Trabajo de 2025 que revisita si el paid search canibaliza el tráfico orgánico o lo complementa, con evidencia de experimentos de corte de inversión.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "arXiv:2504.16151", "url": "https://arxiv.org/abs/2504.16151"}]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Agentes de información en Search",
+      "resumen": "Agentes 24/7 en segundo plano que monitorean temas y avisan; primero para suscriptores de Google AI Pro y Ultra.",
+      "idioma": "ES",
+      "fuentes": [{"nombre": "Google blog oficial (ES)", "url": "https://blog.google/intl/es-419/actualizaciones-de-producto/search-io-2026/"}]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Placement pagado en AI search",
+      "resumen": "Múltiples plataformas testean slots pagados dentro de respuestas de IA — la citación orgánica se volverá más competitiva.",
+      "idioma": "EN",
+      "fuentes": [{"nombre": "AI Magicx", "url": "https://www.aimagicx.com/blog/generative-engine-optimization-chatgpt-perplexity-2026"}]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Checkout agéntico + Universal Commerce Protocol",
+      "resumen": "La IA leerá stock y precios desde las PDPs para ejecutar compras: la arquitectura de datos de e-retail pasa a ser crítica.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Google Marketing Live 2026", "url": "https://business.google.com/us/accelerate/googlemarketinglive/"},
+        {"nombre": "Wardem", "url": "https://wardem.com/blog/google-io-2026-que-cambia-en-seo-y-que-hacer-ahora/"}
+      ]
+    }
+  ]
+}
