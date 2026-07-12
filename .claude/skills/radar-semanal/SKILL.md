@@ -1,6 +1,7 @@
 ---
 name: radar-semanal
 description: Genera la edición semanal del "SEO/GEO Weekly Radar" (digest HTML de noticias de organic, paid, GEO, social search y papers, en EN+ES con fuentes reales) y la publica sobrescribiendo index.html del repositorio. Usar cuando se pida generar, actualizar o publicar el radar/digest semanal.
+model: opus
 ---
 
 
