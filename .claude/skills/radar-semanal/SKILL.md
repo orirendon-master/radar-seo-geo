@@ -5,6 +5,7 @@ model: opus
 ---
 
 
+
 Eres mi analista de tendencias SEO/GEO. Cada domingo generas el "Search Engine Marketing /
 Weekly Radar": un digest HTML de una sola página con lo más relevante de los últimos 7 días.
 
@@ -84,22 +85,31 @@ Chile/LATAM, y fuente + enlace + chip EN/ES.
 - La animación del radar del masthead NO va dentro de `@media (prefers-reduced-motion)`:
   las reglas `.sweep-g{animation:...}` y `.blip{animation:...}` van directas en el CSS,
   para que gire también en desktop.
-- NAVEGACIÓN POR PESTAÑAS (regla dura): justo debajo del hero va una barra
-  `<nav class="cat-tabs">` con 5 chips `<button class="cat-tab">` lado a lado (flex-wrap):
-  ORGANIC (fondo var(--blue)), PAID (var(--pink)), GEO (var(--lilac)), SOCIAL (var(--mint))
-  y CIENCIA (var(--peri)). Comportamiento:
+- NAVEGACIÓN POR PESTAÑAS (regla dura, alineada a NN/g "Tabs, Used Right"): justo debajo
+  del hero va una barra `<nav class="cat-tabs" role="tablist">` con 5 chips
+  `<button class="cat-tab" role="tab">` lado a lado (flex-wrap): Organic (fondo
+  var(--blue)), Paid (var(--pink)), GEO (var(--lilac)), Social (var(--mint)) y Ciencia
+  (var(--peri)). Etiquetas en Title Case, NUNCA en mayúsculas sostenidas (solo GEO por
+  ser sigla). Comportamiento:
   - Al cargar, un bloque JS en el `<script>` del final del body oculta las secciones
     `.s-paid`, `.s-geo`, `.s-social` y `.s-science` y deja visible `.s-organic`, con el
-    chip ORGANIC en estado activo.
-  - Un clic en un chip muestra SOLO su sección, oculta las otras 4 y actualiza el chip activo.
-  - El chip activo se distingue: opacidad completa, borde/sombra con la variante -deep de su
-    color y font-weight mayor. Los chips inactivos van atenuados (opacity .55).
+    chip Organic en estado activo.
+  - Un clic en un chip muestra SOLO su sección, oculta las otras 4, actualiza el chip
+    activo y su `aria-selected`.
+  - El chip activo usa al menos dos indicadores: opacidad completa, borde/sombra con la
+    variante -deep de su color y font-weight mayor. Los chips inactivos quedan CLARAMENTE
+    visibles y legibles (opacity .8, nunca menos — que no parezcan deshabilitados).
+  - Accesibilidad: `aria-selected` en cada tab, `:focus-visible` con outline visible, y
+    navegación por teclado con flechas izquierda/derecha entre chips.
+  - Proximidad barra-panel: margen inferior de la barra reducido (18px) para que la
+    pestaña activa se lea conectada a su sección.
   - FALLBACK sin JS (regla dura): NUNCA uses `display:none` en el CSS estático para estas
     secciones. El ocultamiento inicial lo hace SOLO el JS al cargar, de modo que con
     JavaScript deshabilitado las 5 secciones se ven completas, como una página normal.
   - "En el radar" (`.radarbox`) y EVENTOS (`.s-events`) NO entran a las pestañas: quedan
     SIEMPRE visibles después del área de secciones, con su markup actual intacto.
-  - En móvil los chips hacen wrap en varias filas, con el mismo estilo.
+  - En móvil los chips caben en una fila (etiquetas cortas); el flex-wrap queda solo
+    como respaldo.
 - TÍTULO (regla dura): el título del masthead es SIEMPRE "Search Engine Marketing
   <span class="slash">/</span> Weekly Radar", y el <title> de la página y el nombre en el
   footer usan "Search Engine Marketing / Weekly Radar". No volver al nombre antiguo.
@@ -113,7 +123,7 @@ Chile/LATAM, y fuente + enlace + chip EN/ES.
   las variables CSS de la paleta ya definidas (nunca colores nuevos). En cada edición
   estos botones y su script se copian tal cual.
 - El footer SIEMPRE conserva el bloque `.foot-links` con dos enlaces: el LinkedIn
-  https://www.linkedin.com/in/orian-rendon/ (con ícono y texto "Orián Rendón") y
+  https://www.linkedin.com/in/orian-rendon/ (con ícono y texto "Oriana Rendón") y
   "Ediciones anteriores →" apuntando a archivo.html.
 - LAYOUT MÓVIL (regla dura): en el media query móvil (max-width:620px) el masthead
   mantiene el título y el radar lado a lado, en la misma fila — NUNCA uses
