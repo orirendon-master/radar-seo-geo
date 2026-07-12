@@ -116,7 +116,7 @@
     border-left:5px solid var(--lilac-deep);
     border-radius:8px;
     padding:22px 24px;
-    margin-bottom:34px;
+    margin-bottom:26px;
   }
   .eyebrow{
     font-weight:700;
@@ -135,6 +135,11 @@
     color:var(--ink);
   }
   .hero p{margin:0;color:var(--ink-soft);font-size:15px;}
+  .hero-stat{
+    margin-top:20px;
+    padding-top:16px;
+    border-top:1px solid var(--hair);
+  }
   .statband{
     display:flex;
     align-items:center;
@@ -144,6 +149,7 @@
     border-radius:10px;
     background:linear-gradient(120deg,#EFE4FB,#FBE1EE);
   }
+  .hero-stat .statband{margin-top:10px;}
   .statband .num{
     font-weight:800;
     font-size:30px;
@@ -158,6 +164,39 @@
     color:var(--ink-soft);
     line-height:1.45;
   }
+
+  /* ---------- CATEGORY TABS ---------- */
+  .cat-tabs{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:0 0 30px;
+  }
+  .cat-tab{
+    padding:6px 16px;
+    border-radius:20px;
+    border:2px solid transparent;
+    font-family:inherit;
+    font-weight:700;
+    font-size:12px;
+    letter-spacing:0.05em;
+    color:var(--ink);
+    cursor:pointer;
+    opacity:.55;
+    transition:opacity .15s ease, transform .15s ease, box-shadow .15s ease;
+  }
+  .cat-tab:hover{opacity:.85;}
+  .cat-tab.tab-organic{background:var(--blue);}
+  .cat-tab.tab-paid{background:var(--pink);}
+  .cat-tab.tab-geo{background:var(--lilac);}
+  .cat-tab.tab-social{background:var(--mint);}
+  .cat-tab.tab-science{background:var(--peri);}
+  .cat-tab.active{opacity:1;font-weight:800;transform:translateY(-1px);}
+  .cat-tab.tab-organic.active{border-color:var(--blue-deep);box-shadow:0 2px 6px rgba(143,178,236,0.45);}
+  .cat-tab.tab-paid.active{border-color:var(--pink-deep);box-shadow:0 2px 6px rgba(236,156,194,0.45);}
+  .cat-tab.tab-geo.active{border-color:var(--lilac-deep);box-shadow:0 2px 6px rgba(172,141,230,0.45);}
+  .cat-tab.tab-social.active{border-color:var(--mint-deep);box-shadow:0 2px 6px rgba(127,196,184,0.45);}
+  .cat-tab.tab-science.active{border-color:var(--peri-deep);box-shadow:0 2px 6px rgba(144,150,224,0.45);}
 
   /* ---------- SECTIONS ---------- */
   .section{margin-bottom:34px;}
@@ -285,8 +324,9 @@
   .foot-links svg{width:12px;height:12px;flex:0 0 12px;}
 
   @media (max-width:620px){
-    .masthead{flex-direction:column;align-items:flex-start;}
-    .mast-title{font-size:25px;}
+    .masthead{gap:14px;padding:24px 20px 22px;}
+    .radar{width:64px;height:64px;flex:0 0 64px;}
+    .mast-title{font-size:20px;}
     .hero{grid-template-columns:1fr;}
     .ev{grid-template-columns:1fr;gap:4px;}
     .ev .where{text-align:left;}
@@ -343,12 +383,25 @@
     <p class="eyebrow">Señal de la semana</p>
     <h2>Julio parte movido: rankings inestables y caídas de tráfico que Google aún no confirma</h2>
     <p>Desde el 2 de julio, varios sitios reportan cambios bruscos de posiciones en Google y pérdidas de visibilidad de un día para otro —algunos hasta la mitad— sin que exista una actualización confirmada. Mientras no estabilice, evita sacar conclusiones de las comparaciones día a día.</p>
-    <div class="statband">
-      <div class="num">93%</div>
-      <div class="cap">de las búsquedas en AI Mode de Google terminan <b>sin ningún clic hacia sitios web</b>, según un estudio de Semrush sobre 69 millones de sesiones.</div>
+    <p class="src" style="margin-top:12px;"><b>Fuentes de la historia</b> · Volatilidad (reportes de foro/blog, no confirmado): <a href="https://www.webmasterworld.com/google/5132734.htm">WebmasterWorld</a>, <a href="https://seovendor.co/google-unconfirmed-july-2026-update-what-seo-agencies-should-watch-for/">SEOVendor</a></p>
+    <div class="hero-stat">
+      <p class="eyebrow">El dato de la semana</p>
+      <div class="statband">
+        <div class="num">93%</div>
+        <div class="cap">de las búsquedas en AI Mode de Google terminan <b>sin ningún clic hacia sitios web</b>, según un estudio de Semrush sobre 69 millones de sesiones.</div>
+      </div>
+      <p class="src" style="margin-top:10px;"><b>Fuente del dato</b> · Estudio de <a href="https://wardem.com/blog/google-io-2026-que-cambia-en-seo-y-que-hacer-ahora/">Semrush (69M sesiones), vía Wardem</a></p>
     </div>
-    <p class="src" style="margin-top:12px;"><b>Fuentes</b> · Volatilidad (reportes de foro/blog, no confirmado): <a href="https://www.webmasterworld.com/google/5132734.htm">WebmasterWorld</a>, <a href="https://seovendor.co/google-unconfirmed-july-2026-update-what-seo-agencies-should-watch-for/">SEOVendor</a> · Dato 93%: estudio de <a href="https://wardem.com/blog/google-io-2026-que-cambia-en-seo-y-que-hacer-ahora/">Semrush (69M sesiones), vía Wardem</a></p>
   </section>
+
+  <!-- CATEGORY TABS -->
+  <nav class="cat-tabs" aria-label="Categorías del radar">
+    <button class="cat-tab tab-organic" type="button" data-target="s-organic">ORGANIC</button>
+    <button class="cat-tab tab-paid" type="button" data-target="s-paid">PAID</button>
+    <button class="cat-tab tab-geo" type="button" data-target="s-geo">GEO</button>
+    <button class="cat-tab tab-social" type="button" data-target="s-social">SOCIAL</button>
+    <button class="cat-tab tab-science" type="button" data-target="s-science">CIENCIA</button>
+  </nav>
 
   <!-- ORGANIC -->
   <section class="section s-organic">
@@ -364,9 +417,9 @@
       <div class="meta"><span class="chip en">EN</span><span>Search Engine Roundtable</span><span>·</span><a href="https://www.seroundtable.com/july-2026-google-webmaster-report-41591.html">seroundtable.com</a></div>
     </article>
     <article class="item">
-      <h3>LLMs.txt no mueve la aguja; Search Console amplía los AI performance reports</h3>
+      <h3>LLMs.txt no mueve la aguja y Search Console amplía los AI performance reports</h3>
       <p>Google confirmó que los archivos LLMs.txt no ayudan ni perjudican en Search. En paralelo, Search Console amplió el acceso a los reportes de rendimiento en IA y publicó un deep-dive sobre AI controls.</p>
-      <p class="why">Deja de perder tiempo en LLMs.txt; el dato accionable está en los nuevos AI reports de GSC.</p>
+      <p class="why">Deja de perder tiempo en LLMs.txt. El dato accionable está en los nuevos AI reports de GSC.</p>
       <div class="meta"><span class="chip en">EN</span><span>Search Engine Roundtable</span><span>·</span><a href="https://www.seroundtable.com/july-2026-google-webmaster-report-41591.html">seroundtable.com</a></div>
     </article>
     <article class="item">
@@ -411,7 +464,7 @@
     <article class="item">
       <h3>AI Max absorbe funciones legacy + ads dentro de AI Mode</h3>
       <p>Desde septiembre, funciones como Dynamic Search Ads se auto-actualizarán a AI Max. En paralelo Google ya testea ads dentro de AI Mode (incluyendo un piloto de ads de salud).</p>
-      <p class="why">La era de "keywords sueltas" se cierra; el foco pasa a feeds, señales y assets limpios.</p>
+      <p class="why">La era de "keywords sueltas" se cierra. El foco pasa a feeds, señales y assets limpios.</p>
       <div class="meta"><span class="chip en">EN</span><span>Google Accelerate</span><span>·</span><a href="https://business.google.com/us/accelerate/announcements/">business.google.com</a></div>
     </article>
   </section>
@@ -424,7 +477,7 @@
       <span class="count">04 señales</span>
     </div>
     <article class="item">
-      <h3>Adobe compra Semrush (~US$1.9B): el GEO ya tiene precio de mercado</h3>
+      <h3>Adobe compra Semrush (unos US$1.900 millones): el GEO ya tiene precio de mercado</h3>
       <p>El acuerdo (anunciado en noviembre 2025) enmarca la adquisición alrededor de la visibilidad de marca "en la era de la IA agéntica", consolidando el GEO como canal de crecimiento junto al SEO tradicional.</p>
       <p class="why">Señal fuerte para vender GEO a clientes: el mercado lo está valorando en miles de millones.</p>
       <div class="meta"><span class="chip en">EN</span><span>TechTimes</span><span>·</span><a href="https://www.techtimes.com/articles/318359/20260614/generative-engine-optimization-geo-2026-how-get-your-content-cited-chatgpt-ai-overviews.htm">techtimes.com</a></div>
@@ -464,19 +517,19 @@
     </article>
     <article class="item">
       <h3>La Gen Z busca en TikTok e Instagram, no en Google</h3>
-      <p>Según Adobe, el 64% de la Gen Z usa TikTok como buscador; Google reconoce que más del 40% de la Gen Z prefiere Instagram o TikTok para buscar, y el uso de Google en esa generación cayó cerca de 25% frente a la Gen X.</p>
+      <p>Según Adobe, el 64% de la Gen Z usa TikTok como buscador. Google reconoce que más del 40% de la Gen Z prefiere Instagram o TikTok para buscar, y el uso de Google en esa generación cayó cerca de 25% frente a la Gen X.</p>
       <p class="why">Para clientes con público joven (beauty, food, local), el social search ya no es opcional.</p>
       <div class="meta"><span class="chip en">EN</span><span>SEO Sherpa</span><span>·</span><a href="https://seosherpa.com/tiktok-search-engine/">seosherpa.com</a></div>
     </article>
     <article class="item">
       <h3>El search se fragmenta: una pieza puede ganar en tres capas</h3>
-      <p>El descubrimiento se reparte —búsqueda tradicional ~80%, social ~5.5%, IA ~3.2%— y un mismo video o post puede rankear dentro de la plataforma, aparecer en Google y alimentar respuestas de IA. En "search-like discovery", LinkedIn encabeza (27%), seguido de YouTube, Instagram y TikTok.</p>
+      <p>El descubrimiento se reparte —búsqueda tradicional alrededor del 80%, social cerca del 5.5% e IA cerca del 3.2%— y un mismo video o post puede rankear dentro de la plataforma, aparecer en Google y alimentar respuestas de IA. En "search-like discovery", LinkedIn encabeza (27%), seguido de YouTube, Instagram y TikTok.</p>
       <p class="why">Piensa en contenido "reusable": optimízalo una vez, gana en plataforma + Google + LLM.</p>
       <div class="meta"><span class="chip en">EN</span><span>DesignRush</span><span>·</span><a href="https://www.designrush.com/agency/social-media-marketing/trends/social-seo">designrush.com</a></div>
     </article>
     <article class="item">
       <h3>Mecánica de ranking: audio, captions y visual search</h3>
-      <p>TikTok premia decir el keyword en los primeros segundos (speech-to-text) más captions tipo meta y texto en pantalla; Instagram convierte Explore en un buscador visual; y Pinterest procesa más de 5.000 millones de búsquedas al mes.</p>
+      <p>TikTok premia decir el keyword en los primeros segundos (speech-to-text) más captions tipo meta y texto en pantalla. Instagram convierte Explore en un buscador visual y Pinterest procesa más de 5.000 millones de búsquedas al mes.</p>
       <p class="why">On-screen text + keyword hablado en el primer frame = tu nuevo title tag social.</p>
       <div class="meta"><span class="chip en">EN</span><span>ALM Corp</span><span>·</span><a href="https://almcorp.com/blog/youtube-tiktok-instagram-social-seo-2026/">almcorp.com</a></div>
     </article>
@@ -491,7 +544,7 @@
     </div>
     <article class="item">
       <h3>GEO: Generative Engine Optimization — el paper fundacional</h3>
-      <p>Aggarwal et al. (Princeton, Georgia Tech, IIT Delhi), presentado en KDD 2024, definió el GEO y su GEO-bench. Métodos como "Statistics Addition" y "Quotation Addition" mejoran la visibilidad en respuestas generativas hasta ~40%, mientras que el keyword stuffing clásico rinde mal.</p>
+      <p>Aggarwal et al. (Princeton, Georgia Tech, IIT Delhi), presentado en KDD 2024, definió el GEO y su GEO-bench. Métodos como "Statistics Addition" y "Quotation Addition" mejoran la visibilidad en respuestas generativas hasta cerca de 40%, mientras que el keyword stuffing clásico rinde mal.</p>
       <p class="why">Es la base académica del GEO — cítala cuando un cliente pregunte de dónde sale la disciplina.</p>
       <div class="meta"><span class="chip en">EN</span><span>KDD 2024 · Aggarwal et al.</span><span>·</span><a href="https://arxiv.org/abs/2311.09735">arXiv:2311.09735</a></div>
     </article>
@@ -503,7 +556,7 @@
     </article>
     <article class="item">
       <h3>Usar TikTok como buscador: credibilidad y acciones de evaluación</h3>
-      <p>Estudio de 2025 (Elsevier): como buscador, TikTok se percibe menos valioso que Google en conveniencia, privacidad y funcionalidad; los usuarios validan la información mirando comentarios y elementos del propio video más que fuentes externas.</p>
+      <p>Estudio de 2025 (Elsevier): como buscador, TikTok se percibe menos valioso que Google en conveniencia, privacidad y funcionalidad. Los usuarios validan la información mirando comentarios y elementos del propio video más que fuentes externas.</p>
       <p class="why">Matiz clave para vender social search: no reemplaza a Google, y la credibilidad se juega en los comentarios.</p>
       <div class="meta"><span class="chip en">EN</span><span>ScienceDirect · 2025</span><span>·</span><a href="https://www.sciencedirect.com/science/article/abs/pii/S0736585325000863">sciencedirect.com</a></div>
     </article>
@@ -567,7 +620,7 @@
     <p class="rb-sub">Se está formando — vigilar próximas semanas</p>
     <div class="rb-item">
       <span class="date">Próx. meses</span>
-      <span class="txt"><b>Agentes de información en Search.</b> Agentes 24/7 en segundo plano que monitorean temas y avisan; primero para suscriptores de Google AI Pro y Ultra.<span class="rb-src">Fuente: <a href="https://blog.google/intl/es-419/actualizaciones-de-producto/search-io-2026/">Google — blog oficial (ES), Search I/O 2026</a></span></span>
+      <span class="txt"><b>Agentes de información en Search.</b> Agentes 24/7 en segundo plano que monitorean temas y avisan — primero para suscriptores de Google AI Pro y Ultra.<span class="rb-src">Fuente: <a href="https://blog.google/intl/es-419/actualizaciones-de-producto/search-io-2026/">Google — blog oficial (ES), Search I/O 2026</a></span></span>
     </div>
     <div class="rb-item">
       <span class="date">En piloto</span>
@@ -618,6 +671,26 @@ async function compartir(btn){
     setTimeout(() => { lbl.textContent = 'Compartir'; }, 2000);
   }
 }
+
+/* Enlaces externos: abrir en pestaña nueva sin sacar al lector del digest.
+   Los enlaces internos (href="archivo.html") no se tocan. */
+document.querySelectorAll('a[href^="http"]').forEach(a => { a.target='_blank'; a.rel='noopener'; });
+
+/* Pestañas de categorías. El ocultamiento inicial lo hace SOLO este script:
+   sin JavaScript, las cinco secciones quedan visibles (fallback sin pérdidas). */
+(function(){
+  const tabs = document.querySelectorAll('.cat-tabs .cat-tab');
+  const cats = ['s-organic','s-paid','s-geo','s-social','s-science'];
+  function activar(target){
+    cats.forEach(c => {
+      const sec = document.querySelector('.section.' + c);
+      if (sec) sec.style.display = (c === target) ? '' : 'none';
+    });
+    tabs.forEach(t => t.classList.toggle('active', t.dataset.target === target));
+  }
+  tabs.forEach(t => t.addEventListener('click', () => activar(t.dataset.target)));
+  activar('s-organic');
+})();
 </script>
 </body>
 </html>
