@@ -108,8 +108,10 @@ Chile/LATAM, y fuente + enlace + chip EN/ES.
     JavaScript deshabilitado las 5 secciones se ven completas, como una página normal.
   - "En el radar" (`.radarbox`) y EVENTOS (`.s-events`) NO entran a las pestañas: quedan
     SIEMPRE visibles después del área de secciones, con su markup actual intacto.
-  - En móvil los chips caben en una fila (etiquetas cortas); el flex-wrap queda solo
-    como respaldo.
+  - En móvil (max-width:620px) los chips van SIEMPRE en UNA sola fila: la barra usa
+    `flex-wrap:nowrap` con `overflow-x:auto` (scrollbar oculta, scroll táctil) y los
+    chips se compactan (padding 7px 12px, font-size 11.5px, white-space:nowrap).
+    NUNCA debe quedar un chip solo en una segunda fila.
 - TÍTULO (regla dura): el título del masthead es SIEMPRE "Search Engine Marketing
   <span class="slash">/</span> Weekly Radar", y el <title> de la página y el nombre en el
   footer usan "Search Engine Marketing / Weekly Radar". No volver al nombre antiguo.
