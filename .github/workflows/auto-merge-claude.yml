@@ -1,0 +1,37 @@
+name: Auto-merge ramas claude a main
+
+# Cuando la rutina del radar sube una rama claude/..., esta accion la
+# fusiona automaticamente a main y borra la rama. Netlify despliega solo.
+
+on:
+  push:
+    branches:
+      - 'claude/**'
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configurar identidad de git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fusionar la rama claude en main
+        run: |
+          git fetch origin "${GITHUB_REF_NAME}"
+          git merge --no-edit "origin/${GITHUB_REF_NAME}"
+          git push origin main
+
+      - name: Borrar la rama claude ya fusionada
+        run: |
+          git push origin --delete "${GITHUB_REF_NAME}"
