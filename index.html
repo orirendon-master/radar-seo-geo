@@ -736,8 +736,19 @@ document.querySelectorAll('a[href^="http"]').forEach(a => { a.target='_blank'; a
       t.setAttribute('aria-selected', on ? 'true' : 'false');
     });
   }
+  /* Si el lector ya bajó (la barra va pegada arriba), al elegir una categoría
+     lo llevamos suavemente al inicio de esa sección, justo bajo la barra. */
+  const bar = document.querySelector('.cat-tabs');
+  function irASeccion(target){
+    const sec = document.querySelector('.section.' + target);
+    if (!sec || !bar) return;
+    if (bar.getBoundingClientRect().top <= 0) {
+      const y = sec.getBoundingClientRect().top + window.scrollY - bar.offsetHeight - 8;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  }
   tabs.forEach((t, i) => {
-    t.addEventListener('click', () => activar(t.dataset.target));
+    t.addEventListener('click', () => { activar(t.dataset.target); irASeccion(t.dataset.target); });
     t.addEventListener('keydown', e => {
       if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
       e.preventDefault();
@@ -745,6 +756,7 @@ document.querySelectorAll('a[href^="http"]').forEach(a => { a.target='_blank'; a
       const next = tabs[(i + dir + tabs.length) % tabs.length];
       next.focus();
       activar(next.dataset.target);
+      irASeccion(next.dataset.target);
     });
   });
   activar('s-organic');
