@@ -102,6 +102,12 @@ Chile/LATAM, y fuente + enlace + chip EN/ES.
     navegación por teclado con flechas izquierda/derecha entre chips.
   - Proximidad barra-panel: margen inferior de la barra reducido (18px) para que la
     pestaña activa se lea conectada a su sección.
+  - BARRA PEGAJOSA (regla dura): la barra `.cat-tabs` es sticky — acompaña al lector al
+    hacer scroll para que nunca pierda de vista las demás categorías. CSS obligatorio:
+    `position:sticky; top:0; z-index:50`, fondo semitranslúcido `rgba(251,247,253,0.92)`
+    con `backdrop-filter:blur(6px)` (y su versión -webkit-), `border-bottom:1px solid
+    var(--hair)`, margen lateral negativo (-20px) con padding horizontal 20px para
+    ocupar el ancho completo del wrap.
   - FALLBACK sin JS (regla dura): NUNCA uses `display:none` en el CSS estático para estas
     secciones. El ocultamiento inicial lo hace SOLO el JS al cargar, de modo que con
     JavaScript deshabilitado las 5 secciones se ven completas, como una página normal.
