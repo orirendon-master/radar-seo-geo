@@ -1,0 +1,187 @@
+{"edicion": 2, "fecha": "2026-07-13", "semana": "8–13 jul 2026", "items": [
+  {"seccion": "SEÑAL DE LA SEMANA",
+   "titular": "La publicidad entra de lleno en la búsqueda con IA: ChatGPT abre anuncios en Japón y Corea del Sur",
+   "resumen": "OpenAI activó los anuncios dentro de ChatGPT en Japón y Corea del Sur, sus primeros mercados fuera del inglés, y sumó pestaña de resumen, audiencias personalizadas y borradores sugeridos en su gestor. Los anuncios solo se muestran a usuarios de los planes Free y Go.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "Search Engine Land", "url": "https://searchengineland.com/chatgpt-ads-new-overview-tab-suggested-ad-drafts-new-ad-formats-and-more-481913"},
+     {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/chatgpt-ads-overview-tab-41661.html"},
+     {"nombre": "PPC Land", "url": "https://ppc.land/chatgpt-ads-go-live-in-japan-and-south-korea-and-uk-gets-self-serve/"},
+     {"nombre": "Agencia Instante (ES)", "url": "https://agenciainstante.com/publicidad-anuncios-chatgpt-espana/"}
+   ]},
+  {"seccion": "ORGANIC",
+   "titular": "La mayoría de las búsquedas en Google ya no dan clic: 68% en Estados Unidos",
+   "resumen": "El estudio 2026 de SparkToro, con datos de Similarweb, calcula que el 68% de las búsquedas en Google en Estados Unidos terminaron sin clic en los primeros cuatro meses del año, frente al 60% de 2024. Los AI Overviews bajan los clics cerca de 60% cuando aparecen.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "SparkToro", "url": "https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/"},
+     {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-zero-click-searches-2026-study-479717"}
+   ]},
+  {"seccion": "ORGANIC",
+   "titular": "Google suma \"categoría\" y \"duración de la oferta\" al structured data de productos",
+   "resumen": "Desde el 7 de julio la documentación de fichas de producto acepta la propiedad de categoría y el rango de fechas de precio rebajado, para expresarlas a nivel de página y no solo en el feed de Merchant Center.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-merchant-listings-support-sale-duration-and-product-category-481730"},
+     {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-product-category-sale-duration-merchant-listing-41637.html"}
+   ]},
+  {"seccion": "ORGANIC",
+   "titular": "Google aclara cuánto tarda en corregir problemas de canonicalización",
+   "resumen": "El 10 de julio Google actualizó su guía de canónicos y agregó una sección sobre cuánto puede quedar una página en un grupo de duplicados tras arreglar el contenido, según si están agrupadas y si son suficientemente distintas.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/recap-07-10-2026-41665.html"},
+     {"nombre": "Reporte mensual (Search Engine Roundtable)", "url": "https://www.seroundtable.com/july-2026-google-webmaster-report-41591.html"}
+   ]},
+  {"seccion": "ORGANIC",
+   "titular": "Sigue la volatilidad de julio sin actualización confirmada",
+   "resumen": "Los rastreadores marcan movimientos fuertes de posiciones durante julio sin que Google confirme ninguna actualización. Buena parte es la cola del spam update de junio, cambios habituales y pruebas de las superficies de IA. No confirmado.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "Joseph Charnin", "url": "https://www.josephcharnin.com/seo/unconfirmed-july-2026-google-ranking-volatility/"},
+     {"nombre": "Behind the Search", "url": "https://behindthesearch.in/blog/google-algorithm-ranking-volatility-2026"}
+   ]},
+  {"seccion": "PAID",
+   "titular": "Google empieza a etiquetar los anuncios hechos con IA",
+   "resumen": "Desde el 9 de julio, Google agregó la sección \"Cómo se creó este anuncio\" al panel My Ad Center en Search, YouTube y Discover. En la Unión Europea, India y Nueva York la etiqueta se muestra de forma más visible por exigencia local.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "Google (blog oficial)", "url": "https://blog.google/products/ads-commerce/google-ads-ai-transparency-labels/"},
+     {"nombre": "PPC Land", "url": "https://ppc.land/google-adds-how-this-ad-was-made-ai-labels-24-days-before-eu-deadline/"}
+   ]},
+  {"seccion": "PAID",
+   "titular": "Google Ads asigna categorías de producto de forma automática",
+   "resumen": "Google confirmó que asigna cada producto a una categoría con una taxonomía que evoluciona de forma continua. La versión 2026 suma hogar inteligente, vehículos eléctricos y dispositivos de IA, y el plazo para dejar categorías descontinuadas vence el 31 de julio.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-ads-product-categories-evolving-taxonomy-41654.html"}
+   ]},
+  {"seccion": "PAID",
+   "titular": "Reddit lanza Max Campaigns, campañas totalmente automatizadas",
+   "resumen": "Reddit estrenó Max Campaigns, un formato que automatiza segmentación, puja y entrega en todo su inventario. El anunciante solo aporta presupuesto, creativos y objetivo de optimización.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/ppc-pulse-reddit-max-campaigns-google-creator-microsoft-targeting-updates/564712/"}
+   ]},
+  {"seccion": "GEO",
+   "titular": "OpenAI cierra su navegador Atlas menos de un año después de lanzarlo",
+   "resumen": "OpenAI anunció el 9 de julio que jubila Atlas, que dejará de funcionar el 9 de agosto de 2026. Las funciones de navegación con IA pasan a la app de escritorio de ChatGPT y a una extensión para Chrome.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/"},
+     {"nombre": "The Register", "url": "https://www.theregister.com/ai-and-ml/2026/07/10/openais-atlas-browser-doesnt-make-it-to-its-first-birthday/5269818"}
+   ]},
+  {"seccion": "GEO",
+   "titular": "Perplexity ya repartió US$42,5 millones a editores por citar su contenido",
+   "resumen": "El programa Comet Plus de Perplexity destina un fondo de US$42,5 millones con reparto 80/20. El pago se calcula por frecuencia de citación, tipo de usuario, intención comercial y geografía, no por clics. Ya hay más de 2.400 editores inscritos.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/news/perplexity-ai-unveils-42-5m-203004966.html"},
+     {"nombre": "Digiday", "url": "https://digiday.com/media/how-perplexity-new-revenue-model-works-according-to-its-head-of-publisher-partnerships/"}
+   ]},
+  {"seccion": "GEO",
+   "titular": "El \"AI Mode\" con contexto personal llega a casi 200 países sin suscripción",
+   "resumen": "Google sigue expandiendo la Personal Intelligence dentro de AI Mode a cerca de 200 países en 98 idiomas, sin suscripción. El usuario puede conectar apps como Gmail y Google Fotos para respuestas con su propio contexto.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "Google (blog oficial)", "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/"}
+   ]},
+  {"seccion": "GEO",
+   "titular": "¿Se puede confiar en ChatGPT ahora que sus respuestas llevan anuncios?",
+   "resumen": "Medios en español advierten que, con la publicidad entrando en ChatGPT, la línea entre respuesta orgánica y anuncio se vuelve más difusa. OpenAI dice que los anuncios no condicionan las respuestas, pero el debate sobre confianza queda abierto.",
+   "idioma": "ES",
+   "fuentes": [
+     {"nombre": "ADSLZone", "url": "https://www.adslzone.net/noticias/ia/chatgpt-ads-anuncios-respuestas-condicionadas/"}
+   ]},
+  {"seccion": "SOCIAL",
+   "titular": "Google Search Profiles: perfil propio para creadores y publishers en la SERP",
+   "resumen": "Google lanzó Search Profiles, un espacio propio y compartible para destacar el trabajo de creadores y publishers en Search y Discover. Al inicio pide más de 100.000 seguidores en YouTube, Instagram o X, 300.000 en TikTok, y estar en Estados Unidos.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "Google (blog oficial)", "url": "https://blog.google/products-and-platforms/products/search/a-new-profile-to-help-publishers-and-creators-highlight-their-work-on-search/"},
+     {"nombre": "Semrush", "url": "https://www.semrush.com/blog/google-launches-search-profiles/"}
+   ]},
+  {"seccion": "SOCIAL",
+   "titular": "TikTok deja controlar las palabras clave que asigna a tus videos",
+   "resumen": "TikTok permite ahora a los creadores sugerir o bloquear las palabras clave que se asignan de forma automática a sus videos, con más control sobre cómo se emparejan con las búsquedas y las audiencias dentro de la app.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "Socialync", "url": "https://www.socialync.io/blog/tiktok-algorithm-2026-what-works-now"},
+     {"nombre": "The Gain Blog", "url": "https://blog.gainapp.com/social-media-updates/"}
+   ]},
+  {"seccion": "SOCIAL",
+   "titular": "Reddit se dispara en la búsqueda con IA y es la fuente más citada por los chatbots",
+   "resumen": "Reddit es hoy el segundo sitio más visitado de Estados Unidos, impulsado por las referencias de los asistentes de IA. El acuerdo de datos con Google, por cerca de US$60 millones al año, hace que su contenido aparezca más en los resúmenes de IA.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "SOCi", "url": "https://www.soci.ai/blog/local-memo-linkedin-links-clarified-reddit-surges-in-ai-search-new-google-ai-summaries-chatgpt-focuses-on-factuality/"},
+     {"nombre": "Marketing Dive", "url": "https://www.marketingdive.com/news/google-search-reddit-data-sharing/708353/"}
+   ]},
+  {"seccion": "SOCIAL",
+   "titular": "Los posts de LinkedIn empiezan a aparecer en los resultados de Google",
+   "resumen": "La indexación de Google ya incluye publicaciones de LinkedIn, sobre todo las de opinión y análisis, que empiezan a mostrarse en resultados orgánicos. El liderazgo de pensamiento deja de quedar solo detrás del muro de la plataforma.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "SEO Sherpa", "url": "https://seosherpa.com/social-becomes-search/"},
+     {"nombre": "SOCi", "url": "https://www.soci.ai/blog/local-memo-linkedin-links-clarified-reddit-surges-in-ai-search-new-google-ai-summaries-chatgpt-focuses-on-factuality/"}
+   ]},
+  {"seccion": "CIENCIA",
+   "titular": "De elegir la cita a absorberla: cómo miden los motores generativos tu contenido",
+   "resumen": "Yao et al. (abril 2026) proponen un marco en dos etapas, selección y absorción de la cita. Sobre 602 prompts y más de 21.000 citas, Perplexity y Google citan más fuentes, mientras ChatGPT cita menos pero con más peso por página.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "arXiv · Yao et al.", "url": "https://arxiv.org/abs/2604.25707"}
+   ]},
+  {"seccion": "CIENCIA",
+   "titular": "La estructura del contenido decide cuánto te citan",
+   "resumen": "Junwei Yu et al. (marzo 2026) muestran que trabajar la estructura del contenido, y no solo el texto, mejora la tasa de citación 17,3% y la calidad percibida 18,5% en seis motores generativos principales.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "arXiv · Junwei Yu et al.", "url": "https://arxiv.org/abs/2603.29979"}
+   ]},
+  {"seccion": "CIENCIA",
+   "titular": "Qué se cita: la competencia por la cita en los motores de respuesta",
+   "resumen": "Vishwakarma, Kumar y Jamidar construyen un banco de pruebas de dos documentos y 252.000 ensayos. La relevancia temática y la posición en la lista son los mayores factores para ser citado primero.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "arXiv · Vishwakarma et al.", "url": "https://arxiv.org/abs/2605.25517"}
+   ]},
+  {"seccion": "CIENCIA",
+   "titular": "Optimizar por intención, no por palabras clave, para ser citado",
+   "resumen": "Xiaolu Chen et al. presentan un método guiado por roles e intención de búsqueda. Usar la intención como señal mejora la impresión subjetiva y la visibilidad objetiva dentro de las respuestas de los motores generativos.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "arXiv · Xiaolu Chen et al.", "url": "https://arxiv.org/abs/2508.11158"}
+   ]},
+  {"seccion": "CIENCIA",
+   "titular": "Las recomendaciones de búsqueda de TikTok, bajo la lupa académica",
+   "resumen": "Annabell, Gorwa, Scharlach, van de Kerkhof y Bertaglia analizan las recomendaciones de búsqueda de TikTok y advierten la falta de transparencia sobre cómo se generan y moderan, con una agenda de investigación para entender esta capa de descubrimiento.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "arXiv · Annabell et al.", "url": "https://arxiv.org/abs/2505.08385"}
+   ]},
+  {"seccion": "EN EL RADAR",
+   "titular": "Anuncios de ChatGPT en Brasil y México",
+   "resumen": "OpenAI ya nombró a Brasil y México como próximos mercados para su publicidad, aún sin fecha confirmada. Serían los primeros de América Latina.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "PPC Land", "url": "https://ppc.land/chatgpt-ads-finally-leave-the-us-uk-japan-korea-brazil-and-mexico-next/"},
+     {"nombre": "ALM Corp", "url": "https://almcorp.com/blog/openai-chatgpt-ads-expands-uk-japan-south-korea-brazil-mexico/"}
+   ]},
+  {"seccion": "EN EL RADAR",
+   "titular": "Google tendrá que explicar cómo ordena sus resultados",
+   "resumen": "La autoridad de competencia del Reino Unido (CMA) ordenó a Google dar más transparencia sobre su ranking y avisar antes de cambios importantes, con seis meses para aplicarlo.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "GOV.UK", "url": "https://www.gov.uk/government/news/further-cma-action-to-secure-a-fairer-deal-for-businesses-and-improve-google-search-services-in-uk"},
+     {"nombre": "Search Engine Land", "url": "https://searchengineland.com/uk-cma-orders-google-to-explain-how-search-results-are-ranked-480520"}
+   ]},
+  {"seccion": "EN EL RADAR",
+   "titular": "ChatGPT como capa sobre Chrome",
+   "resumen": "Tras cerrar Atlas, OpenAI trae una extensión de ChatGPT para Chrome y un navegador dentro de su app de escritorio para leer páginas y ejecutar tareas.",
+   "idioma": "EN",
+   "fuentes": [
+     {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/"},
+     {"nombre": "9to5Mac", "url": "https://9to5mac.com/2026/07/09/openai-is-discontinuing-chatgpt-atlas-its-standalone-desktop-browser/"}
+   ]}
+]}
