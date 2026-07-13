@@ -108,6 +108,12 @@ Chile/LATAM, y fuente + enlace + chip EN/ES.
     con `backdrop-filter:blur(6px)` (y su versión -webkit-), `border-bottom:1px solid
     var(--hair)`, margen lateral negativo (-20px) con padding horizontal 20px para
     ocupar el ancho completo del wrap.
+  - SCROLL AL ELEGIR CATEGORÍA (regla dura): el JS de tabs incluye la función
+    `irASeccion(target)`: si la barra ya está pegada al tope
+    (`bar.getBoundingClientRect().top <= 0`), al hacer clic (o navegar con flechas) en
+    un chip la página sube con scroll suave hasta el inicio de la sección elegida,
+    posicionándola justo debajo de la barra (top de la sección menos alto de la barra
+    menos 8px). Si el lector está arriba (barra aún no pegada), NO se hace scroll.
   - FALLBACK sin JS (regla dura): NUNCA uses `display:none` en el CSS estático para estas
     secciones. El ocultamiento inicial lo hace SOLO el JS al cargar, de modo que con
     JavaScript deshabilitado las 5 secciones se ven completas, como una página normal.
