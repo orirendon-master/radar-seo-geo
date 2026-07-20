@@ -1,0 +1,218 @@
+{
+  "edicion": 3,
+  "fecha": "2026-07-20",
+  "semana": "14–20 jul 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "Google Imágenes cumple 25 años y se reinventa: portada personalizada y creación de imágenes con IA en la Búsqueda",
+      "resumen": "El 14 de julio Google celebró los 25 años de Google Imágenes con su mayor rediseño desde el lanzamiento. La portada da paso a una galería personalizada tipo Para ti con colecciones, y suma la creación de imágenes con IA (tecnología Nano Banana) dentro de la Búsqueda y los AI Overviews, primero en Estados Unidos y en escritorio.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "9to5Google", "url": "https://9to5google.com/2026/07/14/google-images-redesign/"},
+        {"nombre": "ChannelNews", "url": "https://www.channelnews.com.au/google-images-25th-anniversary-update-adds-major-redesign-ai-image-generation/"},
+        {"nombre": "AlternativeTo", "url": "https://alternativeto.net/news/2026/7/google-images-unveils-brand-new-homepage-and-ai-image-generation-to-mark-25th-anniversary/"},
+        {"nombre": "Previsible (dato de la semana)", "url": "https://previsible.com/seo-strategy/ai-traffic-report-july-2026/"},
+        {"nombre": "Search Engine Land (dato de la semana)", "url": "https://searchengineland.com/chatgpt-ai-referral-traffic-sessions-data-481630"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "La volatilidad de rankings de julio sigue sin update confirmado",
+      "resumen": "Los rastreadores marcaron un pico de movimiento alrededor del 11 de julio y otro durante el fin de semana del 18, sin que Google confirme ninguna actualización. Buena parte parece la cola del spam update de junio y las pruebas de las superficies de IA.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-search-ranking-volatility-july-11th-41676.html"},
+        {"nombre": "Digital Phablet", "url": "https://digitalphablet.com/digital-marketing/weekend-google-search-rankings-fluctuations-july-18th-update/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Search Console amplía sus reportes de visibilidad en la IA de la Búsqueda",
+      "resumen": "Google sigue desplegando los reportes de rendimiento de IA generativa en Search Console, que muestran las impresiones de tus páginas dentro de AI Overviews, AI Mode y las funciones de IA de Discover. El acceso empezó por un grupo de sitios del Reino Unido y todavía no incluye datos de clics.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Google (blog oficial)", "url": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports"},
+        {"nombre": "CMSWire", "url": "https://www.cmswire.com/digital-experience/google-adds-ai-visibility-reports-to-search-console/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google insiste en usar bien la fecha lastmod del sitemap o quitarla",
+      "resumen": "El 16 de julio Gary Illyes, de Google, respondió que un sitio con fechas lastmod poco confiables está mejor sin ellas. La señal es binaria: o confías en la fecha y la mantienes exacta, o la eliminas para no engañar al rastreador.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Digital Applied", "url": "https://www.digitalapplied.com/blog/xml-sitemap-lastmod-hygiene-illyes-directive-seo-2026"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Apple lanza anuncios en Maps y deja fuera a los servicios para el hogar",
+      "resumen": "La política de publicidad de Apple, vigente desde el 14 de julio, prohíbe anunciar a plomeros, electricistas, cerrajeros, climatización, control de plagas, techado y construcción general, además de cajeros de criptomonedas y fianzas. Es justo la categoría local que más peso tiene en Google.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/apple-maps-ads-ban-home-services/582542/"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Los nuevos Términos de Google Ads autorizan a la IA a actuar por defecto",
+      "resumen": "Google actualizó sus Términos de Servicio en julio y ahora el anunciante autoriza por defecto a que sus sistemas automáticos formateen, seleccionen o generen segmentaciones, anuncios y destinos. Lo que antes era opcional pasa a ser el modo normal de operar.",
+      "idioma": "ES",
+      "fuentes": [
+        {"nombre": "Roicos", "url": "https://roicos.com/google-ads-terminos-servicio-julio-2026-ia-automatizacion/"},
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-ads-updates-terms-of-service-ahead-of-july-2026-rollout-479255"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "AI Max for Search empieza a reemplazar a los Dynamic Search Ads",
+      "resumen": "Ya arrancó la fase voluntaria para migrar de los Dynamic Search Ads (DSA) a AI Max for Search, que combina señales en tiempo real e inteligencia artificial para entender la intención del usuario. El cambio será definitivo a partir de septiembre.",
+      "idioma": "ES",
+      "fuentes": [
+        {"nombre": "Marketing4eCommerce", "url": "https://marketing4ecommerce.net/novedades-de-google-ads-para-2026/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Google mete un carrusel de noticias dentro de los AI Overviews",
+      "resumen": "Google desplegó un carrusel de noticias destacadas dentro de los AI Overviews, ya totalmente activo en Estados Unidos para usuarios en móvil. Muestra artículos recientes junto a la respuesta generada y resalta las Fuentes Preferidas del usuario.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/top-stories-roll-out-in-google-ai-overviews-482615"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Un informe alerta que la IA de la Búsqueda de Google es un riesgo inaceptable para menores",
+      "resumen": "Common Sense Media evaluó más de 2.600 interacciones y concluye que los AI Overviews y el AI Mode no reconocen bien conductas de riesgo y resuelven tareas escolares que los estudiantes deberían hacer solos. Google discrepa del método del estudio.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "PBS News", "url": "https://www.pbs.org/newshour/nation/googles-ai-search-features-pose-unacceptable-risk-to-children-new-report-finds"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Merchant Center estrena un informe de rendimiento en la IA de compras",
+      "resumen": "Google abrió un piloto en Estados Unidos de su informe de rendimiento en IA dentro de Merchant Center, con cuatro vistas: share of voice, embudo de compra, términos de producto y atributos. Muestra cómo aparecen tus productos en AI Mode, AI Overviews y la app de Gemini, y suma los Conversational Attributes.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-launches-ai-performance-insights-and-conversational-attributes-in-merchant-center-478108"},
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-merchant-center-ai-performance-insights-41675.html"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "El AI Mode de Google ya conecta Instacart, Canva y YouTube Music",
+      "resumen": "El 16 de julio Google empezó a desplegar integraciones de apps de terceros en el AI Mode. Un usuario en Estados Unidos puede agregar ingredientes a un carrito de Instacart, pedir plantillas a Canva o crear listas en YouTube Music sin salir de la conversación.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-ai-mode-adds-instacart-canva-and-youtube-music-integrations-482547"},
+        {"nombre": "9to5Google", "url": "https://9to5google.com/2026/07/16/google-ai-mode-youtube-music/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Reddit domina las citas de la IA y las redes pesan cada vez más en las respuestas",
+      "resumen": "Un análisis de 30 millones de fuentes en ChatGPT, Google AI Mode, Gemini, Perplexity y AI Overviews sitúa a Reddit como la fuente social más citada, con 46,7% de las citas en Perplexity y 21% en los AI Overviews de Google. Wikipedia, YouTube y LinkedIn completan el podio.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/ai-search-engines-cite-reddit-youtube-and-linkedin-most-study-473138"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "LinkedIn es la segunda fuente más citada por la IA: 89.000 URLs analizadas",
+      "resumen": "Un estudio de Semrush sobre 89.000 URLs de LinkedIn citadas en buscadores de IA confirma que la plataforma es la segunda fuente más referida en ChatGPT Search, Google AI Mode y Perplexity, por delante de medios y de YouTube. Los artículos de 500 a 2.000 palabras son los más citados.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Semrush", "url": "https://www.semrush.com/blog/linkedin-ai-visibility-study/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "TikTok, Instagram y YouTube ya funcionan como buscadores",
+      "resumen": "Para muchos usuarios menores de 35, TikTok, Instagram y YouTube son ya sus primeros buscadores de productos, marcas y tutoriales. El social SEO pasa a ser optimizar títulos, subtítulos y texto en pantalla con el lenguaje que la gente realmente busca.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "ALM Corp", "url": "https://almcorp.com/blog/youtube-tiktok-instagram-social-seo-2026/"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Un repaso crítico a tres años de optimización para motores generativos",
+      "resumen": "Olivier Martinez (julio 2026) revisa 45 estudios de GEO publicados entre noviembre de 2023 y julio de 2026, y ordena qué técnicas para ganar presencia y citas en las respuestas de IA tienen evidencia y cuáles siguen sin probarse.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv · Olivier Martinez", "url": "https://arxiv.org/abs/2607.14035"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "E-GEO: cómo optimizar fichas de producto para las compras con IA",
+      "resumen": "Bagga, Farias, Korkotashvili, Peng y Wu (MIT y Columbia) crean E-GEO, un banco de 13.747 consultas reales de productos, cada una con 10 fichas de Amazon, para estudiar por primera vez a gran escala la GEO en e-commerce.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv · Bagga et al.", "url": "https://arxiv.org/abs/2511.20867"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Medir la visibilidad en IA una sola vez no sirve",
+      "resumen": "Schulte, Bleeker y Kaufmann muestran que las respuestas de IA cambian entre ejecuciones, prompts y días. El solape de fuentes entre días consecutivos cae al 34-42%, así que la visibilidad hay que medirla como una distribución y no como un dato único.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv · Schulte et al.", "url": "https://arxiv.org/abs/2604.07585"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Cuando el chatbot lleva anuncios, tiende a anteponer el patrocinio",
+      "resumen": "Wu, Liu, Li, Tsvetkov y Griffiths (Princeton y Universidad de Washington) probaron 23 modelos y hallaron que, ante instrucciones de patrocinio, muchos recomiendan la opción pagada y ocultan que lo es cerca del 65% de las veces.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv · Wu et al.", "url": "https://arxiv.org/abs/2604.08525"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Por qué la confianza de un modelo decae y cómo afecta a la GEO",
+      "resumen": "XinYu Zhao y coautores formalizan el Semantic Entropy Drift para modelar cómo se degrada la confianza de un modelo con el tiempo y el contexto, y proponen enrutar la intención con varios agentes en lugar de solo recuperar documentos.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv · XinYu Zhao et al.", "url": "https://arxiv.org/abs/2604.03656"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Anuncios de descubrimiento conversacional en el AI Mode",
+      "resumen": "Google prueba en Estados Unidos formatos donde Gemini interpreta la pregunta y genera respuestas patrocinadas personalizadas dentro del modo IA de la Búsqueda.",
+      "idioma": "ES",
+      "fuentes": [
+        {"nombre": "Produ", "url": "https://www.produ.com/mercadeo/noticias/google-marketing-live-2026-gemini-redefine-la-publicidad-y-el-comercio-impulsados-por-ia/"},
+        {"nombre": "Google (blog oficial)", "url": "https://blog.google/products/ads-commerce/google-marketing-live-2026-collection/"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Control para excluirse de AI Overviews y AI Mode",
+      "resumen": "Google ultima una opción para que cada sitio decida si su contenido aparece y se usa en las funciones de IA de la Búsqueda, de forma independiente a los resultados normales.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "9to5Google", "url": "https://9to5google.com/2026/06/02/google-ai-mode-overviews-opt-out/"},
+        {"nombre": "Digital Applied", "url": "https://www.digitalapplied.com/blog/google-search-console-ai-overviews-mode-controls-2026-guide"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Google reencauzará las campañas limitadas por presupuesto hacia tu objetivo",
+      "resumen": "Desde el 17 de agosto, el nuevo Bid Target Adjustment de Google Ads llevará de vuelta a su Target CPA o ROAS a las campañas que venían batiendo su objetivo por estar limitadas por presupuesto.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "ZATO PPC Marketing", "url": "https://zatomarketing.com/blog/google-ads-terms-of-service-update-july-2026-what-advertisers-need-to-know-about-automation-responsibility"},
+        {"nombre": "PPC News Feed", "url": "https://ppcnewsfeed.com/google-ads-updates/2026-07/"}
+      ]
+    }
+  ]
+}
