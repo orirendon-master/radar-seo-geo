@@ -1,0 +1,244 @@
+{
+  "edicion": 4,
+  "fecha": "2026-07-27",
+  "semana": "21–27 jul 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "Bruselas multa a Google con 890 millones de euros y le da 60 días para dejar de favorecer sus propios servicios en la Búsqueda",
+      "resumen": "El 23 de julio la Comisión Europea sancionó a Google por incumplir la Ley de Mercados Digitales: 460 millones de euros por poner por delante sus propios servicios de viajes en los resultados y 430 millones por las restricciones a los desarrolladores en Google Play. Es la primera sanción de Google bajo esta ley y tiene 60 días para corregir esas prácticas o arriesga pagos periódicos de hasta el 5% de su facturación mundial.",
+      "idioma": "ES",
+      "fuentes": [
+        {"nombre": "Comisión Europea (nota oficial)", "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1670"},
+        {"nombre": "Portal DMA de la Comisión Europea", "url": "https://digital-markets-act.ec.europa.eu/commission-fines-google-eur890-million-breaches-digital-markets-act-2026-07-23_en"},
+        {"nombre": "CNN en Español", "url": "https://cnnespanol.cnn.com/2026/07/23/mundo/europa-multa-google-1000-millones-trax"},
+        {"nombre": "Hipertextual", "url": "https://hipertextual.com/legal/europa-multa-google-890-millones-euros-julio-2026/"},
+        {"nombre": "Google, informe ATLAS (dato de la semana)", "url": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/"},
+        {"nombre": "Axios (dato de la semana)", "url": "https://www.axios.com/2026/07/23/google-ai-adoption-work-atlas"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Un tribunal de Estados Unidos desestima la demanda de Google contra SerpApi por extraer sus resultados",
+      "resumen": "El 20 de julio la corte federal del Distrito Norte de California aceptó la moción de SerpApi y tumbó la demanda que Google presentó en diciembre bajo la ley de copyright digital (DMCA). El fallo dice que las URLs, los fragmentos de texto y los datos del índice no son obras protegidas. Google tiene 21 días para reformular la parte que involucra imágenes con licencia.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/court-dismisses-googles-dmca-claims-against-serpapi/583033/"},
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-lawsuit-serpapi-dismissed-41731.html"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Los rankings de Google volvieron a moverse fuerte desde el 24 de julio",
+      "resumen": "El movimiento arrancó al final del jueves 23, se intensificó el viernes 24 y siguió durante el fin de semana. Es la tercera racha del mes, después de los picos alrededor del 11 y del 18 y 19 de julio, y Google no ha confirmado ninguna actualización.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-ranking-volatility-41758.html"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "La Búsqueda de Google ya funciona con Gemini 3.5 Flash-Lite",
+      "resumen": "El 21 de julio Google presentó Gemini 3.6 Flash y Gemini 3.5 Flash-Lite, y confirmó que este último ya se está desplegando dentro de la Búsqueda. Lo describe como un modelo para tareas de baja latencia y mucho volumen, con la búsqueda agéntica como ejemplo directo.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/3-5-flash-lite-rolling-out-in-google-search-482893"},
+        {"nombre": "9to5Google", "url": "https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google prohíbe marcar reseñas falsas o incentivadas sin declararlo",
+      "resumen": "El 24 de julio Google actualizó la documentación de review snippet con una regla nueva: no incluir en la página ni en el marcado reseñas que no vengan de una experiencia real, ni reseñas escritas a cambio de dinero, descuentos, vales o productos gratis sin avisarlo de forma clara y visible.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-says-dont-include-fake-or-undisclosed-incentivized-reviews-in-review-snippet-structured-data-483456"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Medios grandes evalúan bloquear a Google, mientras Google dice que la IA envía miles de millones de clics",
+      "resumen": "El 23 de julio se supo que varios editores grandes están considerando bloquear la Búsqueda de Google por completo, porque los clics siguen cayendo. Días antes Nick Fox, vicepresidente de Google, había afirmado que las funciones de IA envían miles de millones de clics por semana, una cifra que nadie puede comprobar porque Google no publica los datos.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/publishers-blocking-google-search-41735.html"},
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-says-ai-search-features-sending-billions-of-clicks-to-websites-each-week-482599"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "AI Max llega a las campañas de Shopping estándar de Google Ads",
+      "resumen": "El 24 de julio Google empezó a desplegar AI Max dentro de las campañas de Shopping estándar, con emparejamiento de consultas por IA, generación de texto del anuncio a partir de los atributos del feed de Merchant Center y expansión de la URL final. Google Ads Editor 2.13 salió la misma semana con soporte completo.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/ai-max-spotted-in-google-standard-shopping-campaigns-483311"},
+        {"nombre": "Search Engine Land (Ads Editor 2.13)", "url": "https://searchengineland.com/google-ads-editor-2-13-brings-ai-max-support-to-shopping-campaigns-483506"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "ChatGPT Ads suma puja por conversiones, exclusiones geográficas y gestión masiva de campañas",
+      "resumen": "OpenAI acercó su plataforma de anuncios al estándar de la industria con puja orientada a conversiones, mejor medición, control del ritmo de gasto y herramientas para editar campañas en bloque. Semanas antes ya había sumado audiencias personalizadas y borradores de anuncios sugeridos.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/chatgpt-ads-adds-conversion-bidding-geo-exclusions-and-bulk-campaign-tools-483511"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google Ads ya no deja apelar decisiones de política con más de seis meses",
+      "resumen": "Desde el 21 de julio desapareció el botón para apelar dentro de la cuenta cuando la decisión de política tiene más de seis meses. Para esos casos hay que escribir al soporte. El cambio se publicó el mismo día en el registro de cambios, sin blog ni aviso previo.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-ads-appeals-limit-41730.html"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/google-ads-kills-appeals-for-policy-decisions-over-6-months-old/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "AdSense retira el formato Related Search el 6 de agosto",
+      "resumen": "Google avisó por correo a los editores afectados que desde el 6 de agosto el formato de búsquedas relacionadas dejará de aparecer en los sitios y desaparecerá como opción en la interfaz de AdSense. No hay que hacer nada: otros formatos de Auto ads pueden ocupar esos espacios.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-adsense-related-search-deprecating-41747.html"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/google-kills-adsense-related-search-format-for-auto-ads-on-august-6/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "En ChatGPT manda la autoridad por tema, no la del dominio",
+      "resumen": "Semrush analizó 1.094 categorías en Estados Unidos, con cinco preguntas cada una, mes a mes de enero a junio de 2026, sobre más de 220.000 dominios y 50.000 marcas. En junio solo el 15,2% de las categorías tenía un dueño claro y el 53,7% seguía abierto. Las métricas de dominio acertaron quién era el dueño apenas la mitad de las veces.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Semrush", "url": "https://www.semrush.com/blog/chatgpt-topic-authority-study/"},
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/topical-authority-ai-search-482875"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "El AI Mode de Google y ChatGPT prueban mover las citas al final de la respuesta",
+      "resumen": "El 21 de julio se detectó que ambos están probando llevar las tarjetas de fuentes al pie del texto generado. En el AI Mode la página incluso ancla al lector abajo, justo sobre la tarjeta de citas.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-ai-mode-chatgpt-bottom-citations-41721.html"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Francia estrena las funciones avanzadas de búsqueda con IA de Google",
+      "resumen": "Desde el 22 de julio Google lleva a Francia los AI Overviews, el AI Mode, Search Live y el nuevo cuadro de búsqueda inteligente. Es uno de los mercados europeos con la regulación de derechos de autor más exigente para los buscadores.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/recap-07-22-2026-41733.html"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Merchant Center suma resúmenes con IA y sugerencias de búsqueda",
+      "resumen": "El 24 de julio Google agregó al panel de Merchant Center tres funciones con IA: resúmenes de datos generados por Gemini, sugerencias de preguntas para encontrar productos que necesitan atención e historial de conversaciones anteriores.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/recap-07-24-2026-41751.html"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "OpenAI abre un programa de ChatGPT para pequeñas empresas",
+      "resumen": "El 21 de julio OpenAI lanzó un programa dirigido a pymes que combina formación virtual, academias presenciales en ciudades de Estados Unidos, guías nuevas y una red de socios con Shopify, Intuit, Dropbox, Slack, Atlassian y Wix, además de acceso a GPT-5.6.",
+      "idioma": "ES",
+      "fuentes": [
+        {"nombre": "WWWhat's new", "url": "https://wwwhatsnew.com/2026/07/23/chatgpt-programa-pequenas-empresas-openai-shopify-intuit-2026/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "El 41% de los posts largos de LinkedIn los escribe entera una IA",
+      "resumen": "Pangram analizó 1.002.627 publicaciones de LinkedIn, X, Reddit, Medium y Substack recogidas con su extensión de detección desde el 24 de abril. En LinkedIn, el 41% de los textos de más de 250 palabras salió íntegramente de una IA y el 30% de los posts cortos también. Es la plataforma más saturada de las cinco.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Gizmodo", "url": "https://gizmodo.com/a-study-tried-to-quantify-how-many-linkedin-posts-are-100-ai-its-a-lot-2000784412"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Reddit y Quora pesan más que tu web para aparecer en respuestas de IA",
+      "resumen": "Un análisis publicado el 24 de julio en el consejo de agencias de Forbes sostiene que los foros y los sitios de preguntas y respuestas se citan más que los sitios de marca en los buscadores con IA, porque los modelos privilegian la conversación real de usuarios por encima del texto corporativo.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Forbes", "url": "https://www.forbes.com/councils/forbesagencycouncil/2026/07/24/why-reddit-and-quora-now-matter-more-than-your-website-for-ai-visibility/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Las redes se vuelven menos sociales y la conversación se muda a los mensajes privados",
+      "resumen": "Cada vez menos gente publica en abierto y más comparte dentro de grupos de mensajes y con círculos cerrados. Adam Mosseri, jefe de Instagram, ya dijo que los mensajes son hoy la principal forma de compartir en la plataforma y que están apostando fuerte por ahí.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Social Media Today", "url": "https://www.socialmediatoday.com/news/social-media-is-becoming-less-social/825125/"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Solo el 5,2% de las conversaciones con ChatGPT termina en un clic hacia un sitio",
+      "resumen": "Qiaoni Shi, Kai Zhu y Kai Gu usan datos de navegación de Comscore en escritorio de Estados Unidos para comparar ChatGPT con Google. Ampliar el acceso a ChatGPT Search reduce el uso de la búsqueda tradicional un 9,4%, y los clics que quedan se van hacia destinos especializados y se alejan de los sitios que viven de la publicidad.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2607.07652 · Shi, Zhu y Gu", "url": "https://arxiv.org/abs/2607.07652"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Cuanto mejor formulas la pregunta, más búsqueda sigue después de la IA",
+      "resumen": "Michael Iannelli y Alan Ai (Scrunch AI) muestran que cerca de un tercio de las conversaciones con IA da paso a recorridos de búsqueda más largos. Lo decisivo no es el tipo de tarea sino cómo se formula la pregunta: el porcentaje que se agota en la respuesta cae del 72% con preguntas de una a tres palabras al 48% cuando pasan de veinte.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2607.04282 · Iannelli y Ai", "url": "https://arxiv.org/abs/2607.04282"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Las marcas ya instaladas salen favorecidas cuando un modelo recomienda",
+      "resumen": "Xi Chu (Trine University) y YuPeng Hou (Texas A&M) estudian el sesgo de marca en los sistemas de recomendación con modelos de lenguaje y describen una ventaja del que ya está: las marcas conocidas aparecen antes, con más frecuencia y son más difíciles de desplazar.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2606.17443 · Chu y Hou", "url": "https://arxiv.org/abs/2606.17443"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Medir menciones de marca en IA sin calibrar por entidad da resultados falsos",
+      "resumen": "Zoltan Varga propone el Per-Entity Bias Mapping, un marco de diez dimensiones que separa las menciones simples de las verificadas. Describe tres fallas: las entidades pequeñas quedan invisibles por su débil presencia en los grafos de conocimiento, las grandes sufren alucinaciones plausibles y algunas regiones enfrentan una brecha de infraestructura.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2606.21595 · Varga", "url": "https://arxiv.org/abs/2606.21595"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Gemini 4 asoma detrás del lanzamiento de esta semana",
+      "resumen": "Al presentar Gemini 3.6 Flash y Gemini 3.5 Flash-Lite el 21 de julio, Google adelantó que Gemini 4 viene en camino. Cada cambio de modelo base reordena cómo se arman las respuestas dentro de la Búsqueda.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "9to5Google", "url": "https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Google unifica en septiembre las políticas de Shopping ads y de fichas gratuitas",
+      "resumen": "Los dos conjuntos de reglas pasan a un solo documento de políticas de Shopping. Google dice que no habrá cambios de fondo ni aplicación más estricta, solo mejor organización, y que marcará con claridad lo que aplica únicamente a los anuncios.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-shopping-ads-free-listing-policies-merge-41695.html"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Discover recupera el \"Acerca de este resultado\"",
+      "resumen": "Google está reincorporando esa opción en el menú de cada tarjeta de Discover, igual que la que ya existe en los resultados de búsqueda, para que el lector pueda ver de dónde viene lo que le están mostrando.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/recap-07-23-2026-41744.html"}
+      ]
+    }
+  ]
+}
