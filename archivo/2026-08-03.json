@@ -1,0 +1,259 @@
+{
+  "edicion": 5,
+  "fecha": "2026-08-03",
+  "semana": "28 jul–3 ago 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "La respuesta con IA ya es lo normal: aparece en 4 de cada 10 búsquedas de Google en Estados Unidos",
+      "resumen": "Similarweb midió que los AI Overviews pasaron de cerca del 15% de las búsquedas en enero de 2025 al 43% en mayo de 2026, y que el AI Mode subió de 126 a 279 millones de visitas mensuales. La propia compañía no publicó qué muestra de consultas usó ni cómo define que un AI Overview apareció.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/"},
+        {"nombre": "The AI Insider", "url": "https://theaiinsider.tech/2026/07/28/googles-ai-overviews-nearly-triple-in-search-coverage-reshaping-web-search-behavior/"},
+        {"nombre": "AI News", "url": "https://www.artificialintelligence-news.com/news/google-ai-overviews-us-searches/"},
+        {"nombre": "MLQ News (reparos de método)", "url": "https://mlq.ai/news/google-ai-overviews-reached-43-of-us-searches-in-similarweb-data-but-methodology-is-thin/"},
+        {"nombre": "Similarweb (blog oficial)", "url": "https://www.similarweb.com/blog/marketing/geo/gen-ai-stats/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Los rankings de Google volvieron a moverse fuerte el fin de semana del 1 al 3 de agosto",
+      "resumen": "El movimiento arrancó el sábado 1 de agosto y siguió hasta el lunes 3, marcado por las herramientas de seguimiento. Es la cuarta racha seguida desde comienzos de julio y Google no ha confirmado ninguna actualización.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-search-ranking-volatility-august-1-41811.html"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Search Console abre a todos las propiedades de plataforma para Instagram, TikTok, X y YouTube",
+      "resumen": "El 29 de julio Google terminó de desplegar en todo el mundo el nuevo tipo de propiedad y publicó una guía para analizar el rendimiento de contenido social y de video. Es la primera propiedad de Search Console que se verifica sin tener un dominio propio.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-search-console-platform-properties-are-now-globally-live-483921"},
+        {"nombre": "Google Search Central", "url": "https://developers.google.com/search/blog/2026/07/platform-properties-social-video-guide"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/google-opens-search-console-data-to-instagram-tiktok-x-and-youtube-for-all/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google prueba sugerir búsquedas a partir de las páginas que visitaste, no de lo que buscaste",
+      "resumen": "El 28 de julio se detectó un bloque llamado búsquedas relacionadas según tu navegación, que al parecer se apoya en el historial de Chrome y no solo en las consultas previas. Google no ha explicado de dónde saca esos datos.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/recap-07-28-2026-41768.html"},
+        {"nombre": "Optimixed", "url": "https://www.optimixed.com/google-tests-related-searches-based-on-your-browsing/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Discover prueba un carrusel de artículos guardados para leer después",
+      "resumen": "El 30 de julio apareció en la parte superior de la portada de Google en móvil un carrusel llamado Read Later Queue, con los artículos que el usuario había guardado para leer más tarde.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/recap-07-30-2026-41789.html"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Vuelve con fuerza el ataque que llena sitios WordPress de páginas en japonés",
+      "resumen": "El llamado Japanese keyword hack está avanzando rápido por sitios hechos en WordPress. Aprovecha versiones y plugins desactualizados para inyectar miles de páginas basura que el visitante no ve pero Google sí indexa.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/recap-07-30-2026-41789.html"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "La publicidad de búsqueda de Microsoft creció 10%, dos puntos menos que el trimestre anterior",
+      "resumen": "El 29 de julio Microsoft reportó su cuarto trimestre fiscal 2026 con los ingresos de publicidad en búsqueda, descontando el pago a socios, un 10% arriba. El trimestre anterior habían crecido 12%.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/microsoft-earnings-41786.html"},
+        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google prueba descripciones escritas por IA dentro de los anuncios de Shopping",
+      "resumen": "El 30 de julio se detectó que el texto generado con IA que Google probaba en anuncios de texto ya aparece en anuncios de Shopping y de producto. Google no lo ha anunciado ni ha dicho qué parte del inventario alcanza.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-tests-ai-generated-descriptions-in-shopping-ads-484016"},
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/recap-07-30-2026-41789.html"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google Ads estrena el estado \"Has improvements\" y dos métricas nuevas de producto",
+      "resumen": "El estado nuevo muestra qué le falta a un anuncio y qué sugiere Google para mejorarlo. En la misma semana llegaron a algunos informes dos métricas, clics de producto y clics que no son de producto.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-ads-status-has-improvements-41759.html"},
+        {"nombre": "Search Engine Roundtable (recap 28 jul)", "url": "https://www.seroundtable.com/recap-07-28-2026-41768.html"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google Ads abre la puerta a los anuncios de juegos de casino social",
+      "resumen": "El 28 de julio Google actualizó sus políticas para permitir la publicidad de juegos de casino social, los que imitan la mecánica del casino pero no reparten premios en dinero.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/recap-07-28-2026-41768.html"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Los modelos de IA buscan sobre todo marcas que ya conocen",
+      "resumen": "Un estudio publicado el 30 de julio muestra que los modelos consultan marcas familiares entre el 41% y el 82% de las veces, frente a entre 9% y 23% cuando la marca les es desconocida. El 63% de las búsquedas de marca se apoyó en una de las cinco marcas más familiares para cada modelo.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/ai-models-favor-familiar-brands-search-study-484054"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "El 95% de los clics que ChatGPT manda hacia afuera cae en un puñado de sitios",
+      "resumen": "Datos de Similarweb comentados esta semana muestran que la búsqueda con IA se suma encima de Google en vez de reemplazarla, y que el reparto de clics hacia sitios externos es muy desigual.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/ai-search-isnt-replacing-google-its-layering-on-top-similarweb-data/583378/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Desde el 2 de agosto la Unión Europea obliga a etiquetar el contenido hecho con IA",
+      "resumen": "Entraron en vigor las obligaciones de transparencia del artículo 50 del reglamento europeo de IA. Los sistemas generativos deben incorporar señales técnicas detectables y los contenidos que puedan pasar por reales llevan un aviso visible, con multas de hasta 15 millones de euros o el 3% de la facturación mundial.",
+      "idioma": "ES",
+      "fuentes": [
+        {"nombre": "WWWhat's new", "url": "https://wwwhatsnew.com/2026/08/02/ue-ai-act-etiquetas-contenido-ia-autentico-agosto-2026/"},
+        {"nombre": "Comisión Europea", "url": "https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en"},
+        {"nombre": "MuyComputer", "url": "https://www.muycomputer.com/2026/08/02/europa-obliga-desde-hoy-a-etiquetar-los-deepfakes/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Ocho de cada diez responsables de marketing siguen diciendo \"SEO\", no \"GEO\"",
+      "resumen": "Fractl encuestó a 343 responsables de marketing en Estados Unidos a cargo de la visibilidad en IA. El 81% sigue usando la palabra SEO y solo el 19% adoptó el término GEO. El abuso de palabras de moda fue la razón número uno para descartar a un proveedor.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "PPC Land", "url": "https://ppc.land/marketers-still-call-it-seo-as-81-reject-geo-pitch-fractl-finds/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Brave dice que su buscador gana el test de respuestas y deja último a Perplexity",
+      "resumen": "Brave repitió su propia prueba con 1.500 consultas reales frente a Grok, el AI Mode de Google, ChatGPT y Perplexity, y se ubicó primero. El examen lo diseñó y corrió la misma empresa que vende la API que promociona.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "PPC Land", "url": "https://ppc.land/braves-5-search-api-wins-ai-answer-test-as-perplexity-finishes-last/"},
+        {"nombre": "Brave (blog oficial)", "url": "https://brave.com/blog/most-powerful-search-api-for-ai/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Reddit gana 61% más y aun así su acción cae 11% por el tráfico que le manda Google",
+      "resumen": "El 30 de julio Reddit reportó 805 millones de dólares de ingresos, un 61% más que el año anterior. La acción cayó más de 10% porque su director ejecutivo dijo que los referidos desde buscadores fueron irregulares y el tráfico se volvió más volátil hacia el final del trimestre.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/07/30/reddit-rddt-q2-2026-earnings-report.html"},
+        {"nombre": "AdExchanger", "url": "https://www.adexchanger.com/platforms/reddit-had-a-great-q2-but-investors-have-ai-search-jitters/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "LinkedIn suma un botón para denunciar publicaciones que parecen escritas por IA",
+      "resumen": "El 30 de julio LinkedIn habilitó la opción \"Seems like AI slop\", que esconde la publicación y le resta alcance, y retiró su propio asistente de escritura con IA para reemplazarlo por un corrector. Responde a los datos que muestran que más del 40% de las publicaciones largas son generadas enteramente con IA.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/"},
+        {"nombre": "Forbes", "url": "https://www.forbes.com/sites/codyluongo/2026/07/30/linkedin-adds-new-feature-to-flag-ai-slop/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "TikTok deja elegir si tus videos y fotos entran en la búsqueda visual",
+      "resumen": "TikTok despliega en la Unión Europea la opción \"Allow visual search\", que se activa al subir contenido y hace que tus fotos y videos puedan aparecer cuando alguien busca a partir de una imagen.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "SocialBee", "url": "https://socialbee.com/blog/tiktok-updates/"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "La primera revisión seria del GEO no encuentra ninguna técnica que funcione en todas las plataformas",
+      "resumen": "Olivier Martinez revisó 45 estudios entre noviembre de 2023 y julio de 2026 y concluye que ninguna técnica de optimización para motores generativos da un efecto estable entre plataformas. Reescribir solo el cuerpo del texto llega a reducir un 16% la presencia entre los diez primeros resultados tras el reordenamiento.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2607.14035 · Olivier Martinez", "url": "https://arxiv.org/abs/2607.14035"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/survey-of-45-studies-finds-geo-rewrites-can-cut-a-pages-ai-retrieval-16/"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Lo que decide qué fuente cita primero un modelo es la relevancia y el lugar en la lista",
+      "resumen": "Rahul Vishwakarma, Shushant Kumar y Ratnesh Jamidar corrieron 252.000 pruebas en seis modelos comparando documentos de a dos y moviendo dieciocho factores. La relevancia sobre el tema y la posición en la lista son de lejos lo que más determina cuál se cita primero.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2605.25517 · Vishwakarma, Kumar y Jamidar", "url": "https://arxiv.org/abs/2605.25517"},
+        {"nombre": "SIGIR (DOI)", "url": "https://doi.org/10.1145/3805712.3808445"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Ser citado y ser usado no es lo mismo, y conviene medirlo por separado",
+      "resumen": "Zhang Kai, He Xinyue y Yao Jingang separan la selección de fuentes de su absorción en la respuesta final. Sobre 602 consultas controladas en ChatGPT, Google con Gemini y Perplexity, encuentran que ChatGPT cita menos fuentes pero cada una influye bastante más en el texto.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2604.25707 · Zhang, He y Yao", "url": "https://arxiv.org/abs/2604.25707"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "El formato más citado por la IA es la lista de \"los mejores\", y casi todo va a sitios de empresa",
+      "resumen": "Pratyush Kumar midió la visibilidad de marcas en buscadores con IA y encontró que las listas ordenadas del tipo los mejores son el formato más citado, con cerca del 21% de las citas, y que el 78% de las citas apunta a sitios corporativos.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2606.20065 · Pratyush Kumar", "url": "https://arxiv.org/abs/2606.20065"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Un método para meter publicidad en las respuestas de un chatbot sin tocar el modelo",
+      "resumen": "Zhaowei Zhang y ocho coautores presentaron el 28 de julio PILA, que convierte la inserción de un anuncio en un problema de reescritura de la respuesta resuelto en un módulo aparte, compatible con productos que solo consumen una API.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2607.25590 · Zhang et al.", "url": "https://arxiv.org/abs/2607.25590"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Las campañas limitadas por presupuesto dejarán de superar su objetivo de puja el 17 de agosto",
+      "resumen": "Las campañas con CPA objetivo o ROAS objetivo que se quedan sin presupuesto pasarán a entregar el número configurado y no el mejor que venía encontrando la puja automática. Afecta a Search, Shopping, Performance Max, Demand Gen y Travel.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-ads-bidding-campaigns-limited-budget-41618.html"},
+        {"nombre": "Ayuda de Google Ads", "url": "https://support.google.com/google-ads/answer/17061251?hl=en"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Segunda fecha de la ley europea de IA: 2 de diciembre de 2026",
+      "resumen": "Los sistemas generativos que ya estaban en el mercado europeo antes del 2 de agosto tienen hasta el 2 de diciembre para incorporar las marcas técnicas que permiten detectar su contenido.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Sidley (Data Matters)", "url": "https://datamatters.sidley.com/2026/06/24/eu-ai-act-transparency-obligations-preparing-for-compliance-by-2-august-2026/"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Vence en 2027 el acuerdo por el que Google paga a Reddit por sus datos",
+      "resumen": "El contrato de licencia, de unos 60 millones de dólares al año, expira en el primer semestre de 2027. Si no se renueva, Reddit pierde el ingreso y también el trato preferente que hoy tiene en la Búsqueda y en las respuestas con IA.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "MLQ News", "url": "https://mlq.ai/news/reddit-shares-sink-11-as-search-referrals-wobble-despite-61-revenue-growth/"}
+      ]
+    }
+  ]
+}
