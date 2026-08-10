@@ -1,0 +1,247 @@
+{
+  "edicion": 6,
+  "fecha": "2026-08-10",
+  "semana": "4–10 ago 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "Google cambia a los jefes de su inteligencia artificial justo cuando la Búsqueda depende de ellos",
+      "resumen": "El 5 de agosto Jeff Dean dejó Google tras 27 años para fundar Discovery Loop junto a Sanjay Ghemawat, Oriol Vinyals y Quoc Le, y Demis Hassabis pasó de dirigir el día a día de Google DeepMind a presidirlo y a ser científico jefe de Alphabet. Koray Kavukcuoglu queda al mando de la unidad reportando directamente a Sundar Pichai.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-leadership-changes-with-jeff-dean-out-demis-hassabis-role-change-and-more-484387"},
+        {"nombre": "Axios", "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai"},
+        {"nombre": "SiliconANGLE", "url": "https://siliconangle.com/2026/08/05/google-reveals-big-shake-ai-teams-jeff-dean-leaves-demis-hassabis-moves-upstairs/"},
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-ai-leadership-shuffle-41824.html"},
+        {"nombre": "CNBC (fuente del dato)", "url": "https://www.cnbc.com/2026/08/05/google-chief-scientist-jeff-dean-leaving-company-after-27-years.html"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "La inestabilidad de los rankings se estiró hasta el 5 y el 6 de agosto, y Google sigue sin confirmar nada",
+      "resumen": "Las herramientas de seguimiento volvieron a marcar picos entre el 5 y el 6 de agosto, con reportes contradictorios que van desde caídas del 70% en un día hasta cero cambios. El panel de estado de Google no registra incidentes entre el 1 y el 6 de agosto y la última actualización confirmada sigue siendo la de spam de junio de 2026.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/recap-08-06-2026-41831.html"},
+        {"nombre": "Search Engine Watch", "url": "https://searchenginewatch.com/google-algorithm-update-august-2026/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Search Console sí muestra las consultas del AI Mode, pero no en el informe donde deberían estar",
+      "resumen": "El informe de IA generativa no entrega datos de consultas, pero las preguntas escritas en el AI Mode aparecen mezcladas en el informe de rendimiento normal, reconocibles por ser más largas y conversacionales. Incluso un seguimiento dentro de una conversación queda registrado como una consulta nueva.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-search-console-ai-mode-queries-41821.html"},
+        {"nombre": "Search Engine Watch", "url": "https://searchenginewatch.com/google-search-console-shows-ai-mode-follow-up-queries/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Los rastreadores de Google no solo piden páginas: también mandan HEAD, OPTIONS, PUT, PATCH y DELETE",
+      "resumen": "Gary Illyes explicó que los rastreadores de Google envían más tipos de petición de los que casi nadie tiene en cuenta, aunque todas juntas representan menos del 1,5% del total. Casi siempre las dispara el propio JavaScript de la página durante el renderizado.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-crawlers-head-options-put-patch-delete-41833.html"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Bing prueba un bloque que agrupa varias páginas de un mismo sitio",
+      "resumen": "Se detectó en Bing una sección llamada Top Source que junta en un solo bloque varias páginas o noticias de un mismo dominio para mostrar cuál es la fuente que domina esa consulta. Microsoft no lo ha confirmado y no se conoce el criterio de selección.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/bing-top-source-41530.html"},
+        {"nombre": "Search Engine Watch", "url": "https://searchenginewatch.com/bing-tests-new-top-source-section-in-search-results/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google apaga el Asistente el 4 de septiembre y deja a Gemini en su lugar",
+      "resumen": "El 4 de agosto Google empezó a avisar por correo que el reemplazo de Google Assistant por Gemini arranca el 4 de septiembre y puede tardar varias semanas en llegar a todos los equipos. También afecta a Wear OS y a Android Auto, y no hay forma de volver atrás.",
+      "idioma": "ES",
+      "fuentes": [
+        {"nombre": "WWWhat's new", "url": "https://wwwhatsnew.com/2026/08/06/google-assistant-cierre-4-septiembre-2026-gemini-sustituye-android/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Los anuncios de ChatGPT ya muestran varios productos juntos y estrenan una puja optimizada a conversión",
+      "resumen": "OpenAI sumó un carrusel de varios productos dentro del mismo bloque patrocinado, campañas de feed con puja optimizada a conversión en fase de prueba y parámetros dinámicos en la URL para atribuir cada clic. También se conectaron herramientas de medición externas como Triple Whale y Hightouch.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/chatgpt-ads-rolls-out-ocpc-campaigns-aam-and-product-carousels-484494"},
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/openai-chatgpt-ads-updates-41828.html"},
+        {"nombre": "Digiday", "url": "https://digiday.com/marketing/openai-brings-product-carousels-to-chatgpt-ads/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google prueba en vivo las etiquetas \"Strongest match\" y \"Strong match\" en los anuncios de búsqueda",
+      "resumen": "Algunos usuarios en Estados Unidos ven un sello que marca a un anuncio como la coincidencia más fuerte para lo que buscaron. Google dice que usa las señales de calidad y relevancia que ya tenía, la prueba alcanza a un porcentaje pequeño y no revelado de usuarios y no hay fecha de expansión.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-ads-strong-match-labels-live-test-41836.html"},
+        {"nombre": "Search Engine Watch", "url": "https://searchenginewatch.com/google-ads-rolls-out-live-test-of-strong-match-labels/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google prueba convertir palabras sueltas de la descripción del anuncio en enlaces",
+      "resumen": "Dentro de la descripción de un anuncio de búsqueda, algunas palabras aparecen como enlaces que llevan a la misma página que el titular. Se sospecha que Google elige qué texto enlazar según la intención de la consulta, pero no ha explicado cómo funciona ni si se ampliará.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-tests-clickable-hyperlinks-in-search-ad-descriptions-484288"},
+        {"nombre": "PPC News Feed", "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-ads-tests-hyperlinks-ad-descriptions/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Nielsen compra DoubleVerify por 2.150 millones de dólares",
+      "resumen": "El 6 de agosto Nielsen anunció la compra en efectivo de DoubleVerify a 13,60 dólares por acción, una prima del 30% sobre el promedio de los últimos 60 días de negociación. La operación junta medición de audiencias con verificación de calidad publicitaria y debería cerrar en el primer trimestre de 2027.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Nielsen (comunicado oficial)", "url": "https://www.nielsen.com/news-center/2026/nielsen-to-acquire-doubleverify-creating-a-leading-independent-media-intelligence/"},
+        {"nombre": "Marketing Dive", "url": "https://www.marketingdive.com/news/nielsen-acquires-doubleverify-to-link-ad-verification-audience-measurement/827319/"},
+        {"nombre": "Forbes", "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/08/nielsen-to-buy-doubleverify-for-215-billion-in-ad-measurement-deal/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "El carrusel de noticias se metió dentro de los AI Overviews y complica la decisión de salirse de la IA",
+      "resumen": "Google está mostrando el bloque completo de Top Stories dentro de la respuesta generada en cerca del 15,5% de las búsquedas de noticias de tendencia en Estados Unidos y el 17,46% en Reino Unido, según NewzDash, y esa ubicación no se puede bloquear con robots.txt. En paralelo se amplía el control de Search Console para excluir un sitio de los AI Overviews, del AI Mode y de la IA de Discover.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/what-opting-out-of-googles-ai-search-features-means-now/584321/"},
+        {"nombre": "Search Engine Journal (análisis para editores)", "url": "https://www.searchenginejournal.com/what-top-stories-inside-ai-overviews-means-for-publishers-and-brands-in-2026-and-beyond/584175/"},
+        {"nombre": "Press Gazette", "url": "https://pressgazette.co.uk/platforms/google-adds-top-stories-links-to-many-news-related-ai-summaries/"},
+        {"nombre": "NewzDash", "url": "https://www.newzdash.com/guide/top-stories-ai-overviews-data-strategy-and-impact-blocking-google-ai"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Marcas de suplementos están sembrando Reddit para condicionar lo que responden ChatGPT y Google",
+      "resumen": "Empresas de péptidos y de terapia hormonal inundaron con publicaciones coordinadas un foro de biohacking de unos 830.000 miembros para que esos textos aparezcan dentro de las respuestas de los sistemas de IA. Usan cuentas con historial y pagan a personas reales, y los moderadores terminaron prohibiendo las publicaciones nuevas sobre esos temas.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "PPC Land", "url": "https://ppc.land/peptide-brands-are-gaming-reddit-to-steer-chatgpt-and-google-answers/"},
+        {"nombre": "404 Media", "url": "https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/"},
+        {"nombre": "TechSpot", "url": "https://www.techspot.com/news/112654-spammers-flooding-reddit-fake-posts-designed-show-up.html"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "La visibilidad en IA empieza a usarse para explicar lo que los informes de PPC no muestran",
+      "resumen": "El análisis propone mirar en paralelo qué consultas alimentan las respuestas generadas, qué fuentes se citan y qué parte de esa autoridad se lleva la marca, porque todo eso ocurre antes de que alguien vea un anuncio y condiciona con qué palabras llega a buscar.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/ai-visibility-ppc-performance-484199"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Cloudflare quiere cobrarle a la IA por respuesta y no por página rastreada",
+      "resumen": "La empresa está convirtiendo su cobro por rastreo en un modelo de pago por uso, en el que un sitio recibe dinero cuando su contenido aparece dentro de una respuesta generada o cuando un agente compra información premium. Sus datos muestran que más de la mitad del rastreo de robots de IA se va en volver a pedir páginas que no cambiaron.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "PPC Land", "url": "https://ppc.land/cloudflare-stops-charging-ai-per-crawl-and-starts-paying-per-answer/"},
+        {"nombre": "Cloudflare (blog oficial)", "url": "https://blog.cloudflare.com/content-independence-day-ai-options/"},
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Google afirma que Reddit no recibe ningún trato preferente, ni en la Búsqueda ni en las respuestas con IA",
+      "resumen": "La declaración salió el 4 de agosto de una vocera de Google, Jennifer Kutz, que sostuvo que las funciones de IA no buscan mostrar contenido de ningún sitio en particular y que sus sistemas distinguen cuándo el contenido de un foro es útil. Llega mientras Reddit reporta referidos irregulares desde los buscadores.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/reddit-no-special-preference-google-41818.html"},
+        {"nombre": "Search Engine Watch", "url": "https://searchenginewatch.com/google-says-reddit-gets-no-special-preference-in-search/"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/reddit-loses-search-traffic-as-google-denies-any-ranking-preference/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "YouTube tiene un problema con los canales que fabrican noticias falsas usando IA",
+      "resumen": "Crecen los canales que publican videos generados con IA sobre supuestas crisis económicas y decadencia en estados gobernados por el Partido Demócrata en Estados Unidos. Son piezas hechas en serie, sin reportería, que compiten por las mismas búsquedas y recomendaciones que el contenido real.",
+      "idioma": "ES",
+      "fuentes": [
+        {"nombre": "WWWhat's new", "url": "https://wwwhatsnew.com/2026/08/06/youtube-canales-ai-slop-noticias-politicas-estados-democratas-agosto-2026/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Google prepara el cambio de identificador entre su perfil de búsqueda y tus redes verificadas",
+      "resumen": "Los perfiles de búsqueda de Google prueban en fase beta una función que permite adoptar en el perfil el mismo nombre de usuario ya verificado en otras plataformas. Para entrar hay que tener un perfil de búsqueda y varias cuentas sociales verificadas.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-handle-swapping-search-profiles-41813.html"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Cuando aparece un resumen de IA, la gente hace la mitad de clics a otros sitios",
+      "resumen": "Athena Chapekis y su equipo del Pew Research Center siguieron durante un mes la navegación real de un panel representativo de 900 adultos en Estados Unidos. Con resumen de IA la gente pinchó un resultado tradicional en el 8% de las visitas, frente al 15% sin resumen, y solo el 1% pinchó un enlace del propio resumen.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv · Chapekis et al. (Pew Research Center)", "url": "https://arxiv.org/abs/2608.04831"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "El primer experimento aleatorizado sobre AI Overviews mide una caída de 39,8% en los clics de salida",
+      "resumen": "Saharsh Agarwal, de la Indian School of Business, y Ananya Sen, de Carnegie Mellon, repartieron al azar a 1.065 usuarios con una extensión de Chrome. Cuando el resumen aparece, los clics orgánicos hacia otros sitios caen 39,8% y las búsquedas sin ningún clic suben 34,5%, mientras los clics en anuncios no se mueven.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "SSRN · Agarwal y Sen", "url": "https://doi.org/10.2139/ssrn.6513059"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/researchers-find-google-ai-overviews-cut-publisher-clicks-39-8/"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Los AI Overviews le quitan tráfico a Wikipedia, y no a todos los temas por igual",
+      "resumen": "Mehrzad Khosravi y Hema Yoganarasimhan compararon 161.382 pares de artículos de Wikipedia en inglés contra los mismos artículos en hindi, indonesio, japonés y portugués, donde la función aún no estaba. La exposición a los resúmenes reduce cerca de un 15% el tráfico diario a los artículos en inglés, con caídas mayores en cultura.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv · Khosravi y Yoganarasimhan", "url": "https://arxiv.org/abs/2602.18455"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Aparecer en los AI Overviews le sube la actividad a las comunidades de Reddit que sí se pueden citar",
+      "resumen": "Peibo Zhang, Ruomeng Cui y Dennis J. Zhang aprovecharon que las comunidades de Reddit aptas para todo público pueden aparecer en los resúmenes de IA y las de contenido adulto no. Los resúmenes aumentaron los comentarios diarios un 12,0% y la cantidad de personas que comentan un 12,4% en las comunidades citables.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv · Zhang, Cui y Zhang", "url": "https://arxiv.org/abs/2605.16428"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Los anuncios de ChatGPT activan solos la coincidencia avanzada automática el 17 de agosto",
+      "resumen": "Desde esa fecha los píxeles ya instalados quedan con esa función encendida por defecto, salvo que el anunciante la desactive antes. Mejora la atribución de conversiones, pero implica enviar más señales de usuario a OpenAI.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "PPC Land", "url": "https://ppc.land/chatgpt-advertisers-face-10-days-to-opt-out-of-automatic-advanced-matching/"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Google Ads etiquetará solo las listas de clientes basadas en conversiones desde el 18 de agosto",
+      "resumen": "Toda lista apta que no esté clasificada a mano recibirá automáticamente un tipo de cliente asignado por Google. Esas etiquetas alimentan los objetivos de captación de clientes nuevos y de reactivación, así que una mal puesta distorsiona el costo real de traer a alguien nuevo.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-ads-to-automatically-classify-conversion-based-customer-lists-480433"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Google Ads pasará campañas a AI Max sin preguntar el 1 de septiembre",
+      "resumen": "Las campañas de búsqueda con recursos creados automáticamente o concordancia amplia a nivel de campaña se migrarán a AI Max, con la coincidencia por término de búsqueda encendida por defecto y, en el primer caso, también la personalización de texto. Las cuentas que nunca activaron esas opciones no cambian.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-ads-migrate-ai-max-sep1-41829.html"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/google-ads-broad-match-campaigns-face-ai-max-auto-upgrade-on-september-1/"}
+      ]
+    }
+  ]
+}
