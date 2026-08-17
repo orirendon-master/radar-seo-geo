@@ -1,0 +1,282 @@
+{
+  "edicion": 7,
+  "fecha": "2026-08-17",
+  "semana": "11–17 ago 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "Los anuncios de ChatGPT llegan a México y a Brasil, y la publicidad dentro de la IA entra por fin a América Latina",
+      "resumen": "El 11 de agosto OpenAI amplió su prueba de anuncios en ChatGPT a Reino Unido, México, Brasil, Japón y Corea del Sur, la primera vez que una plataforma publicitaria nativa de un modelo de lenguaje se abre en la región. Los avisos aparecen debajo de la respuesta, marcados como patrocinados, y solo los ven las cuentas gratuitas y del plan Go.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "OpenAI", "url": "https://openai.com/index/testing-ads-in-chatgpt/"},
+        {"nombre": "Digiday", "url": "https://digiday.com/media-buying/expand-thoughtfully-openai-offers-chatgpt-ads-to-new-markets-including-the-u-k-brazil-and-japan/"},
+        {"nombre": "Marketing4eCommerce México", "url": "https://marketing4ecommerce.mx/chatgpt-inicia-su-piloto-de-anuncios-en-mexico/"},
+        {"nombre": "El Cronista México", "url": "https://www.cronista.com/mexico/finanzas-economia/tu-chatgpt-con-anuncios-openai-abre-la-publicidad-en-mexico-para-usuarios-free-y-go/"},
+        {"nombre": "gHacks", "url": "https://www.ghacks.net/2026/08/13/openai-expands-chatgpt-ads-test-to-uk-mexico-brazil-japan-and-south-korea/"},
+        {"nombre": "Search Engine Land (fuente del dato)", "url": "https://searchengineland.com/news-publisher-visits-from-ai-study-484851"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Los rankings volvieron a moverse fuerte el 12 y el 13 de agosto, y Google otra vez no confirma nada",
+      "resumen": "Las herramientas de seguimiento marcaron un movimiento muy por encima de lo normal que arrancó el 12 de agosto y siguió al día siguiente. Es el cuarto episodio del mismo tipo en pocas semanas y la última actualización reconocida por Google sigue siendo la de spam de junio de 2026.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-search-ranking-volatility-spikes-41869.html"},
+        {"nombre": "Digital Applied", "url": "https://www.digitalapplied.com/blog/google-ranking-volatility-august-12-13-tracker-spike"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google dio por muerto a Sam Altman en su panel de conocimiento después de que le vandalizaran la Wikipedia",
+      "resumen": "El 12 de agosto el panel de conocimiento de Google mostró una fecha de fallecimiento del director ejecutivo de OpenAI, tomada de ediciones falsas en su página de Wikipedia. Google retiró el dato y aclaró que no fue un cambio manual suyo, sino el efecto de que se vandalicen las fuentes públicas en las que se apoya.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Watch", "url": "https://searchenginewatch.com/google-sam-altman-dead/"},
+        {"nombre": "IBTimes UK", "url": "https://www.ibtimes.co.uk/google-false-death-report-sam-altman-1814182"},
+        {"nombre": "Shopifreaks", "url": "https://www.shopifreaks.com/google-search-results-falsely-say-openai-ceo-sam-altman-died-and-google-blames-vandalism-of-public-information-sources/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "El informe de IA generativa de Search Console ya aparece en todas las cuentas que tienen datos suficientes",
+      "resumen": "El 11 de agosto se confirmó que el informe de rendimiento en funciones de IA generativa terminó de llegar a todo el mundo, aunque John Mueller aclaró que solo se muestra si hay datos suficientes. Trae impresiones, páginas, países, dispositivos y fechas para AI Overviews y AI Mode, pero todavía no entrega clics.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-search-console-ai-report-live-41850.html"},
+        {"nombre": "Google Search Central", "url": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google reactiva su demanda contra SerpApi apoyándose en el contrato que firmó con Reddit",
+      "resumen": "Después de que una jueza le tumbara el caso completo el 20 de julio, Google presentó el 10 de agosto una demanda enmendada contra SerpApi centrada en sus contratos de licencia de contenido. Alega que Reddit y otros dos socios sin nombrar le exigieron impedir que terceros extrajeran y comercializaran el material licenciado.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-amends-lawsuit-against-serpapi-41860.html"},
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/google-amends-serpapi-suit-with-content-licensing-terms/585505/"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/googles-serpapi-case-forces-its-licensing-deals-into-the-open/"},
+        {"nombre": "MediaPost", "url": "https://www.mediapost.com/publications/article/417185/google-renews-battle-with-serpapi-over-scraping.html"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Bing apaga las APIs antiguas de Webmaster Tools el 31 de agosto",
+      "resumen": "Microsoft retira ese día las interfaces SOAP y POX de Bing Webmaster Tools y desde entonces esas peticiones dejan de responderse. Hay que migrar a la versión JSON sobre HTTP, con los mismos métodos y la misma clave de API.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/bing-webmaster-tools-soap-pox-apis-retire-41805.html"},
+        {"nombre": "Relevant Audience", "url": "https://www.relevantaudience.com/seo/bing-webmaster-tools-soap-pox-apis-retire-august-2026/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Desde el 17 de agosto, Google deja de regalarte un CPA más barato del que pediste",
+      "resumen": "Las campañas con CPA o ROAS objetivo marcadas como limitadas por presupuesto van a acercarse de forma mucho más consistente al objetivo configurado, en vez de rendir por debajo de él. Aplica a Search, Shopping, Performance Max, Demand Gen y Travel, en Google Ads y en Search Ads 360.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Ayuda de Google Ads", "url": "https://support.google.com/google-ads/answer/17061251?hl=en"},
+        {"nombre": "Optmyzr", "url": "https://www.optmyzr.com/blog/google-ads-august-2026-bidding-update/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google Ads elimina la segmentación manual por idioma en las campañas de búsqueda",
+      "resumen": "A fines de septiembre desaparece la configuración de idioma a nivel de campaña en Search, en AI Max for Search y en el inventario de búsqueda de Performance Max. La decisión pasa a los sistemas automáticos, que eligen el anuncio según su idioma y las señales sobre qué idiomas entiende la persona.",
+      "idioma": "ES",
+      "fuentes": [
+        {"nombre": "AdTech México", "url": "https://adtech.com.mx/google-ads-elimina-segmentacion-idioma-search-performance-max/"},
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-ads-is-removing-language-targeting-from-search-campaigns-484831"},
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/google-is-removing-language-targeting-from-search-campaigns/585592/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Un estudio dice que las campañas con AI Max reciben 72% más tráfico inválido",
+      "resumen": "El 12 de agosto la empresa de detección de tráfico inválido Lunio publicó un análisis de retail según el cual las campañas de búsqueda con AI Max activado quedaron expuestas a un 72% más de tráfico inválido que las campañas sin esa función. AI Max ya salió de fase beta y Google dice que lo usan más de 500.000 anunciantes.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "PPC Land", "url": "https://ppc.land/retailers-on-ai-max-face-72-more-invalid-traffic-lunio-finds/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Merchant Center saca los clics de afiliados de YouTube del tráfico orgánico desde el 24 de agosto",
+      "resumen": "Google dejará de contar los clics de afiliación de YouTube dentro del tráfico orgánico de los informes de rendimiento de Merchant Center y avisó que puede provocar una caída importante de una sola vez. El recálculo alcanza hacia atrás hasta el 1 de julio de 2026.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "PPC Land", "url": "https://ppc.land/google-rewrites-youtube-and-discover-ad-rules-for-a-second-time-in-11-months/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google reescribió los requisitos de anuncios de YouTube y Discover, sin cambiar la norma",
+      "resumen": "El 11 de agosto Google publicó una entrada en su registro de cambios diciendo que actualizó los requisitos de anuncios del feed de YouTube y de Discover para mejorar la redacción y la claridad, sin cambiar cómo se aplican las políticas. Es la segunda reescritura de la misma página en once meses.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-updates-youtube-and-discover-feed-ad-requirements-484772"},
+        {"nombre": "Políticas de Google Ads", "url": "https://support.google.com/adspolicy/answer/17455694?hl=en&ref_topic=16794025"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Microsoft Clarity ya te dice cuánto te raspa cada bot de IA y cuánta visita te devuelve",
+      "resumen": "Clarity sumó una tarjeta llamada Scrape-to-Referral que compara en una sola métrica cuánto rastrea cada plataforma de IA en tu sitio contra cuántas visitas te manda de vuelta, con ranking por operador y enlace directo a las grabaciones de sesión filtradas por esa fuente.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/microsoft-clarity-ai-scrape-to-referral-insights-report-484959"},
+        {"nombre": "Microsoft Clarity", "url": "https://clarity.microsoft.com/blog/scrape-to-referral-insights/"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/microsoft-clarity-card-ranks-which-ai-operators-scrape-most-and-refer-least/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Los AI Overviews empezaron a mostrar imágenes creadas por la propia IA, sin fuente y sin enlace",
+      "resumen": "Google anunció la función el 14 de julio y esta semana empezó a verse desplegada dentro de los resúmenes de IA, generada por Nano Banana 2. A diferencia del texto, que muestra enlaces a sus fuentes, la imagen inventada no lleva ni fuente ni enlace saliente.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/ai-generated-images-google-ai-overviews-41872.html"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/google-brings-image-generation-into-ai-overviews-as-google-images-turns-25/"},
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/google-adds-image-generation-to-ai-overviews-revamps-images/582242/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Gemini 3.7 Flash entra al AI Mode de la Búsqueda",
+      "resumen": "Google DeepMind presentó Gemini 3.7 Flash el 13 de agosto y ese mismo día empezó a desplegarlo en el AI Mode de la Búsqueda, en inglés y para suscriptores de Google AI Pro y Ultra. Google dice que mejora sobre todo en seguir instrucciones y entender la intención de quien pregunta.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/gemini-3-7-flash-rolling-out-in-google-search-485058"},
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-search-gemini-3-7-flash-41879.html"},
+        {"nombre": "Blog de Google", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Solo el 15,2% de las categorías en ChatGPT tienen una marca dueña, y el SEO no alcanza para explicar cuál",
+      "resumen": "Semrush y Kevin Indig revisaron 1.094 categorías estadounidenses en ChatGPT entre enero y junio de 2026, con más de 50.000 marcas, 220.000 dominios y 600.000 citas. Solo en un 15,2% de las categorías hay una marca que domine de forma consistente las preguntas de compra relacionadas.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/chatgpt-topic-ownership-seo-482901"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Google bajó de 100.000 a 35.000 seguidores el mínimo para tener perfil propio en la Búsqueda",
+      "resumen": "Los perfiles de Búsqueda, lanzados en junio para que creadores y medios reúnan su sitio, sus redes y sus publicaciones en un solo lugar, ahora piden 35.000 seguidores en YouTube, Instagram o X, y 100.000 en TikTok. Google dijo que planea llevar la función a más países.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-search-profiles-lowers-subscriber-requirements-41866.html"},
+        {"nombre": "Social Media Today", "url": "https://www.socialmediatoday.com/news/google-lowers-search-profile-requirements/827980/"},
+        {"nombre": "Android Authority", "url": "https://www.androidauthority.com/google-search-profile-lower-requirements-3698116/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Las propiedades de plataforma de Search Console ya están disponibles en todo el mundo",
+      "resumen": "Google abrió a todos los usuarios las propiedades de plataforma, que muestran cómo rinden en la Búsqueda, en Discover y en Google Noticias las publicaciones de Instagram, TikTok, X y YouTube, con clics, impresiones, publicaciones destacadas y consultas de entrada.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-search-console-platform-properties-are-now-globally-live-483921"},
+        {"nombre": "Google Search Central", "url": "https://developers.google.com/search/blog/2026/07/platform-properties-social-video-guide"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "YouTube duplica el listón para entrar a su programa de socios",
+      "resumen": "El 10 de agosto YouTube anunció el mayor cambio de reglas desde 2018, vigente el 1 de febrero de 2027: la vía de video largo pasa de 4.000 a 8.000 horas válidas en 365 días y la de Shorts de 10 a 20 millones de vistas en 90 días. Quienes ya están dentro no enfrentan el umbral nuevo.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "PPC Land", "url": "https://ppc.land/youtube-doubles-monetization-thresholds-and-adds-a-rolling-shorts-test/"},
+        {"nombre": "Forbes", "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/11/youtube-doubles-the-monetization-bar-for-new-creators/"},
+        {"nombre": "TechBriefly", "url": "https://techbriefly.com/2026/08/11/youtube-monetization-requirements-watch-hours-shorts-views/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Más del 40% del contenido largo de LinkedIn está enteramente generado por IA, y la red ya deja denunciarlo",
+      "resumen": "El estudio AI in Your Feed de Pangram analizó más de un millón de publicaciones entre fines de abril y fines de junio de 2026 y encontró que más del 40% de las publicaciones largas de LinkedIn eran completamente generadas por IA. LinkedIn respondió con un botón para denunciarlas y retiró su propio asistente de redacción.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/"},
+        {"nombre": "Engadget", "url": "https://www.engadget.com/2227188/linkedin-testing-seems-like-ai-slop-reporting-tool/"},
+        {"nombre": "Tech Times", "url": "https://www.techtimes.com/articles/322428/20260731/linkedin-pulls-its-own-ai-writing-feature-crowdsources-slop-detection.htm"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Una revisión de 45 estudios concluye que reescribir una página para gustarle a la IA puede reducir su recuperación",
+      "resumen": "Olivier Martinez, de Sciences Po, revisó de forma crítica 45 estudios sobre optimización para motores generativos publicados entre noviembre de 2023 y julio de 2026. Encontró que las reescrituras pensadas para agradar a los modelos pueden bajar hasta un 16% la probabilidad de que la página sea recuperada.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2607.14035", "url": "https://arxiv.org/abs/2607.14035"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/survey-of-45-studies-finds-geo-rewrites-can-cut-a-pages-ai-retrieval-16/"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Midieron 102 marcas en cinco motores de IA para ver qué citan de verdad",
+      "resumen": "Pratyush Kumar, de Ranqo, publicó una medición a gran escala de cómo aparecen 102 marcas en ChatGPT, Gemini, Perplexity, Claude y Grok, sobre más de 100.000 respuestas recogidas entre marzo y mayo de 2026, con foco en qué valoran los motores al citar una marca y en qué fuentes se apoyan.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2606.20065", "url": "https://arxiv.org/abs/2606.20065"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Medir la visibilidad en IA una sola vez no sirve: hacen falta al menos tres corridas por consulta",
+      "resumen": "Julius Schulte, Malte Bleeker y Philipp Kaufmann probaron cuatro sectores suizos con ocho prompts por campaña contra ChatGPT, Perplexity, Gemini y el AI Mode de Google entre el 24 de enero y el 20 de marzo de 2026. Recomiendan un mínimo de tres mediciones por consulta y por plataforma en una ventana de siete días.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2604.07585", "url": "https://arxiv.org/abs/2604.07585"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Proponen una subasta que decide no solo qué anuncio va, sino en qué turno de la conversación conviene mostrarlo",
+      "resumen": "Yan Fang, Jialin Chen, Chun Gan, Hang Yu, Mingjun Nie, Yeyu Zhang, Fengxiang He y Ching Law presentaron LLM-OSDA, una subasta dinámica de costo por clic para publicidad nativa en conversaciones de varios turnos, que separa la estimación de calidad del clic del mecanismo que ve las pujas. Fue enviada a AAAI 2027.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2608.00123", "url": "https://arxiv.org/abs/2608.00123"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Un módulo aparte para insertar publicidad sin tocar el modelo que responde",
+      "resumen": "Zhaowei Zhang, Yuhan Fu, Yihang Zhang, Xiaohan Liu, Ceyao Zhang, Xiaoyuan Zhang, Yipeng Kang, Tonghan Wang y Yaodong Yang plantean PILA, que convierte la inserción de anuncios en una reescritura de la respuesta hecha por un módulo lateral, compatible con servicios que solo exponen una API y con un control explícito entre naturalidad y exposición del anuncio.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2607.25590", "url": "https://arxiv.org/abs/2607.25590"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Google prueba poner una lista de anunciantes encima del bloque de anuncios en móvil",
+      "resumen": "El experimento muestra primero quiénes son los anunciantes participantes, cada uno con su favicon y su dominio, y recién después los anuncios. No hay comunicado de Google, ni entrada en el centro de ayuda, ni fecha de lanzamiento.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-tests-advertiser-list-above-mobile-search-ads-484622"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Los agentes de información del AI Mode bajan del plan Ultra al plan Pro",
+      "resumen": "Ya están disponibles en todos los idiomas y mercados del AI Mode, pero solo para quienes pagan Google AI Ultra. Vigilan un tema las 24 horas y avisan con enlaces cuando aparece información nueva. Google dijo que planea llevarlos al plan Pro, mucho más masivo.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "PPC Land", "url": "https://ppc.land/google-expands-search-agents-to-all-ai-mode-languages-for-ultra-subscribers/"},
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/google-rolls-out-ai-mode-information-agents-to-ultra-subscribers/579085/"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Las campañas de Travel migran al formato nuevo de campañas de búsqueda",
+      "resumen": "Google avisó que dentro del tercer trimestre de 2026 va a mover las campañas de Travel hacia las nuevas campañas de búsqueda para viajes en Google Ads, sin dar una fecha exacta dentro del trimestre.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/august-2026-google-webmaster-report-41804.html"}
+      ]
+    }
+  ]
+}
