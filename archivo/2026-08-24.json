@@ -1,0 +1,278 @@
+{
+  "edicion": 8,
+  "fecha": "2026-08-24",
+  "semana": "18–24 ago 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "Después de un mes de movimientos que nadie confirmaba, Google por fin puso nombre a uno: la actualización de spam de agosto",
+      "resumen": "Google desplegó la actualización entre el 18 y el 21 de agosto, en todas las regiones y todos los idiomas, sin reglas nuevas y sin tocar el spam de enlaces ni la política de abuso de la reputación del sitio. Es la primera actualización de spam que se despliega después de que en mayo Google ampliara sus políticas para cubrir también la manipulación de las respuestas generativas en AI Overviews y AI Mode. Según SE Ranking, el 16,71% de las URLs del top 10 cayeron más allá del puesto 100, frente al 9,2% de un periodo sin actualización confirmada.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/google-begins-rolling-out-the-august-2026-spam-update/586301/"},
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-august-2026-spam-update-done-41906.html"},
+        {"nombre": "Semrush", "url": "https://www.semrush.com/blog/google-august-2026-spam-update/"},
+        {"nombre": "Marketing4eCommerce", "url": "https://marketing4ecommerce.net/google-lanza-su-tercera-spam-update-del-ano/"},
+        {"nombre": "Ecommerce News", "url": "https://ecommerce-news.es/google-lanza-su-actualizacion-de-spam-de-agosto-y-vuelve-a-poner-el-foco-en-la-calidad-de-los-resultados/"},
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-updates-search-spam-policies-to-clarify-it-applies-to-generative-ai-responses-477657"},
+        {"nombre": "Search Engine Land (dato SE Ranking)", "url": "https://searchengineland.com/google-august-2026-spam-update-ranking-impact-485980"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google dejó de perdonar el schema mal escrito, y el que estaba mal puede fallar sin avisar",
+      "resumen": "Desde el 21 de agosto Googlebot hace una sola pasada de conversión de caracteres HTML al leer JSON-LD, en vez de las dos que hacía antes, con las que corregía en silencio el marcado descuidado. No es un cambio de ranking sino de lectura, pero el schema que Google venía tolerando puede dejar de validar sin señal alguna y llevarse consigo los resultados enriquecidos.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/json-ld-extraction-googlebot-41921.html"},
+        {"nombre": "Search Engine Watch", "url": "https://searchenginewatch.com/google-changes-how-it-parses-double-escaped-json-ld-entities/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google Trends estrena mapas interactivos y una vista por región rediseñada",
+      "resumen": "El 19 de agosto Google sumó a la sección Explorar de Trends mapas interactivos y un desglose regional con diseño nuevo, en despliegue gradual. Sigue midiendo interés relativo y no cantidad de búsquedas, así que una región con puntaje alto no es necesariamente la que más busca en términos absolutos.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-trends-explore-maps-and-regional-breakdown-41899.html"},
+        {"nombre": "Ayuda de Google Trends", "url": "https://support.google.com/trends/answer/4355212?hl=en"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google le da a los medios un botón para pegar en su web y pelear la caída de tráfico por la IA",
+      "resumen": "El 20 de agosto Google publicó el código de un botón de Fuentes preferidas que cualquier sitio puede incrustar: al pulsarlo, el lector marca ese sitio como fuente preferida y vuelve de inmediato al punto donde estaba leyendo. Desde entonces ve ese contenido con más facilidad en Noticias destacadas, en AI Overviews y en AI Mode, y Google contó que ya se eligieron más de 600.000 fuentes únicas frente a las 200.000 de mayo.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "TechCrunch", "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/"},
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-preferred-source-button-update-41912.html"},
+        {"nombre": "Blog de Google", "url": "https://blog.google/products-and-platforms/products/search/personalize-search-discover-news/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google arregló el fin de semana el fallo de los favicons y el hueco de datos en Search Console",
+      "resumen": "Durante cerca de una semana Google mostró el ícono genérico de globo en vez del favicon de muchos sitios, y Rajan Patel avisó el sábado 22 que la corrección llegaría en unas doce horas. El hueco de dos días en el informe de estadísticas de rastreo, correspondiente al 14 y al 15 de agosto, quedó resuelto el domingo 23.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-fix-favicon-crawl-stats-41928.html"},
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-working-on-fix-for-broken-favicons-in-google-search-485665"},
+        {"nombre": "Search Engine Watch", "url": "https://searchenginewatch.com/google-search-console-crawl-stats-report-shows-data-gap/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google Ads permitirá probar cambios de presupuesto en varias campañas a la vez, no en una sola",
+      "resumen": "El 20 de agosto Google anunció un paquete de experimentación y planificación para Search y AI Max, con una prueba A/B multi-campaña que llega en septiembre para medir el efecto de subir presupuesto o cambiar el objetivo de retorno antes de aplicarlo a toda la cuenta. Los experimentos ya admiten controles de marca y de ubicación, y Performance Planner amplía sus proyecciones de presupuesto, puja y objetivos.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/google-ads-launches-new-search-and-ai-max-experimentation-tools/586549/"},
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-adds-new-ai-max-testing-and-planning-tools-485566"},
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-ads-ai-max-experimentation-planning-41910.html"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Microsoft abre AI Max a todas sus cuentas del mundo",
+      "resumen": "El 19 de agosto Microsoft Advertising empezó a desplegar AI Max en todas las cuentas y mercados, saliendo del piloto abierto que arrancó en mayo. Son tres funciones, coincidencia por términos de búsqueda, personalización automática del texto y expansión de la URL final, y sigue siendo opcional tanto en campañas nuevas como en las que ya corren.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/microsoft-advertising-rolls-out-ai-max-globally-for-search-campaigns-485530"},
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/microsoft-advertising-rolls-out-ai-max-globally/586459/"},
+        {"nombre": "Microsoft Advertising", "url": "https://about.ads.microsoft.com/en/blog/post/august-2026/reimagining-search-campaigns-for-the-ai-era-with-ai-max"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Microsoft retira el CPC máximo de las campañas nuevas desde el 1 de octubre",
+      "resumen": "Las campañas creadas desde esa fecha con Maximizar conversiones, Maximizar valor de conversión o Maximizar clics ya no aceptarán un CPC máximo, salvo dentro de estrategias de cartera. Las campañas que ya corren conservan el campo, igual que las carteras, la cuota de impresiones objetivo y el CPC mejorado.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/microsoft-advertising-max-cpc-sunset-41917.html"},
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/microsoft-ads-is-removing-max-cpc-from-new-campaigns/586527/"},
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/microsoft-advertising-removes-max-cpc-from-new-standalone-bidding-campaigns-485598"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/microsoft-advertising-drops-max-cpc-from-new-campaigns-on-october-1/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Los anuncios de ChatGPT ya se muestran en 31 países de Europa",
+      "resumen": "OpenAI anunció la expansión el 18 de agosto y empezó a servir los avisos el 24, seis meses después del arranque en Estados Unidos, alcanzando a las cuentas gratuitas y del plan Go. En paralelo cambió su medición: la coincidencia avanzada automática quedó activada por defecto el 17 de agosto y las conversiones por impresión vista llegaron el 18 y el 19, fuera del cálculo de puja, facturación y costo por adquisición.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "OpenAI", "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"},
+        {"nombre": "MediaPost", "url": "https://www.mediapost.com/publications/article/417446/openai-expands-advertising-pilot-in-31-european-ma.html"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/bid-controls-shrink-as-ad-measurement-breaks-week-of-august-17/"},
+        {"nombre": "Anicca", "url": "https://anicca.co.uk/blog/weekly-update-search-marketing-21-08-2026/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Los anuncios de servicios locales empiezan a mudarse a Performance Max con pago por lead",
+      "resumen": "Google amplió las categorías de Local Services Ads justo antes de arrancar la migración de esas campañas a Google Ads como Performance Max con objetivo de pago por lead, empezando en agosto de 2026 por anunciantes de servicios de hogar y de local en Estados Unidos. El panel separado desaparece tras la mudanza y, aunque el historial de leads se traslada a Lead Manager, los informes históricos de rendimiento no se transfieren.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-expands-local-services-ads-categories-ahead-of-migration-485695"},
+        {"nombre": "Ayuda de Google Ads", "url": "https://support.google.com/google-ads/answer/17213585"},
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/google-is-bringing-local-services-ads-into-google-ads/582816/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Reddit perdió el 86% de sus citas en ChatGPT en cuatro días, y nadie sabe explicar del todo por qué",
+      "resumen": "Reddit se mantuvo estable en un 3,8% de todas las citas de ChatGPT Search entre el 18 de julio y el 7 de agosto, y entre el 14 y el 17 de agosto ese número promedió 0,5%. Promptwatch, que hizo la medición, califica el tamaño del desplome de provisional, y OpenAI respondió que no fija un nivel de visibilidad para sitios concretos y que ChatGPT sigue citando a Reddit. No confirmado.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/reddit-chatgpt-search-citations-fall-report-485473"},
+        {"nombre": "Semrush", "url": "https://www.semrush.com/blog/reddits-citations-in-chatgpt-fall/"},
+        {"nombre": "Forbes", "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/20/reddit-nearly-vanishes-from-chatgpt-citations-after-openai-search-change/"},
+        {"nombre": "Promptwatch", "url": "https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "En Francia, AI Overviews ya aparece en más de la mitad de las búsquedas a semanas de haber llegado",
+      "resumen": "SE Ranking midió 100.000 palabras clave en 20 nichos con datos del 7 y el 8 de agosto y encontró un resumen de IA en el 52,63% de las búsquedas. Es un punto de partida muy distinto al de Alemania, España y Países Bajos en marzo de 2025, donde la cobertura del primer mes no superaba el 33%.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "SE Ranking", "url": "https://seranking.com/blog/ai-overviews-france-study/"},
+        {"nombre": "Anicca", "url": "https://anicca.co.uk/blog/weekly-update-search-marketing-21-08-2026/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Uno de cada cinco visitantes que llega desde un AI Overview aparece en tus informes como tráfico directo",
+      "resumen": "Un análisis de nueve meses registró 51.200 eventos sobre 1.661 fragmentos citados entre septiembre de 2025 y junio de 2026, y en 11.468 casos la visita que venía de un AI Overview quedó atribuida al canal Directo en vez de a Búsqueda orgánica, una tasa media de error del 22,4%. El mismo trabajo encontró que las notas de tendencias y análisis fueron citadas el 78% de las veces.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/ai-overview-data-51000-tracked-events-485080"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Discover deja que el lector le diga con sus propias palabras qué quiere ver",
+      "resumen": "Google anunció el 20 de agosto que el feed de Discover se puede ajustar conversando con él: desde el menú de tres puntos la persona escribe qué temas, fuentes u objetivos le interesan, y la IA reordena el feed al instante y recuerda esa preferencia. Sale a través de Search Labs y el sistema puede repreguntar para afinar.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-discover-lets-you-customize-your-feed-using-conversational-search-485552"},
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-discover-tailored-feed-by-words-41911.html"},
+        {"nombre": "MobileSyrup", "url": "https://mobilesyrup.com/2026/08/21/google-discover-feed-chat-customization/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Desde el 24 de agosto YouTube cuenta una vista apenas arranca el video, sin tiempo mínimo",
+      "resumen": "El cambio aplica a video largo, Shorts y transmisiones en directo, y elimina el umbral de cerca de 30 segundos que necesitaba el video largo. Los números públicos suben, pero YouTube confirmó que no cambian los ingresos ni los requisitos para entrar al programa de socios.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Forbes", "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/17/youtube-changes-how-it-counts-views-handing-marketers-two-numbers-instead-of-one/"},
+        {"nombre": "Android Police", "url": "https://www.androidpolice.com/youtube-views-are-about-to-change/"},
+        {"nombre": "Tech Times", "url": "https://www.techtimes.com/articles/325112/20260820/youtube-splits-its-view-count-two-bigger-public-numbers-same-earning-rules.htm"},
+        {"nombre": "vidIQ", "url": "https://vidiq.com/blog/post/youtube-view-count-update/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "El carrusel de videos casi desapareció de los resultados de Google",
+      "resumen": "El 19 de agosto se confirmó que Google muestra el carrusel de video mucho menos que antes: según datos de Semrush pasó de aparecer en algo más del 30% de las consultas a menos del 20%. Es una caída de más de un tercio del espacio que ese formato ocupaba en la página de resultados.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-video-carousel-drops-41894.html"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Los perfiles de Búsqueda de Google ya permiten cambiar el nombre de usuario",
+      "resumen": "Desde el 18 de agosto se puede editar el arroba del perfil desde la opción Editar perfil, algo que antes quedaba fijo para siempre una vez elegido. Si el nombre ya está tomado, Google propone vincular una cuenta social nueva como alternativa.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-search-profiles-edit-your-handle-41886.html"},
+        {"nombre": "Search Engine Watch", "url": "https://searchenginewatch.com/google-adds-option-to-edit-short-name-in-search-profiles/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Bing prueba una pestaña de Shorts que mezcla videos de YouTube, Instagram, TikTok y Facebook",
+      "resumen": "Microsoft está probando en el menú de Bing en escritorio una pestaña llamada Shorts que filtra los resultados dejando solo videos cortos de las distintas plataformas. Google ya había sumado una opción parecida de video corto a su cabecera en noviembre de 2025.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/bing-shorts-video-tab-41892.html"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "El primer experimento controlado sobre AI Overviews: 39,8% menos clics salientes y ninguna mejora para el usuario",
+      "resumen": "Saharsh Agarwal, de la Indian School of Business, y Ananya Sen, de la Heinz College de Carnegie Mellon, asignaron al azar con una extensión propia a 1.065 usuarios de Chrome a ver o no ver el resumen de IA, entre el 7 de enero y el 10 de febrero de 2026. Cuando aparecía el AI Overview los clics orgánicos salientes cayeron 39,8% y las búsquedas sin ningún clic subieron 34,5%, mientras los clics en resultados patrocinados se mantuvieron sin cambio.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2608.18352", "url": "https://arxiv.org/abs/2608.18352"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/ai-overviews-cut-publisher-clicks-39-8-in-first-randomized-study/"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Reescribir una ficha para gustarle a la IA puede colar productos defectuosos en las recomendaciones",
+      "resumen": "Qianfeng Wen, Yifan Simon Liu, Xin Liu, Difan Jiao, Blair Yang, Junda Wu y Zhenwei Tang construyeron SafeGEO, con 22 variantes de ataque de optimización generativa sobre 600 casos de recomendación. Esas reescrituras aumentaron hasta un 83,2% en promedio la tasa con la que un producto defectuoso entraba en el conjunto recomendado, y defensas simples redujeron esa promoción dañina hasta un 39,2%.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2606.28356", "url": "https://arxiv.org/abs/2606.28356"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Piden reglas para el GEO antes de que la influencia comercial quede escondida dentro de las respuestas",
+      "resumen": "Yizhu Wen, Nan Zhang, Haohan Yuan, Xun Chen, Haopeng Zhang y Hanqing Guo identifican tres riesgos poco examinados: la concentración de influencia, la influencia comercial no declarada dentro de las fuentes y del razonamiento, y el desfase entre los montajes académicos fuera de línea y los sistemas realmente desplegados. Proponen gobernanza a nivel de la respuesta, auditoría de caja negra y métricas alineadas con el sistema en producción.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2606.12439", "url": "https://arxiv.org/abs/2606.12439"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Un banco de pruebas que por fin mide el SEO y el GEO en la misma cadena, incluido el schema",
+      "resumen": "Sunghwan Kim, Wooseok Jeong, Serin Kim, Sangam Lee y Dongha Lee presentaron SAGEO Arena, un entorno reproducible que evalúa la optimización en buscadores generativos etapa por etapa, incluidas la recuperación y el reordenamiento que los bancos anteriores saltaban. También conserva la información estructural de las páginas reales, empezando por el marcado de schema, que esos bancos descartaban.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2602.12187", "url": "https://arxiv.org/abs/2602.12187"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Proponen subastar neuronas del modelo en vez de espacio en el texto del anuncio",
+      "resumen": "Peiran Yun, Wenxin Xu, Jiayuan Liu, Yihang Zhang, Liang Zeng, Lingkai Kong y Tonghan Wang plantean mover el objeto de la subasta publicitaria desde el texto visible hasta las representaciones internas del modelo, identificando neuronas asociadas a marcas concretas. Muestran que marcas competidoras se activan en zonas casi independientes entre sí, y con eso buscan equilibrar pago al anunciante, ingreso de la plataforma y experiencia de quien pregunta.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2605.08326", "url": "https://arxiv.org/abs/2605.08326"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Meta está construyendo su propio índice de la web y ya rastrea más de lo que rastreaba para entrenar",
+      "resumen": "El rastreador Meta-WebIndexer superó en junio de 2026 al rastreador de entrenamiento de la propia Meta y llegó al 37,8% de todas las peticiones de rastreadores de IA registradas al 9 de agosto de 2026. Ese índice alimenta a Meta AI en Facebook, Instagram, WhatsApp, Messenger y la aplicación suelta, que hasta ahora dependían de Google y de Bing para responder con información de la web en vivo.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "PPC Land", "url": "https://ppc.land/meta-webindexer/"},
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/meta-facebook-search-engine-41840.html"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Google sacó a Performance Max de la lista de campañas que pueden medir búsquedas de marca",
+      "resumen": "Branded Searches es la conversión que registra cuándo alguien busca la marca en Google o en YouTube después de ver un anuncio, presentada en 2025 como la alternativa siempre activa a los experimentos de Search Lift. La documentación actualizada el 18 de agosto cambió cómo se define su disponibilidad, su atribución y sus informes, y Performance Max ya no figura entre los tipos de campaña admitidos.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-updates-branded-searches-conversion-measurement-485353"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Comprar anuncios en ChatGPT todavía no es una plataforma abierta, y eso deja fuera a la mayoría",
+      "resumen": "Con la publicidad ya activa en Estados Unidos, América Latina y ahora Europa, el acceso sigue siendo por el equipo de soluciones publicitarias de OpenAI, socios de agencia y socios tecnológicos. El autoservicio a través de un administrador de anuncios llega más adelante y sin fecha comprometida, así que por ahora invertir en ChatGPT es una negociación comercial y no una cuenta que se abre sola.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "MediaPost", "url": "https://www.mediapost.com/publications/article/417446/openai-expands-advertising-pilot-in-31-european-ma.html"},
+        {"nombre": "OpenAI", "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"}
+      ]
+    }
+  ]
+}
