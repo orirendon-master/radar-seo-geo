@@ -1,0 +1,275 @@
+{
+  "edicion": 9,
+  "fecha": "2026-09-20",
+  "semana": "14–20 sep 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "Google empieza a pagarle a los sitios cuando su contenido alimenta una respuesta de IA, y el dinero aparece dentro de Search Console",
+      "resumen": "El AI Contribution Pilot paga a un grupo cerrado de sitios cuando su contenido contribuye de forma significativa a una respuesta de Gemini, AI Overviews o AI Mode, y muestra el monto en un panel nuevo de Google Search Console. Google lo confirmó como prueba temprana, planea correrla doce meses y exige cuenta verificada de Search Console e historial de publicación propia. El problema es la opacidad: los participantes ven solo una cifra mensual, sin saber qué páginas la generaron ni con qué fórmula se calculó, y una fuente citada por Digiday describió los primeros pagos como una cifra muy menor frente a sus ingresos publicitarios. Como contexto del costo real, un estudio causal sobre Wikipedia midió 5,45% menos visitas mensuales desde buscadores a la edición en inglés frente a la alemana desde que AI Overviews quedó activado por defecto, alrededor de 100 millones de visitas menos al mes.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Digiday", "url": "https://digiday.com/media/google-rolls-out-pay-value-ai-licensing-program-to-publishers/"},
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-tests-paying-publishers-for-using-its-content-in-ai-mode-ai-overviews-and-gemini-488382"},
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/google-tests-paying-publishers-for-ai-answers-via-search-console/589414/"},
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-al-contribution-pilot-42076.html"},
+        {"nombre": "9to5Google", "url": "https://9to5google.com/2026/09/17/google-ai-contribution-pilot-tests-paying-websites-when-theyre-used-in-ai-results/"},
+        {"nombre": "MediaNama", "url": "https://www.medianama.com/2026/09/223-google-ai-pilot-publishers-responses/"},
+        {"nombre": "Laboratorio de Periodismo", "url": "https://laboratoriodeperiodismo.org/google-prueba-un-modelo-que-paga-a-los-editores-cuando-sus-contenidos-aportan-valor-a-respuestas-de-ia/"},
+        {"nombre": "arXiv:2602.18455 (dato Wikipedia)", "url": "https://arxiv.org/abs/2602.18455"},
+        {"nombre": "Search Engine Journal (dato Wikipedia)", "url": "https://www.searchenginejournal.com/what-wikipedia-reveals-about-ai-overviews-and-web-traffic/589042/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google cerró la puerta a las herramientas de posiciones, y tus informes de esta quincena pueden estar mintiendo",
+      "resumen": "Desde alrededor del 13 de septiembre Google bloquea con mucho más éxito a los rastreadores de IA y a las herramientas de seguimiento de posiciones. Derek Perkins, de Nozzle, reportó una caída cercana al 80% en los datos que logra recolectar, y el 16 de septiembre Google hizo cambios adicionales que la redujeron todavía más. La raíz está en el redirect google.com/goto, confirmado el 26 de agosto, que esconde la dirección de destino tras un código que obliga a seguir toda la cadena en los servidores de Google.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-blocking-scrapers-and-tracking-tools-42118.html"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/google-forces-rank-trackers-into-500-to-1-000-requests-per-query/"},
+        {"nombre": "SUSO Digital", "url": "https://susodigital.com/thoughts/googles-goto-redirect/"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Los perfiles de Búsqueda de Google se abren a cuentas mucho más chicas: bastan 10.000 seguidores",
+      "resumen": "El 16 de septiembre Google bajó a 10.000 seguidores o suscriptores el requisito para tener un perfil de Búsqueda, desde 35.000 en agosto y 100.000 en el lanzamiento de junio. Sumó administración de hasta diez marcas con un solo inicio de sesión y rediseñó las tarjetas de artículo. Al día siguiente apareció en la documentación de Search Central el código de una insignia que cualquier sitio puede poner en sus páginas para que lo sigan en Google.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Blog de Google", "url": "https://blog.google/products-and-platforms/products/search/3-new-ways-were-improving-search-profiles-for-publishers/"},
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-updates-search-profiles-with-design-update-lower-subscriber-requirements-and-single-login-488827"},
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/google-search-profiles-10000-followers/589635/"},
+        {"nombre": "Google Search Central", "url": "https://developers.google.com/search/docs/appearance/search-profiles"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Dos semanas de rankings inestables que Google no ha confirmado, y una parte se deshizo sola",
+      "resumen": "El 15 de septiembre las herramientas y los foros registraron un pico fuerte de movimiento en los resultados, sin ningún anuncio de Google y sin que figure ningún core update ni actualización de spam de septiembre en su panel de estado. Antes, Glenn Gabe había seguido sitios grandes golpeados alrededor del 3 y el 4 de septiembre y el 13 vio que en parte de ellos el efecto se revirtió por completo. No confirmado.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable (volatilidad del 15 de septiembre)", "url": "https://www.seroundtable.com/google-update-42091.html"},
+        {"nombre": "Search Engine Roundtable (el movimiento que se revirtió)", "url": "https://www.seroundtable.com/google-search-ranking-update-94-42079.html"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "A Search Console le falta el día 15 en el informe de estadísticas de rastreo",
+      "resumen": "Al informe de estadísticas de rastreo le falta un día completo de datos, el 15 de septiembre, que según la zona horaria puede verse como el 16. Afecta a todas las propiedades de Search Console y no es un problema de ningún sitio en particular. Ya había ocurrido antes y en esos casos Google terminó restaurando los datos.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-search-console-crawl-stats-missing-42120.html"}
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Cloudflare cambió sus valores por defecto el 15 de septiembre y ahora separa rastreo de búsqueda, de agentes y de entrenamiento",
+      "resumen": "Cloudflare dividió el tráfico de robots en búsqueda, agentes y entrenamiento, y creó una designación de rastreador responsable para los casos mixtos de Apple, Google y Microsoft. Desde el 15 de septiembre, en páginas con publicidad, entrenamiento y agentes quedan bloqueados por defecto y búsqueda sigue permitida, con efecto sobre clientes nuevos, sitios nuevos y todo el plan gratuito. El riesgo es que una regla demasiado amplia contra el entrenamiento termine bloqueando al robot que indexa el sitio.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Cloudflare", "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/"},
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/cloudflare-will-write-your-robots-txt-and-it-has-a-point/589262/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "El anuncio en ChatGPT deja de ser un anuncio y pasa a ser una conversación con la marca",
+      "resumen": "El 16 de septiembre OpenAI presentó los agentes patrocinados: tras hacer clic en un anuncio, la persona puede abrir una conversación aparte y etiquetada con un agente que representa a la marca, separada de la conversación original y de las respuestas propias de ChatGPT. Está en prueba con anunciantes seleccionados en Estados Unidos. La marca no puede leer la conversación original, pero sí lo que la persona le escriba al agente. OpenAI sumó además a HubSpot como primer socio de CRM y a Shopify como primer socio de comercio electrónico, con apertura internacional de la aplicación desde el 23 de septiembre.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "OpenAI", "url": "https://openai.com/index/reimagining-advertising-with-ai/"},
+        {"nombre": "Centro de ayuda de OpenAI", "url": "https://help.openai.com/en/articles/20001524-sponsored-agents-in-chatgpt-ads"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/openai-lets-advertisers-run-chatgpt-ads-from-hubspot-and-shopify/"},
+        {"nombre": "Quartz", "url": "https://qz.com/openai-chatgpt-sponsored-agents-hubspot-shopify-091726"},
+        {"nombre": "Marketing4eCommerce", "url": "https://marketing4ecommerce.net/agentes-patrocinados-chatgpt-ads/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google dejó de frenarte las pujas cuando te quedas sin presupuesto, y el costo por clic lo está notando",
+      "resumen": "Los datos posteriores al cambio de puja inteligente del 17 de agosto sugieren que terminó el mecanismo por el cual Google bajaba las pujas en campañas limitadas por presupuesto. Según cifras citadas por Search Engine Land, el costo por clic mediano de las campañas con retorno objetivo limitadas por presupuesto subió 15,8%, mientras que el de las campañas que nunca tocan su techo bajó 13% en el mismo periodo, y la cuota de impresiones mediana de las limitadas cayó de 40% a 31%. No afecta al costo por clic manual ni a las campañas de cuota de impresiones objetivo.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-ads-smart-bidding-update-appears-to-have-ended-bid-suppression-489524"},
+        {"nombre": "Optmyzr", "url": "https://www.optmyzr.com/blog/google-ads-august-2026-bidding-update/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "A fin de mes desaparece la segmentación por idioma en las campañas de Búsqueda",
+      "resumen": "Google elimina el ajuste de idioma a nivel de campaña en Search, en AI Max para Search y en el inventario de Búsqueda dentro de Performance Max, con despliegue a fines de septiembre. En su lugar usará el idioma del anuncio y de la página de destino más lo que sabe de los idiomas de cada persona, priorizando los que coinciden con el término buscado. En Performance Max el ajuste seguirá aplicando a los demás canales.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Blog para desarrolladores de Google Ads", "url": "https://ads-developers.googleblog.com/2026/08/google-ads-language-targeting-changes.html"},
+        {"nombre": "MediaPost", "url": "https://www.mediapost.com/publications/article/417817/google-ads-to-eliminate-language-targeting-in-late.html"},
+        {"nombre": "Search Engine Journal", "url": "https://www.searchenginejournal.com/google-is-removing-language-targeting-from-search-campaigns/585592/"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google Ads te muestra si gastas más o menos que negocios parecidos al tuyo",
+      "resumen": "Desde el 16 de septiembre aparece en la vista general de la cuenta un informe de referencias de gasto que compara la inversión semanal y los clics contra un grupo de cuentas que Google considera similares por industria y por ubicación de publicación. En el ejemplo que circuló, una cuenta mostraba 284 euros semanales frente a 268 del grupo y 912 clics frente a 765. Google no publicó cuántas cuentas componen ese grupo ni cómo define que un negocio es parecido a otro.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-ads-spend-benchmarks-report-competitors-42097.html"},
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-ads-is-showing-advertisers-how-their-spending-compares-with-peers-488937"}
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Asset Studio dobla tus videos a 33 idiomas con IA, gratis y por ahora para unos pocos",
+      "resumen": "Google Ads está desplegando el doblaje de anuncios de video dentro de Asset Studio, que toma un video existente y lo dobla a 33 idiomas y variantes regionales sin costo, con disponibilidad limitada a usuarios seleccionados. La función se había detectado como herramienta interna en octubre de 2025. Google promociona la novedad con un aumento de 86% en la tasa de clic y una baja de 75% en el costo por clic, cifras de la propia compañía y no de un estudio independiente.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-ads-rolls-out-ai-video-dubbing-in-asset-studio-489693"},
+        {"nombre": "ContentGrip", "url": "https://www.contentgrip.com/google-ads-ai-dubbing/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "La búsqueda por voz de Google pasa a un modelo nuevo que salta entre 97 idiomas en la misma conversación",
+      "resumen": "El 15 de septiembre Google anunció Gemini 3.8 Live y su versión de razonamiento extendido, y los desplegó en la API de Gemini, AI Studio, Gemini Enterprise, Gemini Live, Workspace y Search Live, la conversación por voz en tiempo real de la aplicación de Google. Google dice que el modelo reconoce y alterna automáticamente entre 97 idiomas dentro de una misma conversación. Cada consulta resuelta hablando es una consulta que no pasa por una página de resultados ni genera un clic.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/gemini-3-8-live-powers-google-search-live-488757"},
+        {"nombre": "9to5Google", "url": "https://9to5google.com/2026/09/15/gemini-3-8-live-announced/"},
+        {"nombre": "Search Engine Watch", "url": "https://searchenginewatch.com/gemini-3-8-live-makes-google-search-more-useful-and-clicking-websites-less-necessary/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Google está probando reemplazar la ficha de un negocio local por un resumen de IA con chat",
+      "resumen": "Al buscar una empresa por su nombre, Google está probando reemplazar el panel de siempre con horarios, teléfono, reseñas y mapa por un bloque etiquetado como AI Overview que describe el negocio con palabras de Google, más un botón que abre una conversación estilo AI Mode sobre esa empresa. Ben Fisher lo publicó y Barry Schwartz lo reprodujo sobre su propio negocio. Sigue siendo una prueba sin anuncio oficial. No confirmado.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-local-knowledge-panel-ai-overview-42105.html"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "AI Mode se mete dentro del buscador clásico y gana formas nuevas de repreguntar",
+      "resumen": "Google está probando poner el botón de AI Mode dentro de la barra de búsqueda cuando la persona ya está en la página de resultados e intenta afinar lo que buscó, en lugar de dejarlo solo en la portada. En paralelo trabaja en maneras nuevas de expandir la consulta más allá de las preguntas de seguimiento, con preguntas de selección múltiple, una opción de refinamiento y respuestas paginadas. Son pruebas detectadas por la comunidad durante la semana del 12 al 18 de septiembre. No confirmado.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Roundtable (botón en la barra)", "url": "https://www.seroundtable.com/google-search-bar-testing-ai-mode-button-42110.html"},
+        {"nombre": "Search Engine Roundtable (expansión de consulta)", "url": "https://www.seroundtable.com/google-ai-mode-more-query-expansions-42074.html"},
+        {"nombre": "Ethan Lazuk", "url": "https://ethanlazuk.com/blog/hamsterdam-part-145/"}
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "La publicidad dentro de AI Mode empieza a parecerse a un anuncio de verdad",
+      "resumen": "Al 16 de septiembre se observó que los anuncios al pie de las respuestas de AI Mode empezaron a mostrar descripciones, cuando antes solo aparecían con enlaces de sitio. En paralelo, Google está probando mezclar anuncios de compras pagados con fichas de producto gratuitas dentro de las respuestas de AI Mode en móvil, en dos ubicaciones distintas. Son formatos en prueba, no un despliegue general anunciado.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Watch", "url": "https://searchenginewatch.com/google-ai-mode-now-showing-descriptions-for-ads/"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/google-tests-two-shopping-ad-placements-inside-ai-mode-results/"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Pinterest abre publicidad dentro de su buscador visual y se apoya en 80.000 millones de búsquedas al mes",
+      "resumen": "En su evento Pinterest Presents del 17 de septiembre, Pinterest presentó los anuncios de búsqueda visual, un formato que coloca al anunciante dentro de los resultados de búsqueda de la plataforma y en la vista ampliada de cada pin, combinando relevancia por palabra clave con formato visual. Para venderlo, Pinterest declara más de 80.000 millones de búsquedas al mes, en su gran mayoría visuales y más de la mitad con intención de compra, cifras de la propia compañía. El formato entra en prueba en mercados seleccionados en las próximas semanas.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Pinterest Newsroom", "url": "https://newsroom.pinterest.com/news/new-pinterest-visual-search-performance-ads/"},
+        {"nombre": "Social Media Today", "url": "https://www.socialmediatoday.com/news/pinterest-announces-visual-search-ads-and-an-ai-restyle-feature/830737/"},
+        {"nombre": "StockTitan", "url": "https://www.stocktitan.net/news/PINS/pinterest-launches-visual-search-ads-to-expand-performance-6brr012vpd66.html"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Reddit suma una pestaña que responde con IA lo que la gente dice en sus foros",
+      "resumen": "En su registro de cambios del 10 de septiembre, Reddit confirmó un experimento que agrega una pestaña llamada Ask junto a las de todo, publicaciones, comunidades, comentarios, medios y perfiles, con un resumen generado por IA de lo que la gente dice en Reddit sobre esa consulta. Arrancó el 2 de septiembre para una parte de los usuarios en todo el mundo. En el mismo registro, Reddit informó que prueba una experiencia de compras dentro de Answers, su búsqueda con IA.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Reddit Help", "url": "https://support.reddithelp.com/hc/en-us/articles/53416317564820-Changelog-September-10-2026"}
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Pinterest reconstruyó el motor que hay detrás de sus búsquedas",
+      "resumen": "InfoQ documentó la evolución técnica de Manas, la plataforma de búsqueda de Pinterest, que migró de un método de búsqueda por vecinos más cercanos muy intensivo en memoria a otro comprimido, capaz de manejar volúmenes mucho mayores con mejor eficiencia en búsqueda y descubrimiento. Es el cimiento técnico detrás del empuje de Pinterest como buscador visual.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "InfoQ", "url": "https://www.infoq.com/news/2026/09/pinterest-search/"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Solo una de cada cien visitas a un AI Overview termina con un clic a la fuente citada",
+      "resumen": "Athena Chapekis, Anna Lieb, Sono Shah y Aaron Smith, del Pew Research Center, analizaron un mes de navegación real de un panel representativo de 900 adultos en Estados Unidos. Los clics a las fuentes citadas dentro de un AI Overview ocurren en alrededor del 1% de las visitas a una página de resultados con ese resumen, y su presencia se asocia con menos clics y con más sesiones que terminan ahí mismo. También identificaron qué hace más probable que aparezca: consultas largas, que empiezan con palabra de pregunta y que combinan sustantivo con verbo.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2608.04831", "url": "https://arxiv.org/abs/2608.04831"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Una revisión de 45 estudios concluye que casi nadie ha demostrado que el GEO traiga clientes",
+      "resumen": "Olivier Martinez revisó 45 estudios publicados entre noviembre de 2023 y julio de 2026 sobre optimización para motores generativos, y sostiene que el GEO no es una tarea de ranking sino una cadena larga y en parte invisible que va desde la activación de la búsqueda hasta el comportamiento final de la persona. Su hallazgo incómodo es que los experimentos muestran con solidez que un documento ya presente en el contexto del motor puede cambiar cómo se lo cita, pero rara vez demuestran que la página vaya a ser recuperada, y casi nunca que el efecto se traduzca en clics o conversiones duraderas.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2607.14035", "url": "https://arxiv.org/abs/2607.14035"},
+        {"nombre": "PPC Land", "url": "https://ppc.land/survey-of-45-studies-finds-geo-rewrites-can-cut-a-pages-ai-retrieval-16/"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Ser citado y ser usado no son lo mismo, y ChatGPT usa mucho más cada fuente que cita",
+      "resumen": "Zhang Kai, He Xinyue y Yao Jingang proponen separar la medición en dos etapas: la selección de la cita, cuando la plataforma busca y elige fuentes, y la absorción de la cita, cuando esa página aporta lenguaje, evidencia, estructura o respaldo a la respuesta final. Midieron 602 consultas, 21.143 citas válidas y 23.745 registros de características por cita. Amplitud y profundidad van por caminos distintos: Perplexity y Google citan más fuentes en promedio, mientras ChatGPT cita menos pero cada página recuperada pesa bastante más en la respuesta.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2604.25707", "url": "https://arxiv.org/abs/2604.25707"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Proponen subastar la publicidad palabra por palabra, dentro del proceso que genera la respuesta",
+      "resumen": "Hanbing Liu, Bowei Zhang, Changyuan Yu, Yinyu Ye y Qi Qi presentan LAMA, un mecanismo de subasta que mete la influencia del anunciante directamente en el proceso de generación de texto en lugar de reservar espacios predefinidos. Los anunciantes declaran cuánto vale para ellos cada continuación posible, eso induce una manera de elegir la palabra siguiente propia de cada anunciante, y la plataforma decide mientras genera. Demuestran que el mecanismo mantiene los incentivos correctos para declarar el valor verdadero y se acerca al mejor equilibrio posible entre ingreso y calidad.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2608.27382", "url": "https://arxiv.org/abs/2608.27382"}
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Un precio mínimo calculado para que ningún anuncio empeore la respuesta",
+      "resumen": "Jiale Han y Xiaowu Dai, de la Universidad de California en Los Ángeles, atacan la tensión entre ganar dinero con publicidad y no arruinar la calidad de la respuesta. Partiendo de la generación con recuperación de documentos, toman el contenido orgánico como referencia y derivan un precio mínimo propio del sistema que descarta cualquier anuncio cuyo aporte no mejore el resultado conjunto. En sus experimentos superan a las alternativas tanto en ingreso por anuncio como en parecido semántico con la respuesta sin publicidad.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "arXiv:2605.10964", "url": "https://arxiv.org/abs/2605.10964"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Amazon empezó a vender espacio publicitario dentro de ChatGPT, en piloto cerrado",
+      "resumen": "Desde el 10 de septiembre, anunciantes seleccionados de Estados Unidos que usan Amazon Ads, incluido Amazon DSP, pueden comprar anuncios dentro de la aplicación de ChatGPT, con Delta Vacations como primera marca nombrada. Se ofrece como servicio gestionado: Amazon arma y optimiza las campañas y el sistema de OpenAI decide qué anuncio aparece. Los formatos iniciales son texto e imagen bajo las respuestas, más anuncios generados desde catálogos de producto. Solo Estados Unidos por ahora, con expansión esperada en 2027.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Amazon Ads", "url": "https://advertising.amazon.com/library/news/amazon-ads-chat-gpt-advertising-integration"},
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/amazon-pilots-chatgpt-ads-through-its-dsp-488026"},
+        {"nombre": "CNBC", "url": "https://www.cnbc.com/2026/09/10/amazon-chatgptads-open-ai.html"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Google prueba si las campañas de Búsqueda de siempre pueden aparecer dentro de AI Mode",
+      "resumen": "La prueba evalúa si campañas convencionales con concordancia exacta y de frase pueden servir anuncios de texto dentro de AI Mode, limitada a consultas donde Google ve una intención clara y directa. Si avanza, los anunciantes podrían llegar a AI Mode sin adoptar AI Max ni Performance Max, que hasta ahora eran el camino obligado. Google no anunció alcance ni fecha de despliegue.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Search Engine Land", "url": "https://searchengineland.com/google-tests-traditional-search-campaigns-in-ai-mode-487199"}
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "La Unión Europea empieza a tratar a los chatbots como competidores de los buscadores, con acceso a datos incluido",
+      "resumen": "La Comisión Europea adoptó el 16 de julio su primera decisión de especificación bajo la ley de mercados digitales, fijando las condiciones bajo las cuales Alphabet debe dar acceso justo y razonable a datos de búsqueda, y ese acceso alcanza expresamente a buscadores de terceros y a chatbots de IA. El criterio que se impone es funcional: si un servicio recupera, sintetiza y presenta información, compite con un buscador. Los plazos concretos y el detalle de qué datos se comparten todavía están en desarrollo.",
+      "idioma": "EN",
+      "fuentes": [
+        {"nombre": "Concurrences", "url": "https://www.concurrences.com/en/bulletin/news-issues/september-2026-iii/the-eu-commission-adopts-its-first-specification-decision-under-the-dma-setting"}
+      ]
+    }
+  ]
+}
