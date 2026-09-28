@@ -1,0 +1,447 @@
+{
+  "edicion": 10,
+  "fecha": "2026-09-28",
+  "semana": "21–27 sep 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "ChatGPT pierde terreno en el uso, pero sigue siendo casi el único que manda tráfico real a los sitios",
+      "resumen": "El informe trimestral de IA de Comscore muestra que la participación de ChatGPT en los mensajes de IA de Estados Unidos bajó de cerca de 70% en enero de 2026 a cerca de 50% en junio, mientras Gemini y Claude ganan terreno y los AI Overviews de Google ya aparecen en 39,4% de las búsquedas de escritorio en Estados Unidos. Pero datos de BrightEdge muestran que el tráfico de referencia que ChatGPT envía a sitios web más que se duplicó en 2026 y llegó a 95,1% de todo el tráfico de referencia que la IA manda a la web, cerca de 22 veces el de Gemini, Perplexity y Claude juntos. Como dato de contexto, 26,2% de los AI Overviews en Estados Unidos ya muestran un enlace externo dentro del propio texto de la respuesta, un salto desde casi 0% que arrancó alrededor del 11 de septiembre según la firma Peec AI, aunque parte de ese texto subrayado ahora abre una conversación en AI Mode en vez de llevar a un sitio.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Digiday",
+          "url": "https://digiday.com/media/comscore-data-shows-how-ai-discovery-is-splintering-beyond-chatgpt/"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/chatgpt-loses-20-points-of-us-ai-prompt-share-to-gemini-and-claude/"
+        },
+        {
+          "nombre": "Tubefilter",
+          "url": "https://www.tubefilter.com/2026/09/22/comscore-ai-intelligence-report-q2-2026-chatgpt-gemini/"
+        },
+        {
+          "nombre": "eMarketer",
+          "url": "https://www.emarketer.com/content/gemini-gains-ground-chatgpt-25-dau-share-claude-churn-drops"
+        },
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-ai-overviews-share-us-comscore-490381"
+        },
+        {
+          "nombre": "Comscore",
+          "url": "https://www.comscore.com/Insights/Press-Releases/2026/9/Comscores-Q2-2026-AI-Intelligence-Report"
+        },
+        {
+          "nombre": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/09/24/3368345/0/en/brightedge-data-chatgpt-referral-traffic-more-than-doubles-in-2026-reaching-record-95-1-share-of-ai-traffic.html"
+        },
+        {
+          "nombre": "TheNextWeb",
+          "url": "https://thenextweb.com/news/chatgpt-ai-referral-traffic-95-percent-brightedge"
+        },
+        {
+          "nombre": "MarTech Cube",
+          "url": "https://www.martechcube.com/brightedge-data-shows-chatgpt-referral-traffic-doubled-in-2026/"
+        },
+        {
+          "nombre": "DiarioBitcoin",
+          "url": "https://www.diariobitcoin.com/tecnologia/chatgpt-concentro-el-951-del-trafico-que-la-ia-envio-a-sitios-web-en-agosto/"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-ai-overviews-have-more-links-but-not-all-reach-the-web/590762/"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-overviews-more-external-links-42135.html"
+        },
+        {
+          "nombre": "Shopifreaks",
+          "url": "https://www.shopifreaks.com/google-ai-overviews-with-in-text-web-links-jump-to-26-after-september-11-but-some-underlined-text-now-opens-ai-mode-instead/"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google confirma la actualización de spam de septiembre, la cuarta del año, después de un pico de movimiento que nadie había anunciado",
+      "resumen": "El 24 de septiembre Google confirmó la actualización de spam de septiembre de 2026, con despliegue de hasta dos semanas en todos los idiomas. Horas antes del anuncio oficial, varias herramientas de terceros ya habían marcado un pico fuerte de volatilidad en los resultados.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-september-2026-spam-update/590828/"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-september-2026-spam-update-42163.html"
+        },
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-releases-september-2026-spam-update-491267"
+        },
+        {
+          "nombre": "Trecebits",
+          "url": "https://www.trecebits.com/google-spam-update/"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Search Console estrena un filtro para medir cuánto tráfico llega por búsquedas con imagen",
+      "resumen": "Desde el 24 de septiembre el informe de Rendimiento suma un tipo de búsqueda multimodal que agrupa el tráfico desde Google Lens, Circle to Search y la carga directa de imágenes. La dimensión de consultas queda desactivada para ese segmento.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Google Search Central Blog",
+          "url": "https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc"
+        },
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-search-console-performance-reports-gets-multimodal-filter-490806"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-search-console-multimodal-search-type-filter-42156.html"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "La actualización principal de agosto terminó de desplegarse justo al empezar esta semana, y septiembre sigue sin su propio core update",
+      "resumen": "El core update de agosto de 2026 tardó 26 días en desplegarse por completo y terminó el 21 de septiembre. Google no ha confirmado ni dado fecha para un core update propio de septiembre.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Watch",
+          "url": "https://searchenginewatch.com/could-googles-next-core-update-arrive-in-september-2026/"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-algorithm-history/"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "John Mueller dice que contar posiciones del 1 al 10 ya no describe bien cómo se ve hoy una página de resultados",
+      "resumen": "Mueller explicó que el marco clásico de posiciones es difícil de aplicar a los resultados actuales y que el reporte de Search Console para AI Mode y AI Overviews va a seguir cambiando. Desde el 7 de septiembre esas impresiones se combinan en un mismo reporte y las filas de AI Mode ya se filtran por el mensaje exacto de la persona.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-search-console-ai-reporting-change-42099.html"
+        },
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/geo/google-search-console-ai-position-reporting-will-evolve/"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Discover le sigue restando tráfico a los medios, y Google prueba una función que retiene todavía más clics adentro",
+      "resumen": "Search Engine Roundtable volvió sobre la caída sostenida de tráfico de Discover para los editores durante 2026. En paralelo, Google prueba una función llamada Dive deeper que retiene la navegación dentro de sus propias superficies.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/video-09-25-2026-42164.html"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Termina septiembre y con él el plazo para que Google migre tus campañas de Búsqueda a AI Max, lo hayas pedido o no",
+      "resumen": "Durante todo septiembre Google migró de forma automática las campañas de Búsqueda con concordancia amplia hacia AI Max for Search, con un promedio declarado de 14% más conversiones. La migración de Búsqueda Dinámica se corrió a febrero de 2027 tras el reclamo de varios anunciantes.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-sets-ai-max-migration-timeline-for-search-campaigns-485006"
+        },
+        {
+          "nombre": "Google Ads blog",
+          "url": "https://blog.google/products/ads-commerce/dsa-upgrade-to-ai-max-2026/"
+        },
+        {
+          "nombre": "Titular.com",
+          "url": "https://www.titular.com/blog/google-ads-empieza-a-migrar-campa%C3%B1as-de-b%C3%BAsqueda-a-ai-max"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "La publicidad de ChatGPT llega a mil millones de dólares al año y abre autoservicio en toda Europa",
+      "resumen": "OpenAI reportó un ritmo anualizado de 1.000 millones de dólares en su negocio de anuncios y abrió autoservicio en 31 mercados europeos. En las semanas siguientes sumó feeds de producto obligatorios, segmentación por plataforma e integraciones nativas de Shopify y HubSpot.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Digiday",
+          "url": "https://digiday.com/media-buying/openais-chatgpt-ads-business-hits-1-billion-run-rate-as-europe-gets-self-serve-access/"
+        },
+        {
+          "nombre": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"
+        },
+        {
+          "nombre": "MediaPost",
+          "url": "https://www.mediapost.com/publications/article/417561/chatgpt-ads-reaches-1b-annualized/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google Ads ahora acepta la dirección IP y la hora exacta de cada interacción para armar audiencias de Customer Match",
+      "resumen": "Desde el 25 de septiembre, Customer Match suma IP y marca de tiempo sin aplicarles un hash, junto a los identificadores que ya aceptaba. No está disponible en el Espacio Económico Europeo, el Reino Unido ni Suiza, y por ahora tampoco alcanza a DV360.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-ads-adds-ip-address-and-timestamp-matching-to-customer-match-491517"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-now-takes-ip-addresses-for-customer-match-but-dv360-is-left-out/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Microsoft Advertising conecta por fin la palabra buscada con el anuncio mostrado y la página de destino en un mismo informe",
+      "resumen": "El 25 de septiembre Microsoft Advertising sumó a su API un informe de página de destino por término de búsqueda y exclusión de dispositivo a nivel de campaña para Performance Max. Es parte de un esfuerzo por cerrar la brecha de automatización y control frente a Google Ads.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/microsoft-ads-api-adds-deeper-search-reporting-and-more-pmax-controls-491549"
+        },
+        {
+          "nombre": "ContentGrip",
+          "url": "https://www.contentgrip.com/microsoft-ads-api-pmax/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Chrome hace públicos cuatro datos sobre cuánta publicidad carga cada sitio, y Google los suma a su documentación de experiencia de página",
+      "resumen": "Chrome sumó cuatro métricas experimentales de carga publicitaria al Chrome User Experience Report, y el 22 de septiembre Google las referenció en su documentación de experiencia de página para SEO. Google aclaró que no forman parte de Core Web Vitals ni son señal de ranking por ahora.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Chrome for Developers",
+          "url": "https://developer.chrome.com/blog/crux-ad-metrics"
+        },
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-chrome-launches-new-metrics-to-measure-ad-heavy-websites-488753"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-adds-new-ad-experience-metrics-to-crux-report/589569/"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "El regulador de competencia del Reino Unido quiere que ChatGPT y Perplexity compitan por aparecer en la pantalla de elección de buscador",
+      "resumen": "La Competition and Markets Authority propuso, el 23 de septiembre, una pantalla de elección anual en Android y Chrome que incluya a asistentes de IA que califiquen junto a los buscadores tradicionales, con atribución obligatoria al contenido de editores. La consulta pública cierra el 9 de octubre.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Engadget",
+          "url": "https://www.engadget.com/2266226/uk-competition-watchdog-wants-to-give-android-and-chrome-users-more-search-engine-choices/"
+        },
+        {
+          "nombre": "TheNextWeb",
+          "url": "https://thenextweb.com/news/cma-google-choice-screens-ai-assistants"
+        },
+        {
+          "nombre": "AndroidHeadlines",
+          "url": "https://www.androidheadlines.com/2026/09/uk-regulators-pick-default-ai-assistant-android-chrome.html"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Google prueba comprar en Flipkart sin salir de la conversación con Gemini, como ensayo de compras hechas por el propio asistente",
+      "resumen": "Desde el 26 de septiembre Google prueba, con un grupo chico de usuarios en India, la compra directa de productos de Flipkart desde Gemini y AI Mode, sin salir de la conversación. Se apoya en el Universal Commerce Protocol y espera una expansión más amplia en octubre.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/"
+        },
+        {
+          "nombre": "Marketing Tech News",
+          "url": "https://www.marketingtechnews.net/news/google-ai-shopping-gemini-ai-mode-india/"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Google mete una caja de AI Mode dentro de los propios AI Overviews, y las dos superficies se parecen cada vez más a una sola",
+      "resumen": "Durante la semana del 21 al 25 de septiembre se confirmó que Google muestra, en algunos AI Overviews, una caja para seguir la conversación en AI Mode sin hacer clic aparte. Se suma a la prueba de AI Overviews que se expanden dinámicamente en una respuesta más larga.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/recap-09-24-2026-42158.html"
+        },
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-is-dynamically-expanding-ai-overviews-for-some-queries-486200"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "OpenAI le pide a la Unión Europea que no deje que Google, Meta y Apple bloqueen a sus competidores",
+      "resumen": "El 24 de septiembre OpenAI se reunió con la jefa de competencia de la Unión Europea, Teresa Ribera, y planteó las dificultades que enfrenta para competir contra plataformas ya instaladas. Ocurre después de que la UE designara a ChatGPT como buscador en línea muy grande bajo la ley de servicios digitales.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Reuters vía Yahoo",
+          "url": "https://www.yahoo.com/news/articles/openai-flags-competition-concerns-eu-192430536.html"
+        },
+        {
+          "nombre": "MLex",
+          "url": "https://www.mlex.com/mlex/antitrust/articles/2456028/eu-s-ribera-to-meet-google-meta-openai-bosses-on-us-trip"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "YouTube convierte su buscador con IA en un comparador de compras con tablas y búsqueda por fotograma",
+      "resumen": "En su evento Made on YouTube, el 23 de septiembre, YouTube anunció que Ask YouTube suma tablas de comparación de producto armadas por IA y búsqueda por fotograma dentro del video. El mismo evento anunció programas de afiliados y de creadores en decenas de países.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/23/youtube-doubles-down-on-video-shopping-with-ai-powered-ask-youtube-feature/"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/youtube-shopping-ask-youtube-ai-search/590662/"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/youtubes-ai-search-to-gain-product-cards-that-send-shoppers-to-retailers/"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Reddit amplía sus recomendaciones de compra con IA a hogar y moda, con un salto de 40% en conversaciones de compra",
+      "resumen": "Reddit extendió la prueba de compras dentro de Answers, su búsqueda con IA, desde electrónica y belleza hacia hogar y moda, con resúmenes generados a partir de discusiones reales. Reporta un aumento interanual de 40% en conversaciones de compra con intención alta.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Reddit Help",
+          "url": "https://support.reddithelp.com/hc/en-us/articles/53416317564820-Changelog-September-10-2026"
+        },
+        {
+          "nombre": "Reddit's AI search",
+          "url": "https://support.reddithelp.com/hc/en-us/articles/32026729424916-Reddit-s-AI-search"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "LinkedIn y Reddit ganan terreno como fuente de las respuestas de IA, mientras YouTube, Instagram y TikTok pierden",
+      "resumen": "Un informe de Otterly.ai encontró que las redes sociales en conjunto perdieron cerca de 8% de su participación en las citas de búsqueda con IA entre agosto y septiembre. LinkedIn, Reddit y Facebook ganaron participación mientras YouTube, Instagram y TikTok bajaron.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Otterly.ai",
+          "url": "https://otterly.ai/blog/ai-search-updates-september/"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Un tercio de las páginas citadas en un AI Overview ni siquiera aparecían en los primeros resultados normales",
+      "resumen": "Xu, Iqbal y Montgomery, de la Universidad de Washington en San Luis, midieron una tasa de activación de AI Overviews de 13,7% en general, que sube a 64,7% en consultas con forma de pregunta. Cerca de 30% de los dominios citados no figuran en la primera página de resultados normales.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv · Xu, Iqbal y Montgomery",
+          "url": "https://arxiv.org/abs/2605.14021"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Detectan el patrón detrás de la optimización agresiva para IA, y proponen un filtro que la neutraliza sin tocar el modelo",
+      "resumen": "Li, Shao, Lin, Guan, Zhou y Shi documentan cómo el GEO pasó de la reescritura manual a la optimización automática y agéntica capaz de inflar la visibilidad de un documento en respuestas de IA. Proponen GEO Defender, una defensa en dos etapas que no requiere reentrenar el modelo.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv · Li, Shao, Lin, Guan, Zhou y Shi",
+          "url": "https://arxiv.org/abs/2609.02964"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Proponen subastar publicidad dentro de las respuestas de un chatbot sin repartir espacios fijos como hace hoy la búsqueda",
+      "resumen": "Zhao, Hu, Song, Chen, Zhu, Xu y Zheng presentan un mecanismo de subasta generativa que inserta publicidad pagada directamente dentro del texto que produce un modelo de lenguaje. El diseño optimiza a la vez qué se muestra y cómo se genera el texto, sin costo extra de cómputo.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv · Zhao, Hu, Song, Chen, Zhu, Xu y Zheng",
+          "url": "https://arxiv.org/abs/2512.10551"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Google empezó a inscribir automáticamente a tiendas de Shopify en el checkout nativo dentro de AI Mode y Gemini, sin pedirles permiso primero",
+      "resumen": "Desde el 22 de septiembre, comerciantes de Shopify recibieron avisos de que sus tiendas ya habían sido emparejadas con Merchant Center y habilitadas para compra directa dentro de Gemini y AI Mode. Se puede salir del programa, pero la inscripción fue automática.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-switched-on-ai-mode-checkout-for-shopify-stores-without-asking/"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-native-checkout-emails-42140.html"
+        },
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-opens-native-ai-checkout-to-eligible-shopify-merchants-490407"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Europa ya vive con el rediseño de resultados que Google calificó como la mayor reducción de calidad de su historia, y el plazo de cumplimiento con la Unión Europea sigue abierto",
+      "resumen": "Tras la multa de 890 millones de euros de julio, Google desplegó el 8 de septiembre un nuevo diseño de resultados para el Espacio Económico Europeo que da más lugar a servicios de comparación y les quita datos en tiempo real a sus propios carruseles. El plazo de 60 días para ajustar el cumplimiento todavía no vence.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Skift",
+          "url": "https://skift.com/2026/09/08/google-update-europe-travel-search-results-dma/"
+        },
+        {
+          "nombre": "Digital Watch Observatory",
+          "url": "https://dig.watch/updates/google-rolls-out-new-search-to-comply-with-eu-dma"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Google confirmó una prueba pequeña que deja que campañas de Búsqueda comunes muestren anuncios de texto dentro de AI Mode",
+      "resumen": "Son campañas con concordancia exacta o de frase, limitadas a consultas con intención clara. Si avanza, los anunciantes podrían llegar a AI Mode sin adoptar antes AI Max ni Performance Max.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/google-ads-en/google-ads-exact-phrase-match-ai-mode-experiment/"
+        }
+      ]
+    }
+  ]
+}
