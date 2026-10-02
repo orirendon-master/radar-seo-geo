@@ -1,0 +1,483 @@
+{
+  "edicion": 11,
+  "fecha": "2026-10-02",
+  "semana": "28 sep–2 oct 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "Los AI Overviews ya aparecen en 8 de cada 10 búsquedas de marca, y el salto ocurrió en dos días",
+      "resumen": "Según DemandSphere, los AI Overviews pasaron de aparecer en 26,12% de las búsquedas de marca que sigue el 1 de septiembre a 90,48% el 27 de septiembre, y seguían en 82,06% el 29, mientras Chris Long, de Nectiv, encontró un AI Overview en 93 de 100 marcas grandes. Google no confirmó ningún cambio y nadie midió aún los clics. Como dato de contexto, varios sitios pequeños y medianos del piloto con que Google paga a cerca de 100 editores por aportar a sus respuestas de IA recibieron 0,1% o menos de sus ingresos publicitarios, según The Information.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-ai-overviews-jump-branded-queries-september-492962"
+        },
+        {
+          "nombre": "DemandSphere",
+          "url": "https://www.demandsphere.com/blog/branded-ai-overviews-september-2026/"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-overviews-large-brand-names-42195.html"
+        },
+        {
+          "nombre": "Inside AI News",
+          "url": "https://insideai.news/news/ai-in-business/google-ai-overviews-branded-search/13399/"
+        },
+        {
+          "nombre": "Comunicación Marketing",
+          "url": "https://comunicacionmarketing.es/seoysem/02/10/2026/las-ai-overviews-se-triplican-en-busquedas-de-marca/38016.html"
+        },
+        {
+          "nombre": "9to5Google",
+          "url": "https://9to5google.com/2026/09/30/google-ai-overview-payout-test-details/"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-pays-about-100-publishers-for-ai-answers-some-under-1-000/"
+        },
+        {
+          "nombre": "TheNextWeb",
+          "url": "https://thenextweb.com/news/google-ai-contribution-pilot-publishers-payments"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-ai-pilot-pays-some-sites-under-0-1-of-ad-revenue/591717/"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-contribution-pilot-01-percent-42188.html"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google pide revisar a mano todo el contenido hecho con IA, incluidos títulos, meta descripciones y datos estructurados",
+      "resumen": "El 1 de octubre Google actualizó su guía sobre contenido generado con IA para pedir que se verifique y revise a mano antes de publicar, incluidos títulos, meta descripciones, datos estructurados y texto alternativo. No es una penalización ni una señal de ranking nueva.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Google Search Central",
+          "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-updates-ai-content-guidelines-factcheck-review-42217.html"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-fact-check-ai-content-before-publishing/591782/"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-tells-sites-to-manually-factcheck-all-ai-content-before-publishing/"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "La actualización de spam de septiembre golpeó en dos tandas y todavía no termina",
+      "resumen": "La actualización de spam de septiembre tuvo una primera ola entre el 25 y el 27 de septiembre y una segunda el 30, con más movimiento el 1 de octubre. Hasta el 2 de octubre Google no había confirmado el fin del despliegue.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-september-2026-spam-update-two-42209.html"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-september-2026-spam-update-weekend-impact-42174.html"
+        },
+        {
+          "nombre": "Search Engine Watch",
+          "url": "https://searchenginewatch.com/googles-september-spam-update-delivers-another-ranking-jolt/"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google prueba marcar los clics que salen de un AI Overview, la medición que las agencias venían pidiendo",
+      "resumen": "Google prueba agregar el parámetro «?st_source=ai_overview» a los enlaces de los AI Overviews y de AI Mode, lo que permitiría separar en analítica los clics que vienen de esas respuestas. Es una prueba acotada y no confirmada.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-overview-link-tracking-parameters-42219.html"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google prueba un bloque de productos patrocinados que se ve igual a la grilla de productos gratuita",
+      "resumen": "Google prueba mostrar los productos patrocinados en la misma grilla que usa para los listados gratuitos, distinguidos solo por un título. Es una prueba no confirmada detectada por Brodie Clark.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-tests-sponsored-products-block-42184.html"
+        },
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/google-ads-en/google-tests-sponsored-products-ad-grid-looks-like-organic/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Amazon rehace su publicidad alrededor de un agente de IA y une su consola con su plataforma programática",
+      "resumen": "En unBoxed, el 29 de septiembre, Amazon fusionó su consola de anuncios y Amazon DSP en Amazon Ads Agent, una plataforma con experiencia conversacional y tres tipos de campaña: anuncios patrocinados, DVA+ y Full-Funnel Campaigns. Full-Funnel Campaigns ya está disponible para todos los anunciantes de Estados Unidos.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Amazon Ads",
+          "url": "https://advertising.amazon.com/library/news/unboxed-2026-news-announcements"
+        },
+        {
+          "nombre": "MediaPost",
+          "url": "https://www.mediapost.com/publications/article/418323/amazon-reboots-ad-business-emphasizes-agentic.html"
+        },
+        {
+          "nombre": "Digiday",
+          "url": "https://digiday.com/media-buying/at-its-flagship-unboxed-conference-amazon-ads-collapses-buying-silos-as-ai-takes-a-bigger-role-in-media-decisions/"
+        },
+        {
+          "nombre": "Marketing Dive",
+          "url": "https://www.marketingdive.com/news/how-amazon-is-streamlining-ad-buys-across-multiple-formats-with-ai/831492/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Un regulador alemán advierte que usar las conversaciones de ChatGPT para segmentar anuncios trae riesgos serios de privacidad",
+      "resumen": "El 2 de octubre el comisionado de protección de datos de Hamburgo advirtió que el plan de OpenAI de usar conversaciones pasadas y actuales de ChatGPT para segmentar anuncios en Europa supone riesgos sustanciales para la privacidad. Los anuncios sin consentimiento seguirían usando la conversación en curso.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "MLex",
+          "url": "https://www.mlex.com/mlex/articles/2533133/openai-s-planned-chatgpt-ad-profiling-raises-privacy-risks-hamburg-watchdog-says"
+        },
+        {
+          "nombre": "Digiday",
+          "url": "https://digiday.com/marketing/openai-builds-offerings-on-consent-as-it-expands-chatgpt-ads-to-europe/"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/openai-gains-2-latin-american-markets-for-chatgpt-ads-reaching-9-total/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Desde el 16 de octubre Google Ads acepta un nombre de negocio distinto al dominio de destino, con tres condiciones",
+      "resumen": "Desde el 16 de octubre Google Ads permitirá un nombre de negocio distinto al dominio de destino si refleja la marca del anunciante, hay una relación directa verificada con el dueño del dominio y los productos se venden ahí. Revendedores y afiliados quedan fuera.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ads-business-name-policy-42214.html"
+        },
+        {
+          "nombre": "Centro de ayuda de Google Ads",
+          "url": "https://support.google.com/google-ads/answer/12497613?hl=en"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Microsoft Advertising ya no deja poner un tope de costo por clic en las campañas automáticas nuevas",
+      "resumen": "Desde el 1 de octubre las campañas nuevas de Microsoft Advertising con puja automática fuera de una estrategia de cartera ya no pueden fijar un costo por clic máximo. Las campañas anteriores conservan el ajuste.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/microsoft-advertising-drops-max-cpc-from-new-campaigns-on-october-1/"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/microsoft-ads-is-removing-max-cpc-from-new-campaigns/586527/"
+        },
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/google-ads-en/microsoft-advertising-removes-max-cpc-new-campaigns-october-2026/"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "OpenAI convierte ChatGPT en una plataforma de agentes y aplicaciones, y dice tener 1.200 millones de usuarios semanales",
+      "resumen": "En su DevDay del 29 de septiembre OpenAI presentó los Dots, agentes permanentes con acceso a más de 4.000 aplicaciones, junto con más de 20 novedades, y Sam Altman habló de 1.200 millones de usuarios semanales de ChatGPT. ChatGPT pasa a funcionar como plataforma donde personas y agentes descubren y usan servicios.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "OpenAI",
+          "url": "https://openai.com/index/devday-2026-recap/"
+        },
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/"
+        },
+        {
+          "nombre": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html"
+        },
+        {
+          "nombre": "El Colombiano",
+          "url": "https://www.elcolombiano.com/tecnologia/openai-devday-2026-dots-agente-ia-chatgpt-space-gpt-6-1-sol-novedades-desarrolladores-HC41707734"
+        },
+        {
+          "nombre": "Marketing4eCommerce",
+          "url": "https://marketing4ecommerce.net/openai-devday-2026/"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Un juez de Estados Unidos rechaza las demandas de Penske Media y Chegg contra los AI Overviews: «una expectativa no es un acuerdo»",
+      "resumen": "El juez Amit P. Mehta desestimó las demandas antimonopolio de Penske Media y Chegg contra Google por los AI Overviews, con el argumento de que la expectativa de recibir tráfico a cambio de contenido «no es un acuerdo». Señaló que la respuesta corresponde a los legisladores.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Forbes",
+          "url": "https://www.forbes.com/sites/rickellis/2026/10/01/google-wins-dismissal-of-penske-media-chegg-ai-lawsuits/"
+        },
+        {
+          "nombre": "Technology.org",
+          "url": "https://www.technology.org/2026/10/02/judge-dismisses-penske-chegg-google-ai-overviews-lawsuits/"
+        },
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/geo/judge-mehta-dismisses-penske-chegg-ai-overviews-suits/"
+        },
+        {
+          "nombre": "Newscord",
+          "url": "https://newscord.org/article/amit-mehta-dismisses-chegg-and-penske-media-antitrust-lawsuits-against-google-ai--Story_20261001_JudgedismissesChegga9c0676f2"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "AI Mode ahora vigila por encargo precios, stock y novedades, para todos los usuarios del mundo",
+      "resumen": "El 28 de septiembre Google empezó a desplegar para todos los usuarios del mundo el seguimiento de información de AI Mode, que vigila sitios, foros, redes y el Shopping Graph para avisar de cambios de precio, stock o novedades. Antes era exclusivo de AI Pro y Ultra.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-ai-mode-info-monitoring-global-rollout/591312/"
+        },
+        {
+          "nombre": "Robby Stein en X",
+          "url": "https://x.com/rmstein/status/2104720139971404016"
+        },
+        {
+          "nombre": "Search Engine Watch",
+          "url": "https://searchenginewatch.com/google-rolls-out-monitoring-capabilities-in-ai-mode-to-everyone/"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-mode-monitoring-capabilities-42179.html"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "En México, 65% de quienes descubren un producto en TikTok ya compran dentro de la propia aplicación",
+      "resumen": "Un estudio de TikTok Shop y la Asociación Mexicana de Venta Online encontró que 65% de quienes descubren productos en TikTok ya compran en TikTok Shop, y que uno de cada tres los encuentra por casualidad mientras navega. Las reseñas y los tutoriales son los formatos que más atención captan.",
+      "idioma": "ES",
+      "fuentes": [
+        {
+          "nombre": "DPL News",
+          "url": "https://dplnews.com/65-mexicanos-descubren-productos-compran-tiktok-shop/"
+        },
+        {
+          "nombre": "El Cronista México",
+          "url": "https://www.cronista.com/mexico/finanzas-economia/el-65-de-quienes-descubren-productos-en-tiktok-ya-compra-en-la-plataforma-el-nuevo-reto-para-las-pymes/"
+        },
+        {
+          "nombre": "Merca2.0",
+          "url": "https://www.merca20.com/tiktok-shop-acelera-en-mexico-65-de-quienes-descubren-productos-en-tiktok-ya-compra-en-la-plataforma/"
+        },
+        {
+          "nombre": "Mobile Time",
+          "url": "https://mobiletime.la/noticias/01/10/2026/tiktok-shop-en-mexico/"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Meta le suma a Forum, su aplicación de preguntas sobre Grupos de Facebook, insignias para expertos y respuestas de otros grupos",
+      "resumen": "Meta sumó a Forum, su aplicación de preguntas y respuestas sobre Grupos de Facebook, insignias para los miembros que más ayudan, respuestas relacionadas de otros grupos y etiquetas de tema. Forum está disponible solo en Estados Unidos.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Social Media Today",
+          "url": "https://www.socialmediatoday.com/news/meta-adds-contributor-badges-to-forums-chat-app/831717/"
+        },
+        {
+          "nombre": "Tubefilter",
+          "url": "https://www.tubefilter.com/2026/09/29/facebook-groups-forum-app-new-from-meta/"
+        },
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/social-media-marketing/facebook-groups-top-community-voices-role-forum/"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Facebook sigue siendo la red más usada en el mundo, pero entre los menores de 35 Instagram prácticamente la empata",
+      "resumen": "Un informe de Pew sobre 37 países encontró medianas de uso de 69% para Facebook, 51% para Instagram y 40% para TikTok. Entre las personas de 18 a 34 años, Facebook llega a 78% e Instagram a 77%.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Pew Research Center",
+          "url": "https://www.pewresearch.org/global/2026/10/01/social-media-platform-use-around-the-world/"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Los asistentes de IA citan solo una parte de lo que encuentran: entre 1,7% y 34% de las páginas que reciben",
+      "resumen": "Un estudio sobre ChatGPT, Claude, Grok y DeepSeek encontró que solo entre 1,7% y 34,0% de las páginas que devuelve la búsqueda terminan citadas en conversaciones reales, y que buscar más no mejora las respuestas. Cada plataforma favorece sus dominios preferidos.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv · Amani, Gummadi, Das y otros nueve autores",
+          "url": "https://arxiv.org/abs/2609.19244"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Darle estructura a una página la ayuda a llevarse más crédito en la respuesta, pero no a entrar en ella",
+      "resumen": "Selvam y Ghosh encontraron que reescribir una página con estructura de títulos, listas y tablas le suma 0,50 citas por respuesta sin aumentar el total de citas. El orden de las fuentes pesa mucho menos de lo que sugieren los datos crudos.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv · Selvam y Ghosh",
+          "url": "https://arxiv.org/abs/2609.15164"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/ai-citation-test-finds-source-order-matters-less-than-it-looks/589806/"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Un estudio sobre dos millones de citas de IA encuentra que la autoridad del dominio pesa seis veces más que cualquier ajuste de página",
+      "resumen": "Moore y Dunne, de Discovered Labs, analizaron cerca de 2 millones de citas de IA y encontraron que el parecido entre la página y los mensajes reales de la gente es el mejor predictor, y que la autoridad del dominio pesa seis veces más que la siguiente característica de página. La lista de chequeo técnica habitual pierde su efecto al comparar dentro de un mismo dominio.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv · Moore y Dunne",
+          "url": "https://arxiv.org/abs/2609.35077"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Los modelos de IA recomiendan las marcas de las que más se busca y se habla, no necesariamente las más populares",
+      "resumen": "Malthouse y coautores evaluaron las recomendaciones de marca de seis modelos de lenguaje en cinco categorías y encontraron que el lugar de una marca sigue al interés de búsqueda y a la conversación en línea, no a su popularidad convencional. Las consultas que solo nombran la categoría omiten muchas marcas establecidas.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv · Malthouse, Lee, Yang, Pal y Feng",
+          "url": "https://arxiv.org/abs/2609.16304"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Dónde poner un anuncio dentro de una respuesta de IA: 18.000 juicios humanos y jueces automáticos poco confiables",
+      "resumen": "LLMAdBench reúne más de 18.000 juicios humanos sobre dónde ubicar un anuncio dentro de una respuesta de IA, con y sin aviso de patrocinio. Ocho modelos usados como jueces no sirvieron como reemplazo de las personas.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv · Rui Ai, Chonghuan Wang y otros 15 autores",
+          "url": "https://arxiv.org/abs/2609.32533"
+        },
+        {
+          "nombre": "Hugging Face",
+          "url": "https://huggingface.co/datasets/ruiai-work/LLMADBENCH"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Google anunció Gemini 4 Argon, su modelo más potente, pero por ahora solo lo usan especialistas en ciberseguridad",
+      "resumen": "El 30 de septiembre Google presentó Gemini 4 Argon, su modelo más potente, y lo entrega primero a defensores de ciberseguridad verificados a través de su programa Fairwind. No dijo si ni cuándo llegará a AI Mode o a los AI Overviews.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "SecurityWeek",
+          "url": "https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/"
+        },
+        {
+          "nombre": "BetaNews",
+          "url": "https://betanews.com/article/gemini-4-argon-cyber-defenders-fairwind/"
+        },
+        {
+          "nombre": "Google en X",
+          "url": "https://x.com/Google/status/2105388148729553195"
+        },
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+        },
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/tecno/2026/10/01/gemini-4-argon-la-nueva-ia-de-google-por-que-los-primeros-en-usarla-son-expertos-en-ciberseguridad/"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Amazon va a dejar que las marcas le den instrucciones a su asistente de compras con IA sobre qué decir de ellas",
+      "resumen": "Amazon presentó Branded Conversations, un formato que deja a las marcas entregar un brief para influir en lo que responde su asistente de compras Alexa for Shopping, con conversaciones etiquetadas como patrocinadas. Llega a Estados Unidos en enero.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Amazon Ads",
+          "url": "https://advertising.amazon.com/library/news/branded-conversations-review-requests"
+        },
+        {
+          "nombre": "Adweek",
+          "url": "https://www.adweek.com/commerce/advertisers-can-directly-influence-amazons-alexa-responses/"
+        },
+        {
+          "nombre": "eMarketer",
+          "url": "https://www.emarketer.com/content/amazon-gives-brands-more-control-over-ai-shopping-conversations"
+        },
+        {
+          "nombre": "AdExchanger",
+          "url": "https://www.adexchanger.com/platforms/amazon-gets-conversational-with-new-agentic-ad-formats-and-brand-controls/"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "El caso antimonopolio de Google por su tecnología publicitaria entra en la etapa de la sentencia final",
+      "resumen": "Tras el fallo del 2 de septiembre que evitó la venta de AdX, Google y el gobierno de Estados Unidos tenían hasta el 2 de octubre para proponer la sentencia final del caso de tecnología publicitaria. Los remedios de conducta entran en vigencia 60 días después de la firma.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "AdExchanger",
+          "url": "https://www.adexchanger.com/platforms/the-court-just-unsealed-judge-brinkemas-remedies-decision-in-the-google-ad-tech-antitrust-case-heres-your-tldr/"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/doj-loses-adx-divestiture-bid-as-brinkema-accepts-behavioral-remedies/"
+        },
+        {
+          "nombre": "Courthouse News",
+          "url": "https://www.courthousenews.com/google-dodges-antitrust-breakup-of-ad-tech-business/"
+        },
+        {
+          "nombre": "Tech Policy Press",
+          "url": "https://techpolicy.press/september-2026-us-tech-policy-roundup"
+        }
+      ]
+    }
+  ]
+}
