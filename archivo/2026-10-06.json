@@ -1,0 +1,415 @@
+{
+  "edicion": 12,
+  "fecha": "2026-10-06",
+  "semana": "30 sep–6 oct 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "Reddit cierra sus feeds RSS y su API pública por culpa de los bots de IA, y leer sus conversaciones pasará a depender de un acuerdo con la empresa",
+      "resumen": "Reddit dejará de ofrecer feeds RSS el 13 de noviembre de 2026 y desde el 31 de octubre no acepta nuevas solicitudes de acceso a su API pública, que se cerrará del todo en marzo de 2027. Lo justifica por el scraping masivo de bots de IA, y afecta tanto a las herramientas de social listening como a los asistentes que leen Reddit sin un acuerdo con la empresa.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "TechRepublic",
+          "url": "https://www.techrepublic.com/article/news-reddit-rss-public-api-shutdown/"
+        },
+        {
+          "nombre": "MediaNama",
+          "url": "https://www.medianama.com/2026/10/223-reddit-rss-feeds-public-api-bots/"
+        },
+        {
+          "nombre": "Dataconomy ES",
+          "url": "https://es.dataconomy.com/2026/10/01/reddit-terminara-el-soporte-para-rss-el-13-de-noviembre-citando-abuso-por-scraping/"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "La actualización de spam de septiembre tuvo una tercera tanda y Google explica por qué ahora hay más actualizaciones de este tipo",
+      "resumen": "La actualización de spam de septiembre tuvo una tercera fase entre el 4 y el 6 de octubre y Google aún no confirma que terminó. En Barcelona, Google dijo que hay más actualizaciones de spam porque hay mucho más contenido nuevo y que ahora usa IA para detectarlo.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Tercera fase",
+          "url": "https://www.seroundtable.com/google-september-2026-spam-update-phase-3-42239.html"
+        },
+        {
+          "nombre": "Spam e IA",
+          "url": "https://www.seroundtable.com/google-search-spam-updates-ai-42226.html"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-september-2026-spam-update/590828/"
+        },
+        {
+          "nombre": "Roast",
+          "url": "https://weareroast.com/news/google-search-central-live-deep-dive-barcelona-day-3-recap/"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Search Console ya permite elegir varios países a la vez y ver un solo total de clics e impresiones",
+      "resumen": "El informe de rendimiento de Search Console permite marcar varios países a la vez y ver un total combinado de clics e impresiones, sin exportar los datos a una planilla.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "searchengineland.com",
+          "url": "https://searchengineland.com/google-search-console-performance-report-filter-allows-selection-of-multiple-countries-493658"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-search-console-performance-report-country-filters-42241.html"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-search-console-multiple-countries-filter/592065/"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-search-console-lets-sites-view-several-countries-as-one-total/"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google empieza a avisar por correo a cada sitio cuántas personas lo eligieron como fuente preferida",
+      "resumen": "Search Console envía correos con el número de personas que eligieron cada sitio como fuente preferida, con datos al 5 de octubre. El dato no está dentro de la herramienta, solo en el correo.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "seroundtable.com",
+          "url": "https://www.seroundtable.com/google-preferred-source-subscribers-email-42244.html"
+        },
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-shares-preferred-source-follower-data-via-email-493864"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-emails-site-owners-how-many-people-chose-them-as-a-preferred-source/"
+        },
+        {
+          "nombre": "PPC Land, total global",
+          "url": "https://ppc.land/google-preferred-sources-gains-255-000-selections-since-late-may/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "ChatGPT tendrá anuncios visuales junto a las imágenes que genera y abre su medición a empresas externas",
+      "resumen": "OpenAI probará desde fines de octubre, en Estados Unidos, anuncios visuales junto a las imágenes que genera ChatGPT, y sumó socios externos de atribución, experimentos geográficos y seguridad de marca.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "openai.com",
+          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
+        },
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+        },
+        {
+          "nombre": "Digiday",
+          "url": "https://digiday.com/marketing/openai-moves-to-make-chatgpt-ads-more-measurable-and-more-visual/"
+        },
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/america/agencias/2026/10/05/openai-probara-anuncios-visuales-en-chatgpt-durante-la-generacion-de-imagenes/"
+        },
+        {
+          "nombre": "Xataka",
+          "url": "https://www.xataka.com/robotica-e-ia/openai-llevara-anuncios-paso-alla-chatgpt-empezara-a-probarlos-generamos-imagenes"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Desde el 12 de octubre Google Ads aplicará solo las promociones que encuentre en el sitio del anunciante",
+      "resumen": "Desde el 12 de octubre Google Ads tomará promociones del sitio del anunciante y las aplicará por defecto en campañas de Búsqueda y Performance Max con recursos de ubicación.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "searchengineland.com",
+          "url": "https://searchengineland.com/google-ads-will-automatically-pull-promotions-from-advertisers-websites-493225"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ads-automated-promotions-october-12-42223.html"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-ads-will-auto-apply-website-coupons-to-some-campaigns-from-october-12/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Performance Max ya permite probar creatividades A contra B dentro de un mismo grupo de recursos",
+      "resumen": "Google Ads amplía a todas las campañas de Performance Max las pruebas A/B de títulos, descripciones, imágenes y videos dentro de un grupo de recursos.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "searchengineland.com",
+          "url": "https://searchengineland.com/google-ads-brings-a-b-testing-to-performance-max-asset-groups-493229"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-quietly-expands-asset-a-b-testing-to-all-performance-max-campaigns/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Los anuncios de trámites y documentos de gobierno ahora exigen una autorización oficial publicada por el propio Estado",
+      "resumen": "Desde el 5 de octubre Google Ads solo acepta anuncios de trámites y documentos de gobierno de proveedores nombrados como autorizados en un sitio oficial del Estado.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "relevantaudience.com",
+          "url": "https://www.relevantaudience.com/google-ads-en/google-ads-government-documents-services-policy-october-2026/"
+        },
+        {
+          "nombre": "ALM Corp",
+          "url": "https://almcorp.com/news/google-ads-government-documents-services-policy-update-october-2026/"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Gemini empieza a marcar con UTM los enlaces que manda a los sitios, y por fin se puede medir su tráfico",
+      "resumen": "Los enlaces que Gemini envía a los sitios llevan utm_source=gemini, algo que John Mueller confirmó haber visto, y eso permite separar ese tráfico en analítica. El parámetro st_source de los AI Overviews reportado la semana pasada venía de una extensión de Chrome.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "searchenginejournal.com",
+          "url": "https://www.searchenginejournal.com/google-gemini-adds-utm-parameters-for-referral-attribution/591754/"
+        },
+        {
+          "nombre": "SEO Pulse",
+          "url": "https://www.searchenginejournal.com/seo-pulse-google-ai-content-fact-check-gemini-utm-tags/591787/"
+        },
+        {
+          "nombre": "Abondance",
+          "url": "https://www.abondance.com/20261003-2986947-gemini-ajout-parametres-utm-liens.html"
+        },
+        {
+          "nombre": "Corrección st_source",
+          "url": "https://www.seroundtable.com/google-ai-overview-link-tracking-parameters-42219.html"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "ChatGPT suma un probador virtual de ropa y una lista de favoritos para comprar",
+      "resumen": "OpenAI lanzó en todo el mundo un probador virtual de ropa y accesorios dentro de ChatGPT y una biblioteca de Favoritos para guardar productos.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "seroundtable.com",
+          "url": "https://www.seroundtable.com/chatgpt-virtually-try-on-42215.html"
+        },
+        {
+          "nombre": "La Nación",
+          "url": "https://www.lanacion.com.ar/tecnologia/chatgpt-suma-un-probador-virtual-de-ropa-asistido-por-ia-nid02102026/"
+        },
+        {
+          "nombre": "Gizmodo en español",
+          "url": "https://es.gizmodo.com/chatgpt-suma-un-probador-virtual-para-ropa-y-accesorios-2000262201"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "ChatGPT y Perplexity entran por primera vez a la lista de sitios más extraídos por bots",
+      "resumen": "En el ranking anual de Decodo sobre la actividad de scraping de sus clientes, ChatGPT entra tercero con 14% y Perplexity quinto con 10%, detrás de TikTok y Google.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "ppc.land",
+          "url": "https://ppc.land/seven-of-ten-spots-turn-over-as-chatgpt-enters-decodos-2026-scraping-ranking/"
+        },
+        {
+          "nombre": "TechRadar",
+          "url": "https://www.techradar.com/pro/ai-giants-targeted-by-scraping-bots-chatgpt-and-perplexity-enter-the-most-scraped-websites-list-for-the-first-time"
+        },
+        {
+          "nombre": "Decodo",
+          "url": "https://decodo.com/blog/most-scraped-websites-2026"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "TikTok lanza un asistente de compras con IA en su buscador y la compra con un clic desde el feed",
+      "resumen": "TikTok presentó un asistente de compras con IA dentro de su buscador, la compra con un clic desde el feed Para Ti y un agente que capta clientes por mensaje directo, sin fecha ni mercados confirmados.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "newsroom.tiktok.com",
+          "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en"
+        },
+        {
+          "nombre": "Social Media Today",
+          "url": "https://www.socialmediatoday.com/news/tiktok-unveils-ai-powered-updates-at-advertising-week/832192/"
+        },
+        {
+          "nombre": "El Comercio",
+          "url": "https://elcomercio.pe/tecnologia/redes-sociales/tiktok-anuncia-la-compra-directa-a-marcas-sin-salir-de-la-app-y-un-chatbot-con-ia-que-recomienda-productos-inteligencia-artificial-china-comercio-electronico-noticia/"
+        },
+        {
+          "nombre": "Dataconomy ES",
+          "url": "https://es.dataconomy.com/2026/10/06/tiktok-lanza-asistente-de-compras-con-ai-y-checkout-dentro-de-la-app/"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "YouTube va a mostrar menos los Shorts que reciclan videos ajenos sin aportar nada propio",
+      "resumen": "YouTube dará menos distribución a los Shorts que recopilan o vuelven a subir clips ajenos casi sin cambios, y favorecerá el contenido original en sus recomendaciones.",
+      "idioma": "ES",
+      "fuentes": [
+        {
+          "nombre": "biobiochile.cl",
+          "url": "https://www.biobiochile.cl/noticias/ciencia-y-tecnologia/pc-e-internet/2026/10/03/youtube-anuncia-que-bajara-difusion-de-quienes-usan-shorts-creados-por-otros-usuarios.shtml"
+        },
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/america/agencias/2026/10/02/youtube-actualiza-su-algoritmo-para-priorizar-el-contenido-original-en-shorts-y-dejar-de-mostrar-el-contenido-copiado/"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/youtube-original-shorts-reposted-clips-reach/591774/"
+        },
+        {
+          "nombre": "Social Media Today",
+          "url": "https://www.socialmediatoday.com/news/youtube-updates-shorts-algorithm-to-put-more-focus-on-original-content/831976/"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Los perfiles de creadores dentro de Google llegan a India y Canadá, y Brasil es el siguiente",
+      "resumen": "Google abrió los perfiles de creadores en su búsqueda para India y Canadá y anunció que Brasil llega pronto. Hasta ahora solo existían en Estados Unidos.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "seroundtable.com",
+          "url": "https://www.seroundtable.com/google-search-profiles-india-canada-brazil-42245.html"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-search-profiles-india-canada-brazil/592092/"
+        },
+        {
+          "nombre": "Yahoo Noticias, requisitos",
+          "url": "https://es-us.noticias.yahoo.com/google-lanza-search-profiles-creadores-044406124.html"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Una marca casi no aparece en las respuestas de IA si el motor no encuentra su sitio durante la búsqueda",
+      "resumen": "Sobre 34.960 observaciones en GPT y Gemini, una marca se menciona en solo 2,8% a 3,8% de las respuestas cuando el motor no encuentra su sitio, y en 49% a 58% cuando su sitio queda citado.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv:2609.23162",
+          "url": "https://arxiv.org/abs/2609.23162"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "ChatGPT dice «yo compraría este» en 79% de sus recomendaciones de productos, y cada asistente cita sitios distintos",
+      "resumen": "Una auditoría de 117 consultas de compra encontró que ChatGPT expresa preferencia en primera persona en 79% de sus recomendaciones y que ChatGPT y Gemini comparten solo 5,4% de los dominios citados.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv:2609.18729",
+          "url": "https://arxiv.org/abs/2609.18729"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "El idioma de la búsqueda cambia qué sitios cita la IA, aunque la respuesta diga casi lo mismo",
+      "resumen": "Una auditoría de los resúmenes con IA de Baidu y Google muestra que el idioma de la consulta cambia casi por completo qué sitios se citan, aunque el contenido de la respuesta sea parecido.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv:2609.24407",
+          "url": "https://arxiv.org/abs/2609.24407"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Cada asistente de IA tiene un estilo reconocible, pero no una lista estable de marcas favoritas",
+      "resumen": "Sobre 6.324 respuestas de cinco sistemas de IA, un clasificador identifica qué sistema respondió con 97,84% de acierto, pero las marcas que recomienda cada uno cambian según el tipo de consulta.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv:2610.00253",
+          "url": "https://arxiv.org/abs/2610.00253"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Los agentes de compra con IA caen en las mismas trampas de precio que las personas cuando buscar datos les cuesta",
+      "resumen": "Con ocho modelos comerciales, los agentes de compra con IA resisten las trampas de precio si buscar es gratis, pero se equivocan como las personas cuando consultar datos les cuesta y el encargo es vago.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv:2609.28372",
+          "url": "https://arxiv.org/abs/2609.28372"
+        },
+        {
+          "nombre": "SSRN",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6938899"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Google Ads prueba una herramienta de IA que traduce y adapta campañas de Búsqueda completas a otro idioma y país",
+      "resumen": "Google Ads prueba en beta una herramienta de IA que crea una copia traducida y adaptada de una campaña de Búsqueda para otro idioma y país, sin convertir la moneda de presupuestos y pujas.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Ayuda de Google Ads",
+          "url": "https://support.google.com/google-ads/answer/17218209?hl=en-AU"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ads-ai-campaign-localization-tool-42221.html"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "ChatGPT prueba etiquetas como «la mejor opción general» sobre sus resultados de productos",
+      "resumen": "ChatGPT prueba etiquetas como «best all-rounder» sobre sus resultados de productos no pagados, generadas con información que puede venir de terceros. No confirmado como lanzamiento.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/product-labels-on-chatgpt-results-42237.html"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Search Console tendrá modo oscuro",
+      "resumen": "Google anunció en Barcelona que Search Console tendrá modo oscuro, sin fecha de lanzamiento.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-search-console-dark-mode-42224.html"
+        }
+      ]
+    }
+  ]
+}
