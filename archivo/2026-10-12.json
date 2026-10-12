@@ -1,0 +1,259 @@
+{
+  "edicion": 13,
+  "fecha": "2026-10-12",
+  "semana": "6–12 oct 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "La actualización de spam de septiembre terminó el 8 de octubre, tras casi 14 días de despliegue, la más larga de las cuatro de este año",
+      "resumen": "Google dio por completa la actualización de spam de septiembre el 8 de octubre de 2026. Había empezado el 24 de septiembre, aplica en todo el mundo y en todos los idiomas, y su despliegue duró casi 14 días, bastante más que las tres anteriores del año. Google no dijo qué apuntaba esta vez ni por qué tardó más, y repite su consejo de siempre: quien perdió posiciones debe revisar sus políticas de spam y ajustarse a ellas. Para una agencia, ya se puede cerrar el diagnóstico de cualquier caída de tráfico entre el 24 de septiembre y el 8 de octubre. Si un cliente bajó en esas semanas, compara sus páginas con las políticas de spam de Google antes de tocar nada. Search Engine Journal y Search Engine Roundtable registraron el cierre, y una de las fuentes citadas dice que esta actualización no apunta a spam de enlaces, algo que Google no confirmó.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://seroundtable.com/google-september-2026-spam-update-done-42235.html"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-september-2026-spam-update-complete/592283/"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/googles-spam-update-ends-after-nearly-14-days-violating-sites-risk-demotion/"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google confirmó un error de indexación este mes y el contenido de noticias desapareció por un tiempo en algunos casos",
+      "resumen": "El resumen mensual de Barry Schwartz para webmasters, publicado en Search Engine Roundtable, menciona un error de indexación confirmado por Google durante el último mes. Según ese resumen, el contenido de noticias dejó de aparecer por un tiempo para algunos sitios. El texto que revisamos no da fechas exactas ni la lista de sitios afectados, así que conviene mirar el panel de estado de Google Search para el detalle.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/october-2026-google-webmaster-report-42185.html"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google publica rutas de aprendizaje en YouTube para SEO básico y SEO técnico",
+      "resumen": "Google Search Central lanzó listas de reproducción de YouTube ordenadas como rutas de aprendizaje. La ruta de SEO técnico cubre robots.txt, el informe de estadísticas de rastreo, cómo manejar el presupuesto de rastreo y cómo diagnosticar problemas de indexación con la herramienta de inspección de URL.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Google Search Central",
+          "url": "https://developers.google.com/search/blog/2026/10/seo-learning-paths"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google prueba sacar el botón «Voy a tener suerte» de la barra de búsqueda y deja más espacio a los botones de IA",
+      "resumen": "Search Engine Roundtable informó el 1 de octubre que para algunos usuarios el botón histórico «I'm Feeling Lucky» desaparece al empezar a escribir, mientras que a otros les aparece junto a botones de IA. El hallazgo vino de Khushal Bherwani en X y el medio dice haberlo reproducido. Google no ha dado una declaración oficial, así que es una prueba sin confirmar. En mayo de 2025 Google ya había probado reemplazar ese botón por uno de AI Mode.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://seroundtable.com/google-search-im-feeling-lucky-button-42190.html"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Meta separa lo que ya está activo de lo que sigue en prueba en sus nuevas herramientas de anuncios con IA",
+      "resumen": "En su Advertising Week de Nueva York, el 6 de octubre, Meta dejó abierta a todos los anunciantes la estrategia de ciclo de vida del cliente (Customer Lifecycle Strategy) y dejó disponible para todos la generación de video a partir de imágenes estáticas en Advantage+. También amplía Ads Creative Studio a más anunciantes y su servidor MCP permite que el trabajo de un agente llegue como borrador a Ads Manager, con diez socios integrados. Meta afirma que quienes siguen las recomendaciones de su asistente logran 5% más conversiones al mismo costo por conversión, pero no publicó cómo lo midió ni en qué países aplica.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/meta/meta-advertising-week-new-york-2026-ad-tools/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "AI Max suma portugués y español a su beta de «AI Brief» y trae un nuevo reporte del rendimiento impulsado por IA",
+      "resumen": "Según el blog de Google Ads, publicado el 23 de septiembre, la beta cerrada de AI Brief dentro de AI Max se amplía a holandés, francés, alemán, italiano, japonés, portugués y español. Google también presentó una función de reporte en Google Ads que da una visión más clara del rendimiento generado por IA. Es una novedad de hace tres semanas que no habíamos incluido antes en el radar.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Google Ads y Commerce",
+          "url": "https://blog.google/products/ads-commerce/ai-max-language-reporting-features/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Un reporte indica que Demand Gen solo contaría conversiones por visualización de video y que vendría activado por defecto (sin confirmar)",
+      "resumen": "Un artículo de Miraflow, fechado el 7 de octubre, dice que Google Ads haría que la oferta por conversiones por visualización en Demand Gen sea solo de video y esté activada por defecto, con las conversiones por visualización de imágenes pasando a ser solo de reporte. También dice que el video en la Red de Display pasaría a cobrarse por CPM. Es la lectura de una sola fuente secundaria y no encontramos una nota oficial de Google. Su propia fecha en la página es inconsistente, por eso queda marcado como unconfirmed.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Miraflow",
+          "url": "https://miraflow.ai/blog/google-ads-demand-gen-vtc-video-only-default-2026"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Desde el 9 de octubre los usuarios gratuitos de Gemini quedan solo con el modelo más pequeño, Flash-Lite",
+      "resumen": "Google dejó a quienes no tienen un plan de IA con un único modelo en la app de Gemini, Flash-Lite, y quitó Flash y Pro. El plan Google AI Plus, de US$4,99 al mes en Estados Unidos, pierde Pro pero conserva Flash y Flash-Lite. Los planes AI Pro y Ultra no cambian, y AI Pro gana el modo Deep Think. Google también agrega ajustes de esfuerzo bajo, medio y alto, que usan más del límite del usuario. Los medios nombran el modelo de forma distinta, y el cambio lo detectó primero 9to5Google a partir de una página de soporte de Google.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Computing",
+          "url": "https://www.computing.co.uk/news/2026/ai/google-to-restrict-gemini-model-access-for-free-users"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-cuts-two-of-three-gemini-models-for-free-users-from-october-9/"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Gemini 3.8 Flash salió en AI Mode sin enlaces ni citas y Google lo corrigió después",
+      "resumen": "El resumen de Search Engine Roundtable sobre octubre dice que Gemini 3.8 Flash dentro de AI Mode apareció sin enlaces ni citas y que Google lo arregló más tarde. El modelo llegó a AI Mode el 2 de septiembre para suscriptores de Google AI Pro y Ultra en todo el mundo, empezando en inglés, y los usuarios gratuitos aún no pueden elegirlo. El resumen no da las fechas del error.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/october-2026-google-webmaster-report-42185.html"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://searchenginejournal.com/google-gemini-3-8-flash-ai-mode/588194"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Un estudio de Wellows sobre más de 380.000 respuestas de IA dice que publicar más no asegura más citas (estudio de una empresa, sin verificar)",
+      "resumen": "Wellows, una empresa del rubro, publicó el 9 de octubre un estudio de 382.176 respuestas de ChatGPT, Gemini, Perplexity, AI Overviews y AI Mode. La propia empresa aclara que el estudio es observacional y que no demuestra que publicar más contenido haga ganar citas. No pudimos leer el detalle de sus resultados, por eso no repetimos cifras. Se trata de un comunicado de empresa y no de una investigación revisada por pares.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Digital Journal",
+          "url": "https://www.digitaljournal.com/pr/news/access-newswire/wellows-publishes-ai-citation-study-142014287.html"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Google abre un canal para que foros y redes sociales le envíen publicaciones nuevas sin esperar al rastreo",
+      "resumen": "El 8 de octubre Google publicó la documentación del Programa UGC Fresh Data. Las plataformas aprobadas pueden enviar a Google publicaciones nuevas y señales de interacción directamente, en lugar de esperar a que las rastree. Google responde las solicitudes en 6 a 8 semanas y aclara que el programa no garantiza que el contenido salga en Search. Solo califican plataformas que alojan sobre todo contenido de usuarios o foros, con páginas públicas accesibles para Googlebot. Google no nombra a Reddit ni a Quora. Que probablemente ya lo usen es una inferencia de Search Engine Roundtable que Google no confirmó.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://seroundtable.com/google-ugc-fresh-data-program-42265.html"
+        },
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/seo/google-ugc-fresh-data-program/"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/platforms-face-6-8-week-wait-for-google-ugc-fresh-data-program-answers/"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "LinkedIn prueba filtros más finos para encontrar creadores y llevarlos a sus anuncios B2B",
+      "resumen": "LinkedIn prueba una versión beta de Creator Discovery dentro de su Creator Marketplace, con filtros por tipo de contenido, industria del creador, función laboral, demografía de la audiencia y estatus de Top Voice. La disponibilidad general se espera para principios de 2027. Hoy el Marketplace está en alfa, para marcas y creadores seleccionados de Norteamérica y contenido en inglés, y el acceso de creadores es solo por invitación. Se conecta con los Thought Leader Ads y con BrandLink. LinkedIn dice que 63% de los compradores B2B usa a creadores para investigar al inicio de su compra, según su propia encuesta de 2026.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Social Media Today",
+          "url": "https://www.socialmediatoday.com/news/linkedin-tests-advanced-creator-discovery-to-power-brand-campaigns/831555/"
+        },
+        {
+          "nombre": "MediaPost",
+          "url": "https://www.mediapost.com/publications/article/418381/linkedin-tests-new-brandcreator-matchmaking-beta.html"
+        },
+        {
+          "nombre": "LinkedIn News",
+          "url": "https://news.linkedin.com/2026/how-b2b-brands-can-drive-impact-with-creators-and-stronger-creat"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Un sistema de varios agentes aprende estrategias de edición para ganar visibilidad en buscadores generativos y las reutiliza entre motores",
+      "resumen": "Beining Wu y coautores presentan MAGEO, un enfoque multiagente que trata el GEO como un problema de aprendizaje de estrategias. Destilan patrones de edición validados en habilidades reutilizables y específicas para cada motor. El trabajo aparece en los Findings de ACL 2026. Lo leímos solo a partir de su resumen y listados, no revisamos sus experimentos.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv 2604.19516 · Beining Wu y coautores",
+          "url": "https://arxiv.org/abs/2604.19516"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Wikipedia es el sitio más citado por la IA en 11 de 12 mercados, y la mayoría de las citas va a sitios de terceros",
+      "resumen": "Dmitrij Zatuchin analizó 167.551 citas con enlace sobre 128 marcas, 12 mercados de origen y 13 idiomas. La mayoría de las citas va a sitios de terceros y no al sitio de la marca, y Wikipedia es el dominio más citado en 11 de los 12 idiomas. Los datos vienen de tres conjuntos de Rankfor.AI, empresa donde trabaja el autor, algo a tener en cuenta al leer los resultados. Se publicó el 24 de junio de 2026.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv 2606.25787 · Zatuchin",
+          "url": "https://arxiv.org/abs/2606.25787"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Un método aprende solo lo que prefieren los buscadores generativos y reescribe páginas web según esas reglas",
+      "resumen": "Yujiang Wu y coautores, en «What Generative Search Engines Like and How to Optimize Web Content Cooperatively», presentan AutoGEO. El sistema aprende automáticamente las reglas de preferencia de los motores generativos y las usa para reescribir contenido web. Se publicó en ICLR 2026. Solo vimos la página de resumen del congreso.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "ICLR 2026 · Yujiang Wu y coautores",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/dd5dfba659a7ec010414de1c1debdeb4-Abstract-Conference.html"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Los buscadores con IA muestran menos enlaces y menos dominios por respuesta que Google clásico, y no son más confiables",
+      "resumen": "Zhang, Ye, Peng, Garimella y Tyson analizaron 55.936 consultas en seis buscadores con IA y dos tradicionales. Los de IA devuelven en promedio 4,3 enlaces y 3,4 dominios distintos por respuesta, frente a 10,3 enlaces y 7,3 dominios de los tradicionales. Tampoco superan a los tradicionales en credibilidad, neutralidad política ni seguridad. El preprint es de diciembre de 2025, pero no lo habíamos incluido antes.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv 2512.09483 · Zhang, Ye, Peng, Garimella y Tyson",
+          "url": "https://www.alphaxiv.org/abs/2512.09483"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Google prueba anuncios conversacionales dentro de AI Mode y de Search.",
+      "resumen": "Search Engine Land reporta que Google presentó una nueva generación de formatos de anuncios con Gemini, entre ellos Conversational Discovery ads, Highlighted Answers, anuncios de Shopping con IA y Business Agent for Leads. Los dos primeros están en prueba en Estados Unidos y los de Shopping se esperan más adelante este año, también en Estados Unidos. MediaPost describe que el anuncio aparece en medio de la respuesta con una etiqueta de patrocinado. Si llega a LATAM, el anuncio competirá dentro de la propia respuesta.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-tests-new-conversational-ad-formats-in-ai-mode-and-search-478115"
+        },
+        {
+          "nombre": "MediaPost",
+          "url": "https://mediapost.com/publications/article/415348/google-sponsored-ads-emerge-in-ai-mode.html"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Meta sigue probando acciones de agente en su asistente de negocios y promete descubrimiento de audiencias con IA para fin de año.",
+      "resumen": "Según Relevant Audience, las acciones de agente del asistente de Meta, como configurar campañas, segmentación y presupuesto, apenas empiezan a probarse. También siguen en prueba las tareas programadas y el pago dentro del chat. El descubrimiento de audiencias con IA en la segmentación detallada se anunció para el final del año. No confirmado como lanzamiento. Si llega, cambiaría quién configura las campañas en cuentas pequeñas.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/meta/meta-advertising-week-new-york-2026-ad-tools/"
+        }
+      ]
+    }
+  ]
+}
