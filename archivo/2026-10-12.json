@@ -25,6 +25,30 @@
     },
     {
       "seccion": "ORGANIC",
+      "titular": "Google muestra AI Overviews incluso cuando la búsqueda tiene un error de tipeo o no encuentra ninguna página",
+      "resumen": "Search Engine Roundtable mostró el 12 de octubre que Google genera un AI Overview cuando una consulta no coincide con ninguna página web o parece un error de tipeo. En un ejemplo, el resumen le dice al usuario que su mensaje «podría haber sido un error de tipeo o teclas al azar». El autor aclara que no es nuevo y que lo venía viendo hace un tiempo. Lo enmarca en el esfuerzo de Google por responder cualquier consulta, incluso las raras.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://seroundtable.com/google-ai-overviews-no-results-42275.html"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Fin de semana difícil para medir: Search Console se atrasó mucho y las herramientas de seguimiento de posiciones fallaron",
+      "resumen": "El resumen diario de Search Engine Roundtable del 12 de octubre registra que los informes de rendimiento de Search Console tuvieron un atraso fuerte durante el fin de semana. El mismo resumen informa que varias herramientas externas que siguen posiciones en Google estaban fallando porque Google las bloquea con demasiada frecuencia. Google no dio una explicación pública en el material que revisamos.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/recap-10-12-2026-42274.html"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
       "titular": "Google confirmó un error de indexación este mes y el contenido de noticias desapareció por un tiempo en algunos casos",
       "resumen": "El resumen mensual de Barry Schwartz para webmasters, publicado en Search Engine Roundtable, menciona un error de indexación confirmado por Google durante el último mes. Según ese resumen, el contenido de noticias dejó de aparecer por un tiempo para algunos sitios. El texto que revisamos no da fechas exactas ni la lista de sitios afectados, así que conviene mirar el panel de estado de Google Search para el detalle.",
       "idioma": "EN",
@@ -61,6 +85,42 @@
     },
     {
       "seccion": "PAID",
+      "titular": "Google Ads prueba armar campañas a partir de un objetivo escrito con tus propias palabras",
+      "resumen": "Google Ads está probando una pantalla que pregunta «¿Cuál es tu objetivo para esta campaña?» y, a partir de lo que escribe el anunciante, la IA de Google sugiere objetivos y recursos creativos. Ginny Marvin, enlace de Google Ads, confirmó el 12 de octubre que es un experimento y pidió comentarios. La creación manual sigue disponible. Google no dijo en qué países está la prueba, cuándo se ampliaría ni para qué tipos de campaña sirve.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://seroundtable.com/google-ai-ads-goals-and-assets-42269.html"
+        },
+        {
+          "nombre": "ContentGrip",
+          "url": "https://www.contentgrip.com/google-ads-campaign-goal/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Merchant Center ya no saca de los anuncios a los productos con imágenes de baja calidad, pero se siguen viendo peor",
+      "resumen": "La página de ayuda de Merchant Center sobre imágenes de baja calidad ahora dice que el producto seguirá mostrándose en anuncios y fichas gratuitas. Antes decía que podía quedar fuera hasta que se mejorara la imagen. Google no lo anunció y la página no tiene fecha de cambio, así que la edición puede ser anterior, como notó PPC Land el 13 de octubre. La ayuda agrega que la calidad de imagen se relaciona fuertemente con la interacción y los clics. Aparte, una fuente secundaria indica que desde el 31 de enero de 2027 se exigirán imágenes de al menos 500 x 500 píxeles.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://seroundtable.com/google-merchant-center-poor-image-inclusion-42273.html"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-stops-blocking-low-quality-product-images-from-ads-and-free-listings/"
+        },
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/google-ads-en/merchant-center-low-image-quality-no-longer-blocks-products/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
       "titular": "Meta separa lo que ya está activo de lo que sigue en prueba en sus nuevas herramientas de anuncios con IA",
       "resumen": "En su Advertising Week de Nueva York, el 6 de octubre, Meta dejó abierta a todos los anunciantes la estrategia de ciclo de vida del cliente (Customer Lifecycle Strategy) y dejó disponible para todos la generación de video a partir de imágenes estáticas en Advantage+. También amplía Ads Creative Studio a más anunciantes y su servidor MCP permite que el trabajo de un agente llegue como borrador a Ads Manager, con diez socios integrados. Meta afirma que quienes siguen las recomendaciones de su asistente logran 5% más conversiones al mismo costo por conversión, pero no publicó cómo lo midió ni en qué países aplica.",
       "idioma": "EN",
@@ -92,6 +152,22 @@
         {
           "nombre": "Miraflow",
           "url": "https://miraflow.ai/blog/google-ads-demand-gen-vtc-video-only-default-2026"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Bing y Copilot prueban Microsoft-Decision-1, un modelo pequeño que no escribe respuestas sino que elige entre opciones",
+      "resumen": "Microsoft presentó cerca del 9 de octubre Microsoft-Decision-1, un modelo que recibe un conjunto fijo de opciones y devuelve una probabilidad para cada una, en vez de generar texto. Está construido sobre Qwen3.5-9B y disponible en Microsoft Foundry y OpenRouter. El 12 de octubre Search Engine Roundtable informó que Bing lo está probando, no necesariamente en todas las consultas, y un responsable de Copilot dijo que lo están probando ahí. Según InfoWorld, el equipo de Copilot lo usa para evaluar la calidad de las respuestas del chatbot y de los agentes. Las cifras de velocidad y costo vienen de pruebas de la propia Microsoft.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://seroundtable.com/bing-microsoft-decision-1-42270.html"
+        },
+        {
+          "nombre": "InfoWorld",
+          "url": "https://www.infoworld.com/article/4234290/microsoft-separates-decision-making-from-generative-ai-with-a-new-model.html"
         }
       ]
     },
@@ -176,6 +252,22 @@
         {
           "nombre": "LinkedIn News",
           "url": "https://news.linkedin.com/2026/how-b2b-brands-can-drive-impact-with-creators-and-stronger-creat"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Reddit dice que dos de cada tres de sus usuarios revisan con personas reales los regalos que les recomienda la IA",
+      "resumen": "Según la investigación de Reddit reportada por WERSM, dos de cada tres usuarios revisan en Reddit las recomendaciones de regalos hechas por IA antes de comprar, y casi siete de cada diez confían más en los consejos de regalos de Reddit que en los de la IA. En una guía para pymes, reportada por Social Media Today, Reddit dice que cerca de 75% de sus usuarios usa la plataforma para buscar reseñas sin filtro al investigar regalos. Son datos de la propia Reddit, y no pudimos confirmar la fecha exacta de publicación.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "WERSM",
+          "url": "https://wersm.com/?p=120905"
+        },
+        {
+          "nombre": "Social Media Today",
+          "url": "https://www.socialmediatoday.com/news/reddit-smb-guide-offers-holiday-planning-tips/830738/"
         }
       ]
     },
