@@ -1,0 +1,291 @@
+{
+  "edicion": 14,
+  "fecha": "2026-10-19",
+  "semana": "13–19 oct 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "Google pone más enlaces dentro de las respuestas de IA, pero no va a mostrar cuántos clics reciben",
+      "resumen": "El 15 de octubre Google actualizó AI Mode y AI Overviews. Ahora hay enlaces dentro de las palabras de la propia respuesta, una sección aparte con páginas web relevantes, más cobertura de noticias y miniaturas en los enlaces del final. Search Engine Roundtable titula que Google no mostrará datos de clics de esos enlaces, y el material que revisamos no trae cifras de cuánto tráfico traerán. Algunos cambios son pruebas o se despliegan por fases. Para una agencia, hay más oportunidad de ser citada, pero ninguna forma de medirla desde Google. Conviene seguir comparando en Search Console los clics de las páginas citadas antes y después, y decirle al cliente que el efecto en tráfico aún no está demostrado.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-updates-ai-mode-and-ai-overview-with-more-links-context-carousels-and-information-on-creators-496242"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-updates-links-in-ai-mode-and-ai-overviews-again-42308.html"
+        },
+        {
+          "nombre": "Google Blog",
+          "url": "https://blog.google/products-and-platforms/products/search/updates-ai-mode-overviews-explore-web/"
+        },
+        {
+          "nombre": "Montevideo Portal",
+          "url": "https://www.montevideo.com.uy/Ciencia-y-Tecnologia/Google-hara-mas-visibles-los-enlaces-en-sus-resultados-con-IA-uc953427"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google publicó el primer video de «The Non-Canonical Cabinet», una serie sobre cómo trata las URLs",
+      "resumen": "Según el resumen diario de Search Engine Roundtable del 15 de octubre, Cherry Prommawin y Gary Illyes conversaron sobre cómo Google Search maneja las URLs. Es el primer video de la serie. El mismo resumen anota que Google Dataset Search no devolvía resultados ese día.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/recap-10-15-2026-42309.html"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google prueba una barra de búsqueda rediseñada en su app móvil",
+      "resumen": "El resumen de Search Engine Roundtable del 15 de octubre informa que Google está probando una barra de búsqueda con otro diseño dentro de su aplicación móvil. Es una prueba, no un lanzamiento general, y el resumen no da más detalles.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/recap-10-15-2026-42309.html"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "El reporte de octubre para webmasters resume lo que cambió: informes de IA en Search Console y un nuevo filtro multimodal",
+      "resumen": "El reporte mensual de Search Engine Roundtable cuenta que Google lanzó en todo el mundo informes de rendimiento de IA con controles, y un filtro de búsqueda multimodal para esos informes. También recuerda que Google prueba pagar a editores por usar su contenido en AI Mode, AI Overviews y Gemini a través del informe «AI contribution», aunque los pagos parecen pequeños.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/october-2026-google-webmaster-report-42185.html"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Unconfirmed: pasaron más de cuatro meses sin core update y algunos analistas esperan otro tras la actualización de spam",
+      "resumen": "Un análisis de Coalition Technologies señala que Google no lanza una core update desde mayo, la última empezó el 21 de ese mes, y que el momento haría poco sorprendente una nueva. Es una opinión basada en el calendario, no un aviso de Google, y el mismo texto aclara que la historia no prueba que vaya a ocurrir.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Coalition Technologies",
+          "url": "https://coalitiontechnologies.com/blog/will-another-google-core-update-coming-after-the-september-2026-spam-update"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google Ads permitirá marcar canales como alta o baja prioridad y poner un tope de gasto a los de baja prioridad",
+      "resumen": "Anunciado el 14 de octubre y con despliegue en los próximos meses. Se puede marcar Search partners y Display como prioridad alta o baja en Search, Shopping, Performance Max y Demand Gen, y para los de baja se puede fijar un tope como porcentaje del presupuesto diario. Un tope de 0% frena el gasto en ese canal. Desde febrero de 2027 las campañas Search con Display Expansion migran de forma automática, y Google dice que baja prioridad con tope de 50% conserva el comportamiento actual de Display.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Google Blog",
+          "url": "https://blog.google/products/ads-commerce/channel-prioritization-budget-allocation/"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://searchenginejournal.com/google-ads-introduces-channel-prioritization-and-budget-allocation/592833"
+        },
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/google-ads-en/google-ads-channel-prioritization-budget-allocation/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google Ads activa por defecto las promociones automáticas desde el 12 de octubre",
+      "resumen": "Google Ads empezó a extraer ofertas y cupones del sitio del anunciante para mostrarlos como promociones en campañas Search y Performance Max elegibles, las que tienen activos de ubicación y ninguna promoción manual. Cada promoción dura menos de 24 horas y se renueva solo mientras la oferta siga visible en la web. Se puede desactivar en la configuración de activos automáticos de la cuenta. La fecha viene de un aviso por correo que citan medios especializados.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/google-ads-en/google-ads-automated-promotions-default-on-12-october/"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://seroundtable.com/google-ads-automated-promotions-october-12-42223.html"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-ads-will-auto-apply-website-coupons-to-some-campaigns-from-october-12/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "La API de Google Ads pasa a dos versiones por mes desde la v26, que trae 15 métricas de Search Lift",
+      "resumen": "PPC Land informó que la API de Google Ads tendrá dos lanzamientos al mes a partir de la v26, el doble del ritmo que adoptó en enero de 2026, y mantiene cuatro versiones mayores al año. La v26 salió el 14 de octubre y suma 15 métricas de Search Lift, que miden las búsquedas generadas por la publicidad.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-ads-api-moves-to-two-releases-a-month-starting-with-v26/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google Ads prueba anuncios con feeds de modelos de autos para fabricantes (Vehicle Top Ads, beta)",
+      "resumen": "El resumen de Search Engine Roundtable del 15 de octubre informa que Google Ads sumó un formato de feeds de modelos de autos en anuncios de búsqueda, llamado Vehicle Top Ads y en beta. Es para fabricantes de vehículos y el resumen no da más detalles.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/recap-10-15-2026-42309.html"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Google lanzó Universal Cart en Search y Gemini en Estados Unidos, con pago a través del Universal Commerce Protocol",
+      "resumen": "Search Engine Roundtable registró el 15 de octubre que Universal Cart ya está disponible en Google Search y en la app Gemini en Estados Unidos, justo antes de la temporada de compras de fin de año. Es un carrito que sigue al usuario entre productos de Google, con seguimiento de precios, y el pago funciona con el Universal Commerce Protocol. El comercio sigue siendo el vendedor oficial de la compra. Entre los comercios que participan al inicio figuran Nike, Sephora, Target, Ulta Beauty y Walmart, según una cobertura de Pulse 2.0.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/recap-10-15-2026-42309.html"
+        },
+        {
+          "nombre": "Pulse 2.0",
+          "url": "https://pulse2.com/google-universal-cart/"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Gemini 3.8 Live llega y Google retoca la interfaz de AI Overviews y AI Mode",
+      "resumen": "El reporte de octubre de Search Engine Roundtable cuenta que Google lanzó Gemini 3.8 Live y cambió varias partes de la interfaz de AI Overviews y AI Mode. Antes, Gemini 3.8 Flash había salido en AI Mode sin enlaces ni citas y Google lo corrigió después.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/october-2026-google-webmaster-report-42185.html"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Google dice que más de 400 editores participan en su programa News AI y suma a Axios, CNN y Financial Times",
+      "resumen": "Medios de habla hispana que cubrieron el anuncio del 15 de octubre informan que Google probaría enlaces contextuales arriba de algunas respuestas y perfiles de editores y creadores, y que más de 400 editores participan en News AI, con Axios, CNN y Financial Times como socios nuevos, según Google. Esos medios aclaran que no hay cifras del efecto en clics.",
+      "idioma": "ES",
+      "fuentes": [
+        {
+          "nombre": "Montevideo Portal",
+          "url": "https://www.montevideo.com.uy/Ciencia-y-Tecnologia/Google-hara-mas-visibles-los-enlaces-en-sus-resultados-con-IA-uc953427"
+        },
+        {
+          "nombre": "Diario Bitcoin",
+          "url": "https://www.diariobitcoin.com/tecnologia/google-hara-mas-visibles-los-enlaces-dentro-de-sus-respuestas-de-ia/"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "TikTok empieza a dejar que los creadores administren las palabras clave de sus videos",
+      "resumen": "Según medios que citan capturas del investigador de apps Jonah Manzano, TikTok está desplegando de forma gradual una opción «Manage keywords» en el menú de los videos propios. Permite sugerir las palabras clave con las que se quiere aparecer y bloquear las que no corresponden. TikTok revisa las sugerencias. No encontramos un anuncio oficial. Un análisis advierte que bloquear una palabra por error podría restar visibilidad en la búsqueda.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Uppbeat",
+          "url": "https://uppbeat.io/blog/creator-news/tiktok-now-lets-you-control-the-search-keywords-on-your-videos"
+        },
+        {
+          "nombre": "RouteNote",
+          "url": "https://routenote.com/blog/tiktoks-new-keyword-tool-how-artists-can-boost-reach-and-get-discovered-faster/"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Ask YouTube, la búsqueda conversacional de YouTube, llega a celulares en Estados Unidos",
+      "resumen": "Social Media Today informa que YouTube extiende su búsqueda con IA Ask YouTube a todos los usuarios con sesión iniciada en Estados Unidos, incluidos los celulares, y que solo funciona con búsquedas en inglés. Las fuentes difieren en las fechas y el alcance de cada etapa, y se espera que más idiomas y países lleguen después.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Social Media Today",
+          "url": "https://socialmediatoday.com/news/youtube-rolls-out-ai-search-chatbot-to-all-us-users/832923"
+        },
+        {
+          "nombre": "SEO-Day",
+          "url": "https://www.seo-day.de/news/article/ask-youtube-ai-search-experience-expands-to-us-desktop-users?lang=en"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Google prueba nombres clicables de creadores y editores sobre los videos que aparecen en AI Mode",
+      "resumen": "Search Engine Land informa que esta semana Google empezó a probar nombres de creadores y editores clicables en los resultados de video de AI Mode, que llevan a sus perfiles en Search. También hay una prueba de un bloque llamado «Quick results from the web» al inicio de algunas respuestas. Son pruebas y algunos cambios se despliegan por fases.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-updates-ai-mode-and-ai-overview-with-more-links-context-carousels-and-information-on-creators-496242"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Un método reescribe páginas según rasgos medibles para ganar citas en tres buscadores generativos",
+      "resumen": "Zikang Liu y Peilan Xu presentan FeatGEO, un método que descompone una página en propiedades estructurales, de contenido y de lenguaje que se pueden interpretar y optimizar. Fue evaluado en GEO-Bench con tres motores generativos y aparece en los Proceedings de ACL 2026. Lo leímos por el resumen y el listado, no revisamos sus experimentos.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv 2604.19113 · Zikang Liu y Peilan Xu",
+          "url": "https://arxiv.org/pdf/2604.19113"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Un sistema que evoluciona solo sus estrategias de optimización para buscadores generativos",
+      "resumen": "Jiaqi Yuan, Jialu Wang, Zihan Wang, Qingyun Sun, Ruijie Wang y Jianxin Li, de Beihang University y otro afiliado independiente, presentan AgenticGEO. Busca maximizar la visibilidad y la atribución de una página dentro de respuestas resumidas de motores que funcionan como caja negra, y usa un archivo MAP-Elites para evolucionar combinaciones de estrategias. Solo vimos el resumen y el listado de autores.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv 2603.20213 · Yuan y coautores",
+          "url": "https://arxiv.org/abs/2603.20213"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Un trabajo de Pinterest propone un marco con modelos de visión y agentes para ganar tráfico mediante GEO",
+      "resumen": "Faye Zhang, Qianyu Cheng, Jasmine Wan, Vishwakarma Singh, Jinfeng Rao y Kofi Boakye, de Pinterest y Stanford University, publicaron «Generative Engine Optimization: A VLM and Agent Framework for Pinterest Acquisition Growth». Solo verificamos el título, los autores y su afiliación, así que no podemos resumir sus resultados.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv 2602.02961 · Zhang y coautores",
+          "url": "https://arxiv.org/pdf/2602.02961"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Search con Display Expansion migra de forma automática a las nuevas reglas de canales.",
+      "resumen": "Según Relevant Audience, desde febrero de 2027 las campañas Search con Display Expansion pasan solas al nuevo modelo de prioridad de canales. Es la fecha para revisar topes y prioridades antes de que se aplique.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/google-ads-en/google-ads-channel-prioritization-budget-allocation/"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Data Manager de Google Ads dejará de exigir datos de clientes cifrados con SHA-256.",
+      "resumen": "PPC Land reporta que desde el 16 de noviembre de 2026 Data Manager ya no exigirá los datos de clientes con hash SHA-256. Quien suba datos propios debe revisar su flujo antes de esa fecha.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-ads-api-moves-to-two-releases-a-month-starting-with-v26/"
+        }
+      ]
+    }
+  ]
+}
