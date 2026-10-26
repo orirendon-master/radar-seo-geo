@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Engine Marketing / Weekly Radar — Semana del 26 oct 2026</title>
+<meta name="description" content="Lo más relevante de la semana en SEO, GEO, paid y social search, en español y con fuentes verificadas. Nueva edición cada lunes — guárdalo en tus favoritos.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="canonical" href="https://semradarnews.netlify.app/">
+<meta name="theme-color" content="#E3D4F7">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Search Engine Marketing / Weekly Radar">
+<meta property="og:title" content="Search Engine Marketing / Weekly Radar">
+<meta property="og:description" content="Lo más relevante de la semana en SEO, GEO, paid y social search. Nueva edición cada lunes — guárdalo en tus favoritos.">
+<meta property="og:url" content="https://semradarnews.netlify.app/">
+<meta property="og:image" content="https://semradarnews.netlify.app/og-radar.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Radar animado del Search Engine Marketing Weekly Radar sobre fondo pastel">
+<meta property="og:locale" content="es_CL">
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Search Engine Marketing / Weekly Radar">
+<meta name="twitter:description" content="Lo más relevante de la semana en SEO, GEO, paid y social search. Nueva edición cada lunes — guárdalo en tus favoritos.">
+<meta name="twitter:image" content="https://semradarnews.netlify.app/og-radar.png">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+
+  :root{
+    /* texto: solo grises/negros */
+    --ink:#26262E;
+    --ink-soft:#3A3A44;
+    --muted:#74747F;
+    /* superficies */
+    --page:#FBF7FD;
+    --card:#FFFFFF;
+    --hair:#EEE6F3;
+    /* pastel girly (acentos, nunca texto) */
+    --blue:#B9D2F6;      /* azul pastel */
+    --blue-deep:#8FB2EC;
+    --pink:#F6C8DE;      /* rosa pastel */
+    --pink-deep:#EC9CC2;
+    --lilac:#D2C1F3;     /* moradito pastel */
+    --lilac-deep:#AC8DE6;
+    --mint:#BFE6DE;      /* aqua pastel */
+    --mint-deep:#7FC4B8;
+    --peri:#C6C9F2;      /* periwinkle pastel */
+    --peri-deep:#9096E0;
+    --sweep:#C9A9EE;
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--page);
+    color:var(--ink);
+    font-family:'Montserrat',system-ui,sans-serif;
+    font-size:16.5px;
+    line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:820px;margin:0 auto;padding:0 20px 60px;}
+
+  /* ---------- MASTHEAD ---------- */
+  .masthead{
+    margin:0 -20px 0;
+    padding:30px 30px 26px;
+    background:linear-gradient(115deg,#CFE0FB 0%,#E3D4F7 48%,#F9D6E9 100%);
+    border-bottom:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    border-radius:0 0 4px 4px;
+  }
+  .mast-title{
+    font-weight:800;
+    font-size:26px;
+    line-height:1.03;
+    letter-spacing:-0.02em;
+    margin:0;
+    color:var(--ink);
+  }
+  .mast-title .slash{color:var(--lilac-deep);}
+  .mast-sub{
+    font-weight:600;
+    font-size:11px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin-top:10px;
+  }
+  .mast-sub b{font-weight:800;}
+
+  .radar{width:88px;height:88px;flex:0 0 88px;}
+  .sweep-g{animation:spin 4.5s linear infinite;transform-origin:50px 50px;}
+  .blip{animation:ping 4.5s ease-in-out infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  @keyframes ping{0%{opacity:.2;}45%{opacity:1;}100%{opacity:.2;}}
+  .blip.b2{animation-delay:1.5s;}
+  .blip.b3{animation-delay:3s;}
+
+  /* ---------- SHARE ---------- */
+  .share-chip{
+    display:inline-flex;align-items:center;gap:6px;
+    padding:4px 12px;border-radius:20px;
+    color:var(--ink);text-decoration:none;font-weight:700;font-size:11px;
+    background:var(--lilac);border:none;cursor:pointer;font-family:inherit;
+  }
+  .share-chip svg{width:12px;height:12px;flex:0 0 12px;}
+  .share-chip:hover{filter:brightness(0.96);}
+  .mast-share{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;}
+
+  /* ---------- TELEMETRY ---------- */
+  .telemetry{
+    margin:0 -20px 30px;
+    padding:11px 30px;
+    background:#F1E9F8;
+    color:var(--ink-soft);
+    font-weight:600;
+    font-size:11px;
+    letter-spacing:0.05em;
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px 22px;
+  }
+  .telemetry b{color:var(--ink);font-weight:800;}
+  .telemetry .dot{color:var(--lilac-deep);}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    background:var(--card);
+    border:1px solid var(--hair);
+    border-left:5px solid var(--lilac-deep);
+    border-radius:8px;
+    padding:22px 24px;
+    margin-bottom:26px;
+  }
+  .eyebrow{
+    font-weight:700;
+    font-size:10.5px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin:0 0 9px;
+  }
+  .hero h2{
+    font-weight:700;
+    font-size:21px;
+    line-height:1.25;
+    letter-spacing:-0.01em;
+    margin:0 0 8px;
+    color:var(--ink);
+  }
+  .hero p{margin:0;color:var(--ink-soft);font-size:15px;}
+  .hero-stat{
+    margin-top:20px;
+    padding-top:16px;
+    border-top:1px solid var(--hair);
+  }
+  .statband{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-top:14px;
+    padding:12px 16px;
+    border-radius:10px;
+    background:linear-gradient(120deg,#EFE4FB,#FBE1EE);
+  }
+  .hero-stat .statband{margin-top:10px;}
+  .statband .num{
+    font-weight:800;
+    font-size:30px;
+    line-height:1;
+    color:var(--ink);
+    letter-spacing:-0.02em;
+    flex:0 0 auto;
+  }
+  .statband .cap{
+    font-weight:600;
+    font-size:12.5px;
+    color:var(--ink-soft);
+    line-height:1.45;
+  }
+
+  /* ---------- CATEGORY TABS ---------- */
+  .cat-tabs{
+    position:sticky;
+    top:0;
+    z-index:50;
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:0 -20px 18px;
+    padding:10px 20px;
+    background:rgba(251,247,253,0.92);
+    -webkit-backdrop-filter:blur(6px);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--hair);
+  }
+  .cat-tab{
+    padding:8px 16px;
+    border-radius:20px;
+    border:2px solid transparent;
+    font-family:inherit;
+    font-weight:700;
+    font-size:12.5px;
+    letter-spacing:0.02em;
+    color:var(--ink);
+    cursor:pointer;
+    opacity:.8;
+    transition:opacity .15s ease, transform .15s ease, box-shadow .15s ease;
+  }
+  .cat-tab:hover{opacity:1;}
+  .cat-tab:focus-visible{outline:2px solid var(--ink);outline-offset:2px;opacity:1;}
+  .cat-tab.tab-organic{background:var(--blue);}
+  .cat-tab.tab-paid{background:var(--pink);}
+  .cat-tab.tab-geo{background:var(--lilac);}
+  .cat-tab.tab-social{background:var(--mint);}
+  .cat-tab.tab-science{background:var(--peri);}
+  .cat-tab.active{opacity:1;font-weight:800;transform:translateY(-1px);}
+  .cat-tab.tab-organic.active{border-color:var(--blue-deep);box-shadow:0 2px 6px rgba(143,178,236,0.45);}
+  .cat-tab.tab-paid.active{border-color:var(--pink-deep);box-shadow:0 2px 6px rgba(236,156,194,0.45);}
+  .cat-tab.tab-geo.active{border-color:var(--lilac-deep);box-shadow:0 2px 6px rgba(172,141,230,0.45);}
+  .cat-tab.tab-social.active{border-color:var(--mint-deep);box-shadow:0 2px 6px rgba(127,196,184,0.45);}
+  .cat-tab.tab-science.active{border-color:var(--peri-deep);box-shadow:0 2px 6px rgba(144,150,224,0.45);}
+
+  /* ---------- SECTIONS ---------- */
+  .section{margin-bottom:34px;}
+  .sec-head{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding-bottom:9px;
+    margin-bottom:14px;
+    border-bottom:2px solid var(--hair);
+  }
+  .sec-head .tag{
+    font-weight:800;
+    font-size:13px;
+    letter-spacing:0.03em;
+    color:var(--ink);
+    padding:4px 12px;
+    border-radius:20px;
+  }
+  .sec-head .lead{
+    font-weight:600;
+    font-size:11px;
+    letter-spacing:0.06em;
+    color:var(--muted);
+    text-transform:uppercase;
+  }
+  .sec-head .count{margin-left:auto;font-weight:700;font-size:11px;color:var(--muted);}
+  .s-organic .tag{background:var(--blue);}
+  .s-paid .tag{background:var(--pink);}
+  .s-geo .tag{background:var(--lilac);}
+  .s-social .tag{background:var(--mint);}
+  .s-science .tag{background:var(--peri);}
+  .s-events .tag{background:linear-gradient(120deg,var(--blue),var(--pink));}
+  .s-organic .sec-head{border-color:var(--blue-deep);}
+  .s-paid .sec-head{border-color:var(--pink-deep);}
+  .s-geo .sec-head{border-color:var(--lilac-deep);}
+  .s-social .sec-head{border-color:var(--mint-deep);}
+  .s-science .sec-head{border-color:var(--peri-deep);}
+  .s-events .sec-head{border-color:var(--lilac-deep);}
+
+  .item{padding:15px 0 16px;border-bottom:1px solid var(--hair);}
+  .item:last-child{border-bottom:none;}
+  .item h3{
+    font-weight:700;
+    font-size:17.5px;
+    line-height:1.28;
+    margin:0 0 5px;
+    letter-spacing:-0.005em;
+    color:var(--ink);
+  }
+  .item p{margin:0 0 8px;font-size:15px;color:var(--ink-soft);}
+  .why{
+    font-size:13.5px;
+    color:var(--muted);
+    font-style:italic;
+    margin:0 0 9px;
+  }
+  .why::before{content:"\2192  ";font-style:normal;color:var(--ink);font-weight:800;}
+  .meta{
+    display:flex;flex-wrap:wrap;align-items:center;gap:8px;
+    font-weight:600;font-size:11px;color:var(--muted);
+  }
+  .chip{padding:1px 8px;border-radius:20px;letter-spacing:0.04em;color:var(--ink);}
+  .chip.en{background:var(--blue);}
+  .chip.es{background:var(--pink);}
+  .meta a{color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--muted);}
+  .meta a:hover{color:var(--ink);border-color:var(--ink);}
+  .src{font-weight:600;font-size:11px;color:var(--muted);margin:8px 0 0;letter-spacing:0.02em;line-height:1.5;}
+  .src a{color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--muted);}
+  .src a:hover{color:var(--ink);border-color:var(--ink);}
+  .src b{color:var(--ink);font-weight:700;}
+  .rb-src{display:block;font-weight:600;font-size:10.5px;color:var(--ink-soft);margin-top:5px;letter-spacing:0.02em;}
+  .rb-src a{color:var(--ink-soft);text-decoration:none;border-bottom:1px dotted var(--ink-soft);}
+  .rb-src a:hover{color:var(--ink);border-color:var(--ink);}
+
+  /* ---------- EVENTS ---------- */
+  .ev{
+    display:grid;
+    grid-template-columns:96px 1fr auto;
+    gap:14px;
+    align-items:baseline;
+    padding:13px 0;
+    border-bottom:1px solid var(--hair);
+  }
+  .ev:last-child{border-bottom:none;}
+  .ev .when{font-weight:800;font-size:12.5px;color:var(--ink);letter-spacing:0.01em;line-height:1.3;}
+  .ev .when span{display:block;font-weight:600;font-size:10.5px;color:var(--muted);}
+  .ev .what h4{margin:0 0 2px;font-weight:700;font-size:15.5px;color:var(--ink);line-height:1.25;}
+  .ev .what h4 a{color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--muted);}
+  .ev .what h4 a:hover{border-color:var(--ink);}
+  .ev .what p{margin:0;font-size:13px;color:var(--ink-soft);}
+  .ev .where{font-weight:600;font-size:11px;color:var(--ink);text-align:right;white-space:nowrap;}
+  .ev .where span{display:block;font-size:10px;color:var(--muted);font-weight:600;margin-top:2px;padding:1px 8px;border-radius:20px;background:var(--lilac);}
+  .ev .where span.latam{background:var(--pink);}
+  .ev .where span.eu{background:var(--blue);}
+
+  /* ---------- WATCHLIST ---------- */
+  .radarbox{
+    margin:0 -20px;
+    padding:24px 28px 26px;
+    border-radius:12px;
+    background:linear-gradient(160deg,#E9DFFa,#F7DEEC);
+    color:var(--ink);
+  }
+  .radarbox h2{font-weight:800;font-size:16px;letter-spacing:0.01em;margin:0 0 3px;color:var(--ink);}
+  .radarbox .rb-sub{font-weight:600;font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 15px;}
+  .rb-item{display:flex;gap:14px;padding:10px 0;border-top:1px solid rgba(38,38,46,0.12);}
+  .rb-item .date{font-weight:800;font-size:11px;color:var(--lilac-deep);flex:0 0 80px;padding-top:2px;letter-spacing:0.02em;}
+  .rb-item .txt{font-size:14px;line-height:1.45;color:var(--ink-soft);}
+  .rb-item .txt b{color:var(--ink);font-weight:700;}
+
+  /* ---------- FOOTER ---------- */
+  .foot{
+    margin-top:26px;padding-top:16px;border-top:1px solid var(--hair);
+    font-weight:600;font-size:11px;color:var(--muted);letter-spacing:0.02em;line-height:1.75;
+  }
+  .foot b{color:var(--ink);font-weight:800;}
+  .foot-links{margin-top:10px;display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;}
+  .foot-links a{
+    display:inline-flex;align-items:center;gap:6px;
+    padding:4px 12px;border-radius:20px;
+    color:var(--ink);text-decoration:none;font-weight:700;font-size:11px;
+  }
+  .foot-links a.li{background:var(--blue);}
+  .foot-links a.arch{background:var(--lilac);}
+  .foot-links a:hover{filter:brightness(0.96);}
+  .foot-links svg{width:12px;height:12px;flex:0 0 12px;}
+
+  @media (max-width:620px){
+    .masthead{gap:14px;padding:24px 20px 22px;}
+    .radar{width:64px;height:64px;flex:0 0 64px;}
+    .mast-title{font-size:20px;}
+    .hero{grid-template-columns:1fr;}
+    .ev{grid-template-columns:1fr;gap:4px;}
+    .ev .where{text-align:left;}
+    .cat-tabs{
+      flex-wrap:nowrap;
+      overflow-x:auto;
+      gap:6px;
+      padding:8px 20px 10px;
+      -webkit-overflow-scrolling:touch;
+      scrollbar-width:none;
+    }
+    .cat-tabs::-webkit-scrollbar{display:none;}
+    .cat-tab{
+      flex:0 0 auto;
+      white-space:nowrap;
+      padding:7px 12px;
+      font-size:11.5px;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <div>
+      <h1 class="mast-title">Search Engine Marketing <span class="slash">/</span> Weekly Radar</h1>
+      <div class="mast-sub">Edición <b>#15</b> &nbsp;·&nbsp; Semana del <b>20–26 oct 2026</b> &nbsp;·&nbsp; Organic + Paid + GEO</div>
+      <div class="mast-share">
+        <button class="share-chip" type="button" onclick="compartir(this)" aria-label="Compartir este radar">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg>
+          <span>Compartir</span>
+        </button>
+      </div>
+    </div>
+    <svg class="radar" viewBox="0 0 100 100" aria-hidden="true">
+      <circle cx="50" cy="50" r="46" fill="none" stroke="#B9A8D8" stroke-width="1"/>
+      <circle cx="50" cy="50" r="31" fill="none" stroke="#B9A8D8" stroke-width="1"/>
+      <circle cx="50" cy="50" r="16" fill="none" stroke="#B9A8D8" stroke-width="1"/>
+      <line x1="50" y1="4" x2="50" y2="96" stroke="#B9A8D8" stroke-width="1"/>
+      <line x1="4" y1="50" x2="96" y2="50" stroke="#B9A8D8" stroke-width="1"/>
+      <g class="sweep-g">
+        <defs>
+          <linearGradient id="sw" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#C9A9EE" stop-opacity="0"/>
+            <stop offset="1" stop-color="#C9A9EE" stop-opacity="0.7"/>
+          </linearGradient>
+        </defs>
+        <path d="M50 50 L50 4 A46 46 0 0 1 92 42 Z" fill="url(#sw)"/>
+        <line x1="50" y1="50" x2="50" y2="4" stroke="#AC8DE6" stroke-width="1.4"/>
+      </g>
+      <circle class="blip" cx="66" cy="34" r="2.6" fill="#EC9CC2"/>
+      <circle class="blip b2" cx="38" cy="64" r="2.6" fill="#8FB2EC"/>
+      <circle class="blip b3" cx="70" cy="62" r="2.6" fill="#AC8DE6"/>
+    </svg>
+  </header>
+
+  <!-- TELEMETRY -->
+  <div class="telemetry">
+    <span><span class="dot">●</span> <b>22</b> señales detectadas</span>
+    <span><span class="dot">●</span> <b>5</b> canales + eventos</span>
+    <span><span class="dot">●</span> Fuentes <b>EN + ES</b>, sin duplicados</span>
+    <span><span class="dot">●</span> Barrido: <b>20–26 oct</b></span>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="eyebrow">Señal de la semana</p>
+    <h2>Los anuncios de ChatGPT llegan a Chile y a otros 13 países de América Latina</h2>
+    <p>OpenAI anunció el 21 de octubre que ChatGPT Ads se amplía a 26 países más y queda disponible en 89 mercados. En América Latina se suman Argentina, Bolivia, Chile, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Panamá, Paraguay, Perú, Puerto Rico, República Dominicana y Uruguay, que se agregan a México y Brasil, donde ya funcionaban. Los anuncios aparecen solo en los planes Gratuito y Go, y Plus, Pro y Enterprise siguen sin publicidad. OpenAI dice que más de 100.000 anunciantes ya hicieron campañas y que los anuncios van identificados, separados de la respuesta y sin influir en lo que contesta el chatbot. Se compran a través de socios tecnológicos o por autoservicio en Ads Manager. Para una agencia en Chile, esto abre un canal pagado nuevo y una pregunta de los clientes que llegará pronto. Conviene preparar una prueba chica, con presupuesto acotado, y definir antes cómo se va a medir.</p>
+    <p class="src" style="margin-top:12px;"><b>Fuentes de la historia</b> · <a href="https://openai.com/index/chatgpt-ads-expands-26-new-countries/">OpenAI</a>, <a href="https://mobiletime.la/noticias/22/10/2026/chatgpt-ads-llega-america-latina/">Mobile Time Latinoamérica</a>, <a href="https://www.madboxpc.com/openai-chatgpt-ads-anuncios-chile-latinoamerica/">MadBoxPC</a>, <a href="https://www.itsitio.com/co/inteligencia-artificial/openai-amplia-los-anuncios-en-chatgpt-a-colombia-y-a-14-nuevos-mercados-de-america-latina/">ITSitio</a>, <a href="https://searchenginewatch.com/chatgpt-ads-89-countries-26-new-markets/">Search Engine Watch</a></p>
+    <div class="hero-stat">
+      <p class="eyebrow">El dato de la semana</p>
+      <div class="statband">
+        <div class="num">14</div>
+        <div class="cap">países de América Latina se suman a los anuncios de ChatGPT, entre ellos Chile, Argentina, Colombia y Perú. Con México y Brasil, que ya los tenían, la región queda con 16 mercados, según la cobertura del anuncio de OpenAI del 21 de octubre.</div>
+      </div>
+      <p class="src" style="margin-top:10px;"><b>Fuente del dato</b> · <a href="https://mobiletime.la/noticias/22/10/2026/chatgpt-ads-llega-america-latina/">Mobile Time Latinoamérica</a></p>
+    </div>
+  </section>
+
+  <!-- CATEGORY TABS -->
+  <nav class="cat-tabs" role="tablist" aria-label="Categorías del radar">
+    <button class="cat-tab tab-organic" type="button" role="tab" aria-selected="true" data-target="s-organic">Organic</button>
+    <button class="cat-tab tab-paid" type="button" role="tab" aria-selected="false" data-target="s-paid">Paid</button>
+    <button class="cat-tab tab-geo" type="button" role="tab" aria-selected="false" data-target="s-geo">GEO</button>
+    <button class="cat-tab tab-social" type="button" role="tab" aria-selected="false" data-target="s-social">Social</button>
+    <button class="cat-tab tab-science" type="button" role="tab" aria-selected="false" data-target="s-science">Ciencia</button>
+  </nav>
+
+  <!-- ORGANIC -->
+  <section class="section s-organic">
+    <div class="sec-head">
+      <span class="tag">ORGANIC</span>
+      <span class="lead">Algoritmo · SERP · Search Console</span>
+      <span class="count">05 señales</span>
+    </div>
+    <article class="item">
+      <h3>Unconfirmed: cambios bruscos de posiciones en Google el 20 y 21 y el 24 de octubre, sin un update anunciado</h3>
+      <p>Barry Schwartz registró en Search Engine Roundtable más inestabilidad en los rankings y más comentarios de SEOs el 20 y 21 de octubre, y un salto mayor el sábado 24, cuando varias herramientas de seguimiento mostraron movimientos grandes. Él cree que Google hizo un ajuste de ranking entre el viernes y el sábado, pero Google no confirmó nada y su panel de estado sigue mostrando como último evento la actualización de spam de septiembre.</p>
+      <p class="why">Si un cliente tuvo subidas o caídas de tráfico el fin de semana, anótalo con fecha y espera unos días antes de cambiar contenido. Puede ser un ajuste pasajero.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://www.seroundtable.com/google-search-ranking-volatility-heated-42373.html">Search Engine Roundtable</a><span>·</span><a href="https://www.seroundtable.com/google-search-ranking-volatility-42347.html">Search Engine Roundtable</a><span>·</span><a href="https://searchenginewatch.com/google-october-2026-update-rumors/">Search Engine Watch</a></div>
+    </article>
+    <article class="item">
+      <h3>Google aclara que robots.txt decide qué se rastrea, no qué se hace después con el contenido</h3>
+      <p>En un video de Search Central del 21 de octubre, Gary Illyes explicó que robots.txt solo indica qué URLs puede pedir un rastreador y no controla qué hace un sistema con el contenido ya recogido. Para bloquear un rastreador de IA concreto hay que nombrar su user-agent, y para el entrenamiento de Gemini existe el token Google-Extended, que no afecta la aparición en Google Search. Una regla estándar para declarar preferencias de entrenamiento existe solo como borrador en la IETF.</p>
+      <p class="why">Si un cliente quiere limitar el uso de su contenido por la IA, robots.txt no basta. Revisa qué rastreadores bloquea hoy y explícale qué cubre cada uno.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://www.searchenginejournal.com/google-illyes-robots-txt-crawling-ai-training/593957/">Search Engine Journal</a><span>·</span><a href="https://ppc.land/google-says-robots-txt-limits-ai-crawling-not-what-bots-do-with-data/">PPC Land</a><span>·</span><a href="https://www.seroundtable.com/google-video-robots-txt-rules-42355.html">Search Engine Roundtable</a></div>
+    </article>
+    <article class="item">
+      <h3>Si hay que bajar un sitio para parchar la falla de PHP, Google pide responder con un código 503</h3>
+      <p>Ante las dos vulnerabilidades críticas de PHP conocidas como PHP2Shell, John Mueller recomendó en Bluesky que, si un sitio se baja mientras se aplica el parche, responda con el código HTTP 503 (servicio no disponible por un tiempo) en vez de dejar que las páginas no carguen o den error 404 o 500. Así se evitan problemas duraderos de rastreo e indexación. También se puede hacer desde fuera de PHP, con un CDN o apuntando el DNS a otro lugar.</p>
+      <p class="why">Pasa esta indicación al equipo técnico de los clientes con sitios en PHP, como muchos WordPress, antes de que programen la ventana de mantenimiento.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://seroundtable.com/google-php2shell-42353.html">Search Engine Roundtable</a></div>
+    </article>
+    <article class="item">
+      <h3>Google Imágenes y Discover todavía no aceptan imágenes en formato JPEG XL</h3>
+      <p>John Mueller dijo en Bluesky que el formato JPEG XL aún no funciona en Google Imágenes ni como vista previa en Discover, justo cuando Chrome y Firefox empezaron a soportarlo en octubre. Su recomendación es servirlo dentro de un elemento picture con un formato aceptado de respaldo, como WebP o AVIF.</p>
+      <p class="why">Si el equipo de desarrollo de un cliente quiere pasar sus imágenes a JPEG XL para ganar velocidad, que mantenga siempre una versión de respaldo o perderá visibilidad en Imágenes y Discover.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://searchenginejournal.com/google-images-discover-previews-dont-support-jpeg-xl/593816">Search Engine Journal</a></div>
+    </article>
+    <article class="item">
+      <h3>Google prueba verificar Perfiles de Empresa con una foto del documento de identidad</h3>
+      <p>Search Engine Roundtable informó el 20 de octubre que algunos usuarios ven la opción de verificar su Perfil de Empresa en Google subiendo una foto de su documento de identidad oficial, según una captura publicada en Local Search Forum. Otros reportes hablan de verificar con una foto del local. El método no figura en la ayuda de Google y no hay anuncio oficial.</p>
+      <p class="why">Si un cliente con locales tiene perfiles sin verificar, revisa qué opciones le aparecen hoy y define quién en la empresa entregaría ese documento.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://seroundtable.com/google-business-profiles-verification-government-id-42329.html">Search Engine Roundtable</a><span>·</span><a href="https://localsearchforum.com/threads/verify-a-google-business-profile-with-a-photo.63441/">Local Search Forum</a></div>
+    </article>
+  </section>
+
+  <!-- PAID -->
+  <section class="section s-paid">
+    <div class="sec-head">
+      <span class="tag">PAID</span>
+      <span class="lead">Google Ads · Automation · Policy</span>
+      <span class="count">04 señales</span>
+    </div>
+    <article class="item">
+      <h3>Google Ads lleva las metas de retención de clientes a Search, Shopping y Performance Max antes de las fiestas</h3>
+      <p>El 22 de octubre Google anunció tres cambios que se despliegan este mes. El modo de alto valor para clientes nuevos llega a Shopping, las metas de retención de clientes llegan a Performance Max, Search y Shopping, y los multiplicadores porcentuales permiten subir la puja según el tamaño posible del carrito en Search, Shopping, Performance Max y Demand Gen, tanto en Google Ads como en SA360. Uno de los modos de retención exige subir a Customer Match la lista del programa de fidelización.</p>
+      <p class="why">Para retail y e-commerce es la configuración a revisar antes de Black Friday y CyberDay. Sin listas de clientes bien cargadas, estas metas no sirven.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://www.seroundtable.com/google-ads-customer-lifecycle-goals-update-42358.html">Search Engine Roundtable</a><span>·</span><a href="https://ppc.land/googles-help-page-trails-its-retention-goal-rollout-to-search-and-shopping/">PPC Land</a><span>·</span><a href="https://www.relevantaudience.com/google-ads-en/google-ads-customer-lifecycle-goals-multipliers-retention/">Relevant Audience</a></div>
+    </article>
+    <article class="item">
+      <h3>Smart Bidding Exploration pasa de Search a Performance Max y Shopping</h3>
+      <p>Search Engine Land informó el 23 de octubre que Google Ads extiende esta función de las campañas Search a Performance Max y Shopping. Permite a los anunciantes con ROAS objetivo aceptar un retorno algo menor, dentro de un margen que ellos definen, para captar conversiones que hoy quedan fuera. Los especialistas advierten que aflojar el objetivo puede bajar la eficiencia.</p>
+      <p class="why">Sirve para crecer en volumen en temporada alta, pero acuerda antes con el cliente cuánto ROAS está dispuesto a ceder y por cuánto tiempo.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://searchengineland.com/google-ads-expands-smart-bidding-exploration-to-performance-max-and-shopping-campaigns-498529">Search Engine Land</a></div>
+    </article>
+    <article class="item">
+      <h3>Google Ads prueba un botón para guardar y probar cambios en los grupos de recursos de Performance Max</h3>
+      <p>Según el resumen de Search Engine Roundtable del 21 de octubre, algunas cuentas muestran un interruptor «Save and test asset group changes», que permitiría hacer pruebas A/B de mensajes dentro de un mismo grupo de recursos. En la misma semana se vieron otras pruebas, como un texto que se desplaza dentro de algunos resultados patrocinados y un nuevo interruptor «Sourced videos» en la optimización de recursos.</p>
+      <p class="why">Si llega a todas las cuentas, se podrá probar creatividad en Performance Max sin duplicar campañas. Vale revisar si ya aparece en las cuentas de los clientes.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://www.seroundtable.com/recap-10-21-2026-42348.html">Search Engine Roundtable</a><span>·</span><a href="https://www.seroundtable.com/recap-10-23-2026-42368.html">Search Engine Roundtable</a></div>
+    </article>
+    <article class="item">
+      <h3>Google exigirá licencia a los anunciantes financieros de Estados Unidos y Canadá desde 2027</h3>
+      <p>Google anunció el 20 de octubre que su verificación de servicios financieros, que ya rige en 42 países para unos 2.000 millones de usuarios, llegará a Estados Unidos y Canadá a comienzos de 2027. Los anunciantes deberán demostrar que están autorizados por un regulador o por un registro reconocido, como el de la American Bankers Association, antes de publicar ciertos anuncios.</p>
+      <p class="why">Si trabajas con bancos, fintech o aseguradoras con campañas en esos mercados, junta desde ya las licencias. Y revisa si el país del cliente en LATAM ya tiene esta exigencia.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://blog.google/products/ads-commerce/financial-services-verification-united-states-canada/">Google Blog</a><span>·</span><a href="https://seroundtable.com/google-ads-financial-services-verification-expand-42338.html">Search Engine Roundtable</a><span>·</span><a href="https://ppc.land/google-forces-us-and-canadian-financial-advertisers-to-prove-licences-in-2027/">PPC Land</a></div>
+    </article>
+  </section>
+
+  <!-- GEO -->
+  <section class="section s-geo">
+    <div class="sec-head">
+      <span class="tag">GEO</span>
+      <span class="lead">AI Search · Citations · LLMO</span>
+      <span class="count">03 señales</span>
+    </div>
+    <article class="item">
+      <h3>Tres estudios de la misma semana concluyen que la visibilidad en IA trae poco tráfico y pocas ventas comparada con Google</h3>
+      <p>Search Engine Roundtable reunió tres análisis. Marie Haynes revisó 12 meses de datos de GA4 de 100 sitios y encontró que las visitas desde ChatGPT equivalen al 0,62% de las que trae Google orgánico, aunque convierten mejor. SEO Works midió que la búsqueda orgánica trae 39 veces más tráfico que los asistentes de IA. Kevin Indig no encontró una relación confiable entre la visibilidad semanal en IA y el tráfico en cuatro marcas. Search Engine Land publicó una mirada opuesta: la búsqueda con IA funciona más como canal de marca que como canal de resultados.</p>
+      <p class="why">Es el argumento a tener a mano cuando un cliente pregunte si debe mover presupuesto de SEO a GEO. Lo prudente es no descuidar Google y medir la IA como marca, no como clics.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://www.seroundtable.com/ai-search-studies-42359.html">Search Engine Roundtable</a><span>·</span><a href="https://searchengineland.com/ai-search-branding-channel-498618">Search Engine Land</a></div>
+    </article>
+    <article class="item">
+      <h3>Google prueba resúmenes escritos por IA dentro de las tarjetas de fuentes de los AI Overviews</h3>
+      <p>Search Engine Roundtable vio el 23 de octubre que las tarjetas con enlaces que acompañan a los AI Overviews muestran en algunas búsquedas un texto generado por IA en lugar del extracto de la página. Lo vio en algunas consultas de prueba, no en todas, y Google no lo ha anunciado.</p>
+      <p class="why">Si la descripción de la fuente la escribe la IA, el título y el primer párrafo de la página pesan todavía más. Revisa que digan con claridad qué ofrece el cliente.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://www.seroundtable.com/google-ai-overview-citation-ai-summaries-42361.html">Search Engine Roundtable</a></div>
+    </article>
+    <article class="item">
+      <h3>Sundar Pichai describe el futuro de Search como una capa de agentes que une la búsqueda y la IA de Google</h3>
+      <p>Según Search Engine Journal, el CEO de Google dijo en una entrevista reciente que Search y las experiencias de IA de Google se unirán en una capa de agentes que hacen tareas por el usuario, con la idea de una sola caja de búsqueda. La cobertura de esa entrevista es limitada y no hay transcripción completa.</p>
+      <p class="why">Para clientes de e-commerce y servicios, preparar el sitio para que un agente pueda leerlo y completar una compra o una reserva ya es parte del trabajo. Feeds, datos estructurados y procesos simples son el punto de partida.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://www.searchenginejournal.com/google-ceo-sundar-pichai-views-search-absorbed-into-agentic-layer/593923/">Search Engine Journal</a></div>
+    </article>
+  </section>
+
+  <!-- SOCIAL -->
+  <section class="section s-social">
+    <div class="sec-head">
+      <span class="tag">SOCIAL</span>
+      <span class="lead">Social SEO · Social Search</span>
+      <span class="count">03 señales</span>
+    </div>
+    <article class="item">
+      <h3>Reddit suma un planificador de campañas y un puntaje de optimización para anunciantes</h3>
+      <p>El 20 de octubre Reddit lanzó tres herramientas: un planificador que estima alcance, impresiones y costos antes de invertir y resume de qué se habla en las comunidades elegidas, un puntaje de 0 a 100% por campaña con recomendaciones, y una optimización de presupuesto entre grupos de anuncios. Reddit dice que las campañas con puntaje de 80% o más tuvieron un costo por adquisición 19,6% menor, una cifra que entrega solo la empresa.</p>
+      <p class="why">El planificador también sirve para investigar: muestra de qué conversa la audiencia de un cliente en Reddit, algo útil para contenido y para GEO.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://ppc.land/reddit-links-80-optimization-scores-to-19-6-lower-cpa-for-advertisers/">PPC Land</a><span>·</span><a href="https://socialmediatoday.com/news/reddit-adds-ai-powered-ad-guidance-tools/833532">Social Media Today</a></div>
+    </article>
+    <article class="item">
+      <h3>Reddit pasó de aparecer en 1 de cada 5 respuestas de ChatGPT en Estados Unidos a 1 de cada 43</h3>
+      <p>Un estudio de Ahrefs publicado el 12 de octubre, con 66,6 millones de respuestas de ChatGPT sin sesión iniciada, muestra que el modelo gratuito contestó cerca de seis de cada siete preguntas sin buscar en la web. Cuando busca, prefiere cada vez más fuentes originales: PubMed subió del puesto 64 al 4 entre marzo y septiembre, y WebMD bajó del 18 al 79. Reddit cayó de alrededor de 1 de cada 5 respuestas en marzo a 1 de cada 43 a fines de septiembre. Ahrefs aclara que es la foto de un solo modelo.</p>
+      <p class="why">Publicar en Reddit para aparecer en ChatGPT rinde menos que hace seis meses. Para salir citado pesan más los datos propios y las fuentes primarias.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://www.relevantaudience.com/geo/chatgpt-query-fan-out-citations-ahrefs-study/">Relevant Audience</a><span>·</span><a href="https://searchenginejournal.com/chatgpt-most-cited-sites-primary-sources-ahrefs/592682">Search Engine Journal</a></div>
+    </article>
+    <article class="item">
+      <h3>TikTok muestra a usuarios de la Unión Europea una opción de búsqueda visual con IA</h3>
+      <p>Según el resumen de novedades de TikTok de SocialBee, actualizado el 19 de octubre, la app ofrece a usuarios de la Unión Europea un ajuste llamado «Allow visual search», una función con IA. El resumen no da más detalles y no encontramos un anuncio oficial de TikTok.</p>
+      <p class="why">Si TikTok deja buscar a partir de lo que se ve en pantalla, lo que aparece en el video empieza a contar tanto como el texto. Vale seguirlo antes de que llegue a LATAM.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://socialbee.com/blog/tiktok-updates/">SocialBee</a></div>
+    </article>
+  </section>
+
+  <!-- CIENCIA -->
+  <section class="section s-science">
+    <div class="sec-head">
+      <span class="tag">CIENCIA</span>
+      <span class="lead">Papers · Investigación · Métodos</span>
+      <span class="count">03 señales</span>
+    </div>
+    <article class="item">
+      <h3>Un evaluador predice si un anuncio dentro de una respuesta de IA invita al clic, y una regla de precios premia pujar con honestidad</h3>
+      <p>John L. Turner-Smith, Zimeng Huang, Yuhan Fu, Yihang Zhang y Tonghan Wang, de Carnegie Mellon y Tsinghua, abordan la falta de datos de clics para estos anuncios con una simulación de agentes basada en psicología, y con ella entrenan un evaluador liviano. Según el paper, supera a los modelos de punta usados como jueces en sensibilidad a la relevancia (79% frente a 60-67%) y coincide con la preferencia humana en 86% de los pares comparados. También derivan una regla de pago en la que pujar el valor real es lo óptimo.</p>
+      <p class="why">Con los anuncios de ChatGPT llegando a la región, ayuda a entender cómo se podrían evaluar y cobrar estos formatos, y por qué la relevancia del anuncio importa tanto como la puja.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://arxiv.org/pdf/2607.27686">arXiv 2607.27686 · Turner-Smith y coautores</a></div>
+    </article>
+    <article class="item">
+      <h3>En TikTok, lo que haces después de buscar pesa más que lo que buscaste</h3>
+      <p>Pooriya Jamie, Amir Ghasemian y Homa Hosseinmardi, del OASIS Lab de UCLA, auditaron durante 7 días el feed «Para ti» con 30 cuentas nuevas manejadas por agentes con IA que buscaban temas de salud mental. Sobre 8.727 videos recomendados, la interacción definió el feed: interactuar llevó ese contenido a cerca de 45% de las recomendaciones diarias, y evitarlo lo bajó a entre 11% y 20%. El trabajo salió en las actas de ICWSM 2026.</p>
+      <p class="why">Para social SEO, la búsqueda abre la puerta, pero lo que el usuario hace después decide qué sigue viendo. El contenido tiene que retener y generar interacción, no solo aparecer en la búsqueda.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://arxiv.org/pdf/2604.14832">arXiv 2604.14832 · Jamie, Ghasemian y Hosseinmardi</a><span>·</span><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/42797">ICWSM 2026</a></div>
+    </article>
+    <article class="item">
+      <h3>Un trabajo propone optimizar para buscadores generativos según lo que la consulta deja implícito</h3>
+      <p>Shilpa Ramakrishna y William B. Andreopoulos publicaron en arXiv «Query Implied Generative Engine Optimization». Parece surgir de un proyecto de máster de la San José State University con el mismo título. Solo verificamos el título, los autores y el identificador, así que no podemos resumir sus resultados.</p>
+      <p class="why">Es una línea a seguir: optimizar no solo para la pregunta literal, sino también para lo que el usuario da por entendido al hacerla.</p>
+      <div class="meta"><span class="chip en">EN</span><a href="https://arxiv.org/pdf/2609.27845">arXiv 2609.27845 · Ramakrishna y Andreopoulos</a><span>·</span><a href="https://papers.cool/arxiv/2609.27845">papers.cool</a></div>
+    </article>
+  </section>
+
+  <!-- EVENTS -->
+  <section class="section s-events">
+    <div class="sec-head">
+      <span class="tag">EVENTOS</span>
+      <span class="lead">SEO · GEO · Search · Digital Marketing</span>
+      <span class="count">próximos</span>
+    </div>
+    <div class="ev">
+      <div class="when">3–4 nov<span>2026</span></div>
+      <div class="what"><h4><a href="https://eurotravelo.com/explore/serp-conf-vienna-austria/">SERP Conf. Vienna</a></h4><p>Conferencia de SEO, e-commerce e IA en Viena. Las fuentes difieren en la fecha, verificar fecha en el sitio del organizador.</p></div>
+      <div class="where">Viena, Austria<span class="eu">Presencial</span></div>
+    </div>
+    <div class="ev">
+      <div class="when">5–6 nov<span>2026</span></div>
+      <div class="what"><h4><a href="https://www.searchenginewatch.com/best-seo-conferences/">Tech SEO Connect</a></h4><p>Evento de SEO técnico en Durham, Carolina del Norte, según el calendario de Search Engine Watch. Otra fuente lo ubica en diciembre, verificar fecha.</p></div>
+      <div class="where">Durham, EE. UU.<span class="eu">Presencial</span></div>
+    </div>
+    <div class="ev">
+      <div class="when">13 nov<span>2026</span></div>
+      <div class="what"><h4><a href="https://www.cmswire.com/events/conference/mozcon-london-2026/">MozCon London</a></h4><p>Jornada de un día de Moz sobre SEO y marketing digital en Convene 22 Bishopsgate.</p></div>
+      <div class="where">Londres, Reino Unido<span class="eu">Presencial</span></div>
+    </div>
+    <div class="ev">
+      <div class="when">18–19 nov<span>2026</span></div>
+      <div class="what"><h4><a href="https://www.merca20.com/cnmd-2026-fechas-sede-y-lo-que-viene-para-la-industria-del-marketing-mexico/">Congreso Nacional de Marketing Digital</a></h4><p>Congreso de Merca2.0 en Expo Santa Fe, con unos 150 speakers y 4.000 asistentes esperados.</p></div>
+      <div class="where">Ciudad de México<span class="latam">LATAM</span></div>
+    </div>
+    <div class="ev">
+      <div class="when">19 nov<span>2026</span></div>
+      <div class="what"><h4><a href="https://seranking.com/de/blog/seo-konferenzen/">SEO-DAY</a></h4><p>Conferencia de SEO en el RheinEnergieSTADION de Colonia, según el calendario de SE Ranking.</p></div>
+      <div class="where">Colonia, Alemania<span class="eu">Presencial</span></div>
+    </div>
+    <div class="ev">
+      <div class="when">4 dic<span>2026</span></div>
+      <div class="what"><h4><a href="https://searchenginewatch.com/?p=145789">GEO Conference New York</a></h4><p>Evento dedicado a GEO, con otra fecha el 9 de diciembre en San Francisco. Solo aparece en un listado, verificar fecha.</p></div>
+      <div class="where">Nueva York, EE. UU.<span class="eu">Presencial</span></div>
+    </div>
+  </section>
+
+  <!-- WATCHLIST -->
+  <section class="radarbox">
+    <h2>En el radar</h2>
+    <p class="rb-sub">Se está formando — vigilar próximas semanas</p>
+    <div class="rb-item">
+      <span class="date">29–30 oct</span>
+      <span class="txt"><b>Los anuncios de ChatGPT activarán por defecto las mejoras automáticas de creatividad.</b> PPC Land informa que OpenAI encenderá por defecto la reescritura de anuncios el 29 o 30 de octubre, y que los anunciantes tienen unos días para desactivarla. Quien empiece ahora en Chile debe decidir si la quiere activa. <a href="https://ppc.land/openai-to-rewrite-chatgpt-ads-by-default-as-advertisers-get-days-to-opt-out/">PPC Land</a></span>
+    </div>
+    <div class="rb-item">
+      <span class="date">29 oct</span>
+      <span class="txt"><b>Reddit y Pinterest presentan resultados del tercer trimestre.</b> Ambas empresas reportan el 29 de octubre, después del cierre del mercado. Sirven para ver cómo les va con la publicidad con IA y con el tráfico que les llega desde buscadores. <a href="https://equibles.com/research/reddit-rddt-q3-2026-earnings-preview-and-forecast">Equibles</a> · <a href="https://www.archynewsy.com/pinterest-to-announce-q3-2026-financial-results/">Archynewsy</a></span>
+    </div>
+    <div class="rb-item">
+      <span class="date">Nov</span>
+      <span class="txt"><b>Unconfirmed: un modelo de predicción da 96,8% de probabilidad de un update de Google en los próximos 30 días.</b> Search Engine Watch cita el modelo de Dan Taylor, que ubica la ventana más probable entre fines de octubre y mediados de noviembre. Es un pronóstico, Google no ha anunciado nada. <a href="https://searchenginewatch.com/google-october-2026-update-rumors/">Search Engine Watch</a></span>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <div class="foot">
+    <b>Search Engine Marketing / Weekly Radar</b> — barrido del 20 al 26 de octubre de 2026, publicado el lunes 26 de octubre.<br>
+    Barrido semanal de fuentes EN + ES · cada historia aparece una sola vez · verifica fechas de despliegue y de eventos en la fuente antes de accionar con clientes.
+    <div class="foot-links">
+      <a class="li" href="https://www.linkedin.com/in/orian-rendon/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        Oriana Rendón
+      </a>
+      <a class="arch" href="archivo.html">Ediciones anteriores →</a>
+      <button class="share-chip" type="button" onclick="compartir(this)" aria-label="Compartir este radar">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg>
+        <span>Compartir</span>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+async function compartir(btn){
+  const data = {
+    title: 'Search Engine Marketing / Weekly Radar',
+    text: 'Lo más relevante de la semana en SEO, GEO y search. Nueva edición cada lunes — guárdalo en tus favoritos.',
+    url: 'https://semradarnews.netlify.app/'
+  };
+  if (navigator.share) {
+    try { await navigator.share(data); } catch(e) { /* usuario canceló */ }
+  } else {
+    const lbl = btn.querySelector('span');
+    try {
+      await navigator.clipboard.writeText(data.url);
+      lbl.textContent = '¡Enlace copiado!';
+    } catch(e) {
+      window.prompt('Copia el enlace:', data.url);
+    }
+    setTimeout(() => { lbl.textContent = 'Compartir'; }, 2000);
+  }
+}
+
+/* Enlaces externos: abrir en pestaña nueva sin sacar al lector del digest.
+   Los enlaces internos (href="archivo.html") no se tocan. */
+document.querySelectorAll('a[href^="http"]').forEach(a => { a.target='_blank'; a.rel='noopener'; });
+
+/* Pestañas de categorías. El ocultamiento inicial lo hace SOLO este script:
+   sin JavaScript, las cinco secciones quedan visibles (fallback sin pérdidas). */
+(function(){
+  const tabs = Array.from(document.querySelectorAll('.cat-tabs .cat-tab'));
+  const cats = ['s-organic','s-paid','s-geo','s-social','s-science'];
+  function activar(target){
+    cats.forEach(c => {
+      const sec = document.querySelector('.section.' + c);
+      if (sec) sec.style.display = (c === target) ? '' : 'none';
+    });
+    tabs.forEach(t => {
+      const on = t.dataset.target === target;
+      t.classList.toggle('active', on);
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+  }
+  /* Si el lector ya bajó (la barra va pegada arriba), al elegir una categoría
+     lo llevamos suavemente al inicio de esa sección, justo bajo la barra. */
+  const bar = document.querySelector('.cat-tabs');
+  function irASeccion(target){
+    const sec = document.querySelector('.section.' + target);
+    if (!sec || !bar) return;
+    if (bar.getBoundingClientRect().top <= 0) {
+      const y = sec.getBoundingClientRect().top + window.scrollY - bar.offsetHeight - 8;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  }
+  tabs.forEach((t, i) => {
+    t.addEventListener('click', () => { activar(t.dataset.target); irASeccion(t.dataset.target); });
+    t.addEventListener('keydown', e => {
+      if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+      e.preventDefault();
+      const dir = e.key === 'ArrowRight' ? 1 : -1;
+      const next = tabs[(i + dir + tabs.length) % tabs.length];
+      next.focus();
+      activar(next.dataset.target);
+      irASeccion(next.dataset.target);
+    });
+  });
+  activar('s-organic');
+})();
+</script>
+</body>
+</html>
