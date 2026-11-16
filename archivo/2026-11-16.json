@@ -1,0 +1,371 @@
+{
+  "edicion": 16,
+  "fecha": "2026-11-16",
+  "semana": "10–16 nov 2026",
+  "items": [
+    {
+      "seccion": "SEÑAL DE LA SEMANA",
+      "titular": "Google lanzó su actualización principal de noviembre, a dos semanas del Black Friday",
+      "resumen": "Google empezó a desplegar el 10 de noviembre la November 2026 core update, una actualización general de su algoritmo de ranking que se aplica en todo el mundo y en todos los idiomas, incluido el español. Según el panel de estado de Google Search, el despliegue puede tardar hasta dos semanas, así que terminaría cerca del 24 de noviembre, apenas días antes del Black Friday del 27 y del Cyber Monday. Es la tercera core update del año, después de las de marzo y mayo. Google no dio indicaciones nuevas para esta actualización y repite su consejo de siempre: esperar al menos una semana después de que termine antes de comparar los datos de Search Console con el periodo anterior al 10 de noviembre. Para una agencia, el problema es el calendario. En las mismas semanas se mezclan el cambio de algoritmo, la temporada de ofertas y una falla de datos en Search Console, así que conviene anotar fechas, avisar a los clientes de e-commerce que puede haber subidas o caídas de tráfico y no tocar contenido por reacción mientras dura el despliegue.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Google Search Status Dashboard",
+          "url": "https://status.search.google.com/incidents/WLxcJyC6jMWMfryxsKMc"
+        },
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-november-2026-core-update-rolling-out-now-501348"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-november-2026-core-update-42504.html"
+        },
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-november-2026-core-update/596614/"
+        },
+        {
+          "nombre": "Marketing4eCommerce",
+          "url": "https://marketing4ecommerce.net/google-lanza-la-november-2026-core-update/"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Search Console mostró menos impresiones de las reales en su informe de IA entre el 9 y el 11 de noviembre",
+      "resumen": "Google confirmó un error de registro que bajó las impresiones del informe de rendimiento de IA generativa de Search Console para los días 9 a 11 de noviembre, y lo anotó en su página de anomalías de datos. Según Google, es solo un problema de cómo se guardaron los datos y no afectó la visibilidad real. Search Engine Land advierte que la core update empezó un día antes, así que no toda la baja de esos días se puede atribuir a la falla.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-generative-ai-performance-report-data-bug-42527.html"
+        },
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-search-console-performance-report-data-bug-nov-9-11-501899"
+        },
+        {
+          "nombre": "Ayuda de Search Console",
+          "url": "https://support.google.com/webmasters/answer/6211453?hl=en"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Google prueba una página de resultados sin el botón de AI Mode",
+      "resumen": "Search Engine Roundtable informó a fines de octubre que algunos usuarios no veían el botón de AI Mode en la barra de búsqueda, y el 13 de noviembre reportó una prueba más amplia: el botón desaparece de la navegación de resultados y de la caja de búsqueda de la portada, y también se quita la caja «Ask anything» para seguir preguntando dentro de los AI Overviews. Se ve sobre todo en navegación privada, Google no lo ha comentado y AI Mode sigue disponible por otras vías.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-dropping-ai-mode-again-42534.html"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-removing-ai-mode-42436.html"
+        },
+        {
+          "nombre": "Android Headlines",
+          "url": "https://www.androidheadlines.com/2026/11/google-reportedly-testing-a-search-experience-without-ai-mode.html"
+        }
+      ]
+    },
+    {
+      "seccion": "ORGANIC",
+      "titular": "Los colegios que no quieran IA en Google tendrán que apagar también el buscador",
+      "resumen": "Google anunció el 3 de noviembre que Gemini, Gemini Notebook, Gemini en Classroom y Search quedarán apagados por defecto para las cuentas de estudiantes de colegios, hasta que el administrador los active uno por uno. Pero Search viene con AI Overviews y AI Mode incluidos, y Google dice que el colegio que no quiera IA puede no activar Search. No hay fecha firme de inicio.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://seroundtable.com/google-search-off-k-12-schools-42447.html"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-will-cut-search-for-k-12-students-in-schools-that-keep-ai-off/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "El periodo de aprendizaje de Smart Bidding ahora dura como máximo 7 días",
+      "resumen": "La ayuda de Google Ads dice ahora que el estado «Learning» de Smart Bidding nunca dura más de 7 días, y que los cambios de presupuesto, de objetivo, de creatividades o de segmentación ya no lo activan ni borran el historial de la campaña. Solo los cambios de estructura, como una estrategia de puja nueva o un cambio de objetivo de conversión, pueden volver a activarlo. Antes la guía hablaba de 7 a 14 días.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-ads-shortens-smart-bidding-learning-status-to-7-days-501415"
+        },
+        {
+          "nombre": "Ayuda de Google Ads",
+          "url": "https://support.google.com/google-ads/answer/13020501?hl=en"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Un nuevo parámetro de seguimiento separa los clics que trae AI Max de los de tus palabras clave",
+      "resumen": "Google Ads sumó el parámetro ValueTrack {search_term_matchtype}, que marca con «a» los clics que vienen de las ampliaciones de AI Max y con «e», «p» o «b» los que coinciden con palabras clave exactas, de frase o amplias. Combinado con {matchtype}, permite saber cuándo un clic de una palabra clave exacta en realidad lo trajo AI Max. No cambia cómo se puja ni dice si el clic vino de AI Mode.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-ads-introduces-new-valuetrack-parameter-to-identify-ai-max-traffic-501420"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/googles-new-parameter-shows-when-an-exact-click-was-really-ai-max/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google Ads muestra cuánto dinero devolvió por tráfico no válido",
+      "resumen": "Desde el 12 de noviembre Google Ads despliega una tarjeta «Invalid traffic» en la página de resumen. Muestra dos montos: lo que se ahorró al filtrar clics no válidos antes de cobrar y lo que se devolvió como crédito por actividad detectada después. Se pueden descargar datos diarios y por campaña. Google dice que en 2026 redujo en promedio 30% la exposición de los anunciantes a leads no válidos, una cifra que entrega solo la empresa.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Google Blog",
+          "url": "https://blog.google/products/ads-commerce/invalid-traffic-overview-google-ads"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ads-invalid-traffic-ivt-overview-card-42513.html"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-ads-now-shows-how-much-invalid-traffic-advertisers-did-not-pay-for/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Google aclara que los anuncios que imitan con IA a figuras públicas están prohibidos aunque digan que son IA",
+      "resumen": "El 11 de noviembre Google Ads aclaró su política de suplantación de figuras públicas: un anuncio que imita con IA a una persona conocida no se permite aunque avise que el contenido fue generado o editado con IA. Search Engine Land precisa que es una aclaración de reglas existentes, no una política nueva, y PPC Land recuerda que esta falta se castiga con suspensión sin aviso previo.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/google-ads-clarifies-ai-generated-public-figure-impersonation-is-banned-even-with-disclosure-501683"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ads-disallows-impersonate-public-figures-ai-42512.html"
+        },
+        {
+          "nombre": "Relevant Audience",
+          "url": "https://www.relevantaudience.com/google-ads-en/google-ads-ai-public-figure-impersonation-policy/"
+        }
+      ]
+    },
+    {
+      "seccion": "PAID",
+      "titular": "Los anuncios con imagen de ChatGPT ya aparecen para algunos usuarios de Estados Unidos",
+      "resumen": "Search Engine Land informó el 10 de noviembre que los anuncios visuales de ChatGPT, anunciados por OpenAI el 5 de octubre, ya se ven para algunos usuarios. Aparecen mientras ChatGPT genera una imagen y desaparecen cuando termina. OpenAI dice que van identificados y que no influyen en lo que se genera, y no hay fecha para llevarlos fuera de Estados Unidos.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Land",
+          "url": "https://searchengineland.com/chatgpt-visual-ads-are-rolling-out-501253"
+        },
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "ChatGPT deja a las empresas reclamar su perfil y ver cuántas veces las menciona y cuántos clics les manda",
+      "resumen": "OpenAI abrió el 10 de noviembre en beta Business Hub, un panel donde una empresa verifica su perfil en ChatGPT, actualiza sus datos y ve las menciones, los clics a su sitio y los temas por los que aparece, con datos de los últimos 28 días. Se puede reclamar el perfil donde ChatGPT esté disponible, mientras que los agentes de marca dentro de ChatGPT quedan por ahora para empresas de Estados Unidos. OpenAI aclara que los clics registrados no confirman visitas ni ventas y que pagar anuncios no cambia cuánto recomienda ChatGPT a un negocio.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "OpenAI",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt/"
+        },
+        {
+          "nombre": "Search Engine Watch",
+          "url": "https://searchenginewatch.com/chatgpt-business-hub-claim-profile-mentions-clicks/"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/businesses-gain-chatgpt-click-and-mention-counts-in-openais-business-hub/"
+        },
+        {
+          "nombre": "Ecommerce News",
+          "url": "https://ecommerce-news.es/chatgpt-estrena-business-hub-las-empresas-podran-medir-sus-citas-y-clics-en-la-plataforma/"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "AI Mode cambia de modelo y ahora responde con Gemini 4 Hydrogen",
+      "resumen": "Desde el 12 de noviembre Gemini 4 Hydrogen es el modelo por defecto de AI Mode para todos los usuarios, y también responde las preguntas más difíciles en los AI Overviews, según la cobertura de 9to5Google. Google dice que entiende mejor las consultas de varias partes, los errores de tipeo y los pedidos muy específicos, y que sus respuestas incluyen una variedad más amplia de enlaces. Dos días antes Google había lanzado Gemini 4 Carbon, su modelo más potente, que en AI Mode queda para el plan Ultra.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "9to5Google",
+          "url": "https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch/"
+        },
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/tecno/2026/11/10/google-lanzo-gemini-4-carbon-su-ia-mas-potente-y-para-usarla-en-la-app-hace-falta-el-plan-ultra/"
+        }
+      ]
+    },
+    {
+      "seccion": "GEO",
+      "titular": "Google pone más enlaces y más arriba dentro de AI Mode y los AI Overviews",
+      "resumen": "Según Foro3D, Google suma enlaces insertados en el texto de las respuestas, una sección destacada arriba con uno o dos enlaces para completar una tarea o encontrar un dato exacto, carruseles de noticias con las fuentes preferidas del usuario y una sección «Dive Deeper» con más recursos. La cobertura en español no deja clara la fecha de inicio y no pudimos ver el anuncio original de Google.",
+      "idioma": "ES",
+      "fuentes": [
+        {
+          "nombre": "Foro3D",
+          "url": "https://foro3d.com/2026/noviembre/google-anuncia-mas-enlaces-en-ai-mode-y-ai-overviews-para-llevar-trafi.html"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Reddit perdió más de un millón de visitas semanales desde buscadores y culpa a las respuestas con IA de Google",
+      "resumen": "En su presentación de resultados del 29 de octubre, Reddit dijo que en octubre recibió en promedio más de un millón de visitas menos por semana desde buscadores, y su CEO señaló a AI Overviews y AI Mode como la mayor causa. Similarweb estima que las visitas globales a Reddit cayeron 13% entre octubre de 2025 y octubre de 2026, una comparación que Reddit discute porque mide usuarios únicos y no visitas. La empresa advirtió que sus 130 millones de usuarios diarios podrían bajar en el cuarto trimestre.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Dataconomy",
+          "url": "https://dataconomy.com/2026/11/12/reddit-traffic-falls-13-as-google-ai-overviews-cut-search/"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/reddit-faces-q4-drop-from-130m-daily-users-blaming-google-ai-mode/"
+        },
+        {
+          "nombre": "IBTimes UK",
+          "url": "https://www.ibtimes.co.uk/reddit-website-visits-search-referrals-user-growth-1831930"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Reddit prueba anuncios dentro de sus propios resultados de búsqueda",
+      "resumen": "El 3 de noviembre Reddit anunció una prueba de anuncios en sus páginas de resultados de búsqueda, con un grupo chico de anunciantes. Los anuncios usan la segmentación que ya existe en esas páginas y la relevancia con la búsqueda es uno de los factores para mostrarlos. Por ejemplo, quien busque «estación de espresso» podría ver anuncios de cafeteras o granos de café. No hay precios, puja por consulta ni fecha para abrirlo a todos.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/"
+        },
+        {
+          "nombre": "Social Media Today",
+          "url": "https://socialmediatoday.com/news/reddit-tests-ads-in-search-results/873676"
+        },
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/reddit-tests-ads-in-its-search-results-for-the-first-time/"
+        }
+      ]
+    },
+    {
+      "seccion": "SOCIAL",
+      "titular": "Unconfirmed: LinkedIn revisaría cada publicación que sale de tu red y bajaría el alcance del contenido genérico hecho con IA",
+      "resumen": "SocialDay informó el 5 de noviembre que LinkedIn ahora revisa toda publicación que se distribuye más allá de los contactos directos, con clasificadores entrenados con más de un millón de denuncias de usuarios, y que las vistas del contenido genérico hecho con IA bajaron 40%. No encontramos el anuncio de LinkedIn. En mayo, Engadget ya había informado que LinkedIn dejaría de recomendar contenido reciclado y genérico.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "SocialDay",
+          "url": "https://socialday.live/features/linkedin-will-cut-reach-of-ai-generated-posts-with-94-precision-screening-every"
+        },
+        {
+          "nombre": "Engadget",
+          "url": "https://www.engadget.com/2174163/linkedin-doesnt-want-your-ai-slop-anymore/"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "La visibilidad que logra un producto en las recomendaciones de IA cambia según lo que quiere el usuario",
+      "resumen": "Runlin Lei, Shiqi Zhang, Xiaokui Xiao y Zhewei Wei publicaron el 3 de noviembre «IntentGEO: Intent-aware Generative Engine Optimization for Recommendation». Plantean que una misma descripción de producto sirve a usuarios con necesidades distintas y que los métodos de GEO actuales logran mejoras de visibilidad desiguales según la intención. Ordenan esa intención en dos ejes: qué tan específica es la necesidad y en qué etapa de la decisión está la persona.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv 2611.04225 · Lei, Zhang, Xiao y Wei",
+          "url": "https://arxiv.org/abs/2611.04225"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Un método para auditar el algoritmo de una red social leyendo su código",
+      "resumen": "Luka Bekavac, de la Universidad de St. Gallen, y Simon Mayer publicaron el 12 de noviembre «A Code-Level Audit of X». Revisan hasta dónde el código que X publicó en 2023 permite que alguien externo audite su sistema de recomendación, siguiendo cada componente que decide qué se muestra en el timeline y clasificándolo en cuatro niveles según cuánto se puede inspeccionar. El trabajo está en revisión de pares.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv 2611.16800 · Bekavac y Mayer",
+          "url": "https://arxiv.org/abs/2611.16800"
+        }
+      ]
+    },
+    {
+      "seccion": "CIENCIA",
+      "titular": "Una subasta para anuncios dentro de respuestas de IA que considera que los anunciantes se parecen entre sí",
+      "resumen": "Shiman Sheng y Mingyu Guo publicaron en arXiv «Beyond Independent Values: Optimal Auctions with Correlated Valuations for LLM-Native Advertising». Proponen una subasta que tiene en cuenta que lo que valoran los anunciantes está relacionado entre sí, y reportan más ingresos que una subasta de segundo precio con precio mínimo ajustado cuando los que pujan son agentes de IA.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "arXiv 2610.14646 · Sheng y Guo",
+          "url": "https://arxiv.org/abs/2610.14646"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Los anuncios en AI Mode de Google llegarán a México y Brasil antes de fin de año",
+      "resumen": "Al ampliar los anuncios de AI Mode a diez países más el 28 de octubre, Google dijo que en el cuarto trimestre los llevará a Brasil, México y el Reino Unido. Los anuncios en preguntas de seguimiento siguen solo en Estados Unidos. Es la antesala de su llegada al resto de LATAM.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-expands-ai-mode-multiturn-ads/596540/"
+        },
+        {
+          "nombre": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-expands-ads-ai-mode-42412.html"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "Google Ads deja de exigir que los datos de clientes se suban cifrados con SHA-256",
+      "resumen": "Según un correo a anunciantes que reportó PPC Land, desde el 16 de noviembre Data Manager acepta datos de clientes y los protege con su propio cifrado, lo que afecta a Customer Match y a las conversiones mejoradas. Falta saber qué pasa con las cargas programadas que ya existen.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "PPC Land",
+          "url": "https://ppc.land/google-ads-data-manager-stops-requiring-hashed-customer-data-november-16/"
+        }
+      ]
+    },
+    {
+      "seccion": "EN EL RADAR",
+      "titular": "ChatGPT Wallet permite que los agentes de OpenAI paguen compras por el usuario",
+      "resumen": "OpenAI lanzó una billetera con Visa, Mastercard y American Express para usuarios Pro de Estados Unidos, en la que el agente nunca ve el número real de la tarjeta y cada compra se aprueba con huella o Face ID. No hay fecha para otros países, pero es una señal de hacia dónde va el comercio dentro de ChatGPT.",
+      "idioma": "EN",
+      "fuentes": [
+        {
+          "nombre": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+        },
+        {
+          "nombre": "The Paypers",
+          "url": "https://thepaypers.com/payments/news/openai-launches-chatgpt-wallet-for-agentic-payments-in-the-us"
+        }
+      ]
+    }
+  ]
+}
